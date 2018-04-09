@@ -1,0 +1,297 @@
+\chapter{Gramáticas}
+
+Mientras que los autómatas nos sirven para reconocer cadenas de un lenguaje, las gramáticas son un formalismo diseñado para la definición de lenguajes. Representan un medio para la generación de cadenas que pertenecen a un lenguaje. El elemento fundamental en una gramática es la regla.
+
+\section{Regla}
+
+Dado un alfabeto $\Sigma$, una regla(o producción) definida sobre $\Sigma$, es un par ordenado $(x,y)$ donde $x,y\in \Sigma^*$. Aquí se dirá a:
+\begin{itemize}
+\item x: Parte izquierda de la regla.
+\item y: Parte derecha de la regla.
+\end{itemize}
+
+\textbf{Notación: }$x::=y$
+
+\subsection{Regla Compresora}
+Una regla es compresora cuando la longitud de la parte izquierda es mayor o igual a la longitud de la parte derecha.
+
+\section{Tipos de Derivación}
+\subsection{Derivación Directa}
+Dado un alfabeto $\Sigma$, un conjunto de producciones $P$ sobre $\Sigma$, donde:
+
+$P= \left \{ \begin{array}{c}
+					x_1::=y_1\\
+					x_2::=y_2\\
+					\vdots \\
+					x_n::=y_n \end{array} \right.$
+					
+
+y sea $v,w\in \Sigma^*$. Diremos que $w$ deriva directamente de $v$, si $\exists t,u \in \Sigma^*$ y una regla en $P$; $x_i::=y_i$. tal que $v=tx_iu$  y  $w=ty_iu$
+
+\textbf{Notación: } $v\rightarrow w$; se lee ''$v$ produce directamente $w$''.
+
+\textbf{Definición: } Dado un alfabeto $\Sigma$, un conjunto de producciones sobre $\Sigma$ y $v,w\in\Sigma^*$, se dice que $w$ deriva de $v$ si $\exists w_0,w_1,...w_m \in\Sigma^*$ tales que:
+\begin{align*}
+v	=&w_0\rightarrow w_1\\
+	 & w_1\rightarrow w_2\\
+	 &\vdots\\
+	 &w_{m-1}\rightarrow w_m = w 
+\end{align*}
+
+\textbf{Notación: }$v\xrightarrow{*}w$ se lee $v$ produce $w$.
+
+\textbf{Ejemplo: }Defina un conjunto de reglas que permitan la correcta formación de frases.
+
+\textbf{Solución: }Sea el conjunto de producciones $P$:
+\begin{align*}
+\begin{array}{lrl}
+	R_1	&	<oracion>&::=<sujeto><predicado>	\\
+	R_2	&	<sujeto>&::=<articulo><sustantivo>	\\
+	R_3	&	<predicado>&::=<verbo><complemento>	\\
+	R_4	&	<predicado>&::=<verbo>	\\
+	R_5	&	<articulo>&::=el	\\
+	R_6	&	<articulo>&::=la	\\
+	R_7	&	<sustantivo>&::=atleta	\\
+	R_8	&	<sustantivo>&::=voleibolista	\\
+	R_9	&	<verbo>&::=salta	\\
+	R_{10}&	<verbo>&::=corre	\\
+	R_{11}&	<complemento>&::=alto	\\
+	R_{12}&	<complemento>&::=velozmente
+\end{array}
+\end{align*}
+
+A partir de $P$ y comenzando en el item $<oracion>$ podemos obtener:
+\begin{center}
+	''el atleta salta alto''\\
+	''la voleibolista corre velozmente''\\
+	''la voleibolista salta''
+\end{center}
+Pero hay frases que no podríamos generar como: ''velozmente salta voleibolista''.
+
+\textbf{Ejemplo: }Describa como se construye la frase ''la voleibolista salta'' a partir de $<oracion>$
+
+\textbf{Solución: }
+\begin{align*}
+<oracion>&\rightarrow<sujeto><predicado>	& (R_1)	\\
+		 &\xrightarrow{*}<articulo><sustantivo><predicado>	& (R_2)	\\
+		 &\xrightarrow{*}<articulo><sustantivo><verbo>	& (R_4)	\\
+		 &\xrightarrow{*}la <sustantivo><verbo>			& (R_6)	\\
+		 &\xrightarrow{*}\mbox{la voleibolista }<verbo>	& (R_8)	\\
+		 &\xrightarrow{*}\mbox{la voleibolista salta}	& (R_9)	
+\end{align*}
+\textbf{Ejemplo: }Defina un conjunto de reglas que describan cómo son las  las instrucciones que permiten asignar el valor de una expresión a una variable en un lenguaje de programación.'m'
+
+\textbf{Solución: }Sea el conjunto $P$.
+\begin{align*}
+\begin{array}{lrl}
+R_1	&	<asignacion>&::=<variable>'=\,'<expresion>	\\
+R_2	&	<expresion>&::=<variable>	\\
+R_3	&	<expresion>&::=<numero>		\\
+R_4	&	<expresion>&::=<expresion>'+\;'<expresion>	\\
+R_5	& 	<expresion>&::=<expresion>'*\;'<expresion>	\\
+R_6	&	<variable>&::='A\;'\\
+R_7	&	<variable>&::='B\;'	\\
+R_8	&	<variable>&::='C\;'	\\
+R_9	&	<numero>&::='3\;'		\\
+R_{10}&	<numero>&::='6\; '		\\
+\end{array}
+\end{align*}
+Obtenemos instrucciones como:
+\begin{align*}
+A&=B+C	\\
+B&=B*3	\\
+C&=B+6
+\end{align*}
+No podemos obtener las siguientes instrucciones:
+\begin{align*}
+A&=+2*+4	\\
+4&=B
+\end{align*}
+
+En resumen:
+\begin{itemize}
+\item El objeto es llegar a tener una secuencia correcta de símbolos.
+\item Los símbolos son: el, la, atleta, voleibolista, corre, etc. A, B, C, 3, 6, *, +
+\item Se usan algunas producciones.
+\end{itemize}
+
+\textbf{Definición: }Una gramática formal definida sobre $\Sigma$ es una cuádrupla $G=(\Sigma_N,\Sigma_T,P,s)$ donde:
+\begin{align*}
+\Sigma_N	&: \mbox{Alfabeto de símbolos no terminales}	\\
+\Sigma_T	&: \mbox{Alfabeto de símbolos terminales}	\\
+P			&: \mbox{Conjunto de producciones}	\\
+s			&: \mbox{símbolo inicial}	\\
+\end{align*}
+Además se cumple:
+\begin{itemize}
+\item $s\in \Sigma_N$
+\item $\Sigma_N \cap \Sigma_T=\phi$
+\item $\Sigma=\Sigma_N\cup\Sigma_T$
+\end{itemize}
+\textbf{Ejemplo: }Defina formalmente una gramática para obtener cualquier número natural precedido de un signo.
+
+\textbf{Solución: }Los elementos de $G$ son:
+\begin{align*}
+\Sigma_T	&=\{+,-,0,1,...,9\}	\\
+\Sigma_N	&=\{<signo>,<digito>,<numero>,<caracter>\}	\\
+s			&=<numero>	\\
+\end{align*}
+\begin{align*}
+P\left \{ \begin{array}{rl}
+<numero>	&::=<signo><digito>	\\  
+<signo>		&::= +	\\
+<signo>		&::= -	\\
+<digito>	&::= <caracter><digito>	\\
+<digito>	&::= <caracter>	\\
+<caracter>	&::= 0	\\
+<caracter>	&::= 1	\\
+			&\vdots	\\
+<caracter>	&::= 9	
+\end{array}\right.
+\end{align*}
+Con esta gramática generamos números como: $+371,-4692,+7$.
+
+\section{Forma Normal de Backus-Naur (BNF)}
+Es una forma estandarizada de enunciar la composición de una gramática. En la BNF:
+\begin{itemize}
+\item Los símbolos no terminales inician en ''\textless'' y terminan en ''\textgreater''.
+\item La regla $(S,T)$ se expresa $S::=T$
+\item Las reglas de la forma:
+	$s::=T_1, s::=T_2,...,s::=T_n$
+
+pueden combinarse en: $s::=T_1|T_2|...|T_n$. La barra se lee como ''ó''
+\end{itemize}
+
+\textbf{Ejemplo: }Defina el conjunto $P$ usando la notación BNF.
+\begin{align*}
+P\left\{ \begin{array}{rl}
+<numero>	&::=<signo><digito>	\\	
+<signo>		&::=+ | -	\\
+<digito>	&::=<digito><caracter>|<caracter>	\\
+<caracteer>	&::=0|1|2|...|9 
+\end{array}\right.
+\end{align*}
+
+\textbf{Definición: }La relación $\xrightarrow{n}$ se define recursivamente mediante:
+\begin{itemize}
+\item $x\xrightarrow{0}x\qquad \forall x\in\Sigma^*$
+\item $w\xrightarrow{n}xuy \cap u\rightarrow v$ entonces $w\xrightarrow{n+1}xvy;	\quad x,y,u,v,w \in\Sigma^*$
+
+Cuando se tiene $x\xrightarrow{n}y$ se lee $y$ deriva de $x$ en $n$ pasos.
+\end{itemize}
+
+\textbf{Observación: }Se usarán las notaciones:
+\begin{itemize}
+\item $x\xrightarrow{*}y$ si existe $n \geq 0$ tal que $x\xrightarrow{n}y$
+\item $x\xrightarrow{+}y$ si existe $n>0$ tal que $x\xrightarrow{n}y$
+\end{itemize}
+
+\textbf{Ejemplo: }Sea la gramática $G$, donde $P$ está dado por:
+\begin{align*}
+\begin{array}{lrl}
+R_1	&s	&::=aAbc \\
+R_2	&A	&::=aAbC	\\
+R_3	&A	&::=\varepsilon	\\
+R_4	&Cb	&::=bC	\\
+R_5	&Cc	&::=cc
+\end{array}
+\end{align*}
+Verifique:
+\begin{itemize}
+\item Si.\\     
+$
+\begin{array}{lrl}
+	&s	&\xrightarrow{2}abc	\\
+(R_1)& s &::=aAbc	\\
+(R_3)&	 &::=abc
+\end{array}
+$
+
+\item $s\xrightarrow{n}a^3b^3c^3 \qquad n=?$
+\end{itemize}
+
+\textbf{Definición(Recursividad): }Una gramática es recursiva si tiene alguna derivación recursiva, es decir si $A\xrightarrow{*}xAy$ donde $A\in \Sigma_N, x,y\in \Sigma^*$
+\begin{itemize}
+\item Si $x=\varepsilon$ la gramática es recursiva por la izquierda.
+\item Si $y=\varepsilon$ la gramática es recursiva por la derecha.
+\end{itemize}
+
+\textbf{Ejemplo: }Sea la gramática que genera expresiones aritméticas conteniendo operadores de suma, resta y paréntesis.
+\begin{align*}
+\Sigma_T	&=\{0,1,2,...,9,+,-,(,)\}	\\
+\Sigma_N	&=\{E,T,N,D\}	\\
+\end{align*}
+donde P está formado por:
+\begin{align*}
+P\left \{\begin{array}{rl}
+E	&::=E+T|E-T|T\\	
+T	&::=(E)|N	\\
+N	&::=DN|D	\\
+D	&::=0|1|...|9	
+\end{array}\right.
+\end{align*}
+
+Se pide:
+\begin{itemize}
+\item A partir de T obtenga una secuencia de sumas y/o restas de T usando recursividad a la izquierda.
+\item A partir de N genere un número de 4 cifras usando recursividad a la derecha.
+\end{itemize}
+
+\textbf{Solución: }
+\begin{itemize}
+\item 
+\begin{align*}
+E	&\rightarrow E+T	\qquad &(R_1)	\\
+	&\xrightarrow{*}E-T+T	&(R_2)	\\
+	&\xrightarrow{*}E-T-T+T	&(R_2)	\\
+	&\xrightarrow{*}T-T-T+T	&(R_3)	\\
+\end{align*}
+\item 
+\begin{align*}
+N	&\rightarrow DN		&(R_6)	\\
+	&\xrightarrow{*}DDN	&(R_6)	\\
+	&\xrightarrow{*}DDDN	&(R_6)	\\
+	&\xrightarrow{*}DDDD	&(R_7)	\\
+\end{align*}
+\end{itemize}
+
+\section{Clasificación de las Gramáticas}
+
+\subsection{Gramáticas Regulares (GR)}
+Se llaman también lineales y es el grupo más restringido de gramática. En la parte derecha de la regla tenemos como máximo dos símbolos.
+
+Hay dos tipos de gramáticas regulares:
+\begin{enumerate}
+\item Gramática Lineal por la Derecha (GLD). Sus reglas son de la forma:
+
+$\begin{array}{clc}
+A&::=a	&\qquad A,B\in \Sigma_N \\
+A&::=aB	&\qquad a\in\Sigma_T	\\
+A&::=\varepsilon	&
+\end{array}$
+	
+\item Gramática Lineal por la Izquierda (GLI). Sus reglas son de la forma:
+\begin{align*}
+A&::=a	\\
+A&::=Ba	\\
+A&::=\varepsilon
+\end{align*}
+\end{enumerate}
+Hay una equivalencia entre la GLD y la GLI.
+
+\textbf{Ejemplo: }Sea la gramática regular.
+\begin{align*}
+P\left\{\begin{array}{rl}
+S&::=aA	\\	
+S&::=bA	\\
+A&::=bB	\\
+A&::=a	\\
+B&::=aA	\\
+B&::=bA		
+\end{array}\right.
+\end{align*}
+Entonces:
+\begin{itemize}
+\item Determine si $ba\in L(G)$
+\item Muestre una derivación de la cadena $w=bababa$
+\end{itemize}

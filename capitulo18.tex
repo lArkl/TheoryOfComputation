@@ -1,0 +1,172 @@
+\chapter{Simplificación de GLC}
+
+En una GLC podemos identificar tres defectos que debemos eliminar.
+\begin{enumerate}
+\item Los factores comunes izquierdos.
+\item La recursividad por la izquierda.
+\item La ambigüedad.
+\end{enumerate}
+
+\section{Factores Comunes Izquierdos}
+Una GLC tiene factores comunes izquierdos si hay por lo menos 2 producciones con el mismo símbolo en la parte izquierda y puede tener algunos símbolos coincidentes en la parte derecha.
+
+Se tendrá formalmente:
+\begin{align*}
+A::=\delta\alpha_1|\delta\alpha_2|...|\delta\alpha_n|\beta_1|...|\beta_n	\quad n\geq 2, |\delta|>0
+\end{align*}
+Para eliminar los FCI realice la siguiente sustitución. Agregar una variable $C$ de modo que: 
+\begin{align*}
+&A::=\delta C|\beta_1|...|\beta_m	\\
+&C::=\alpha_1|...|\alpha_n
+\end{align*}
+
+\section{La recursividad por la Izquierda}
+Un símbolo no terminal $A$ es denominado recursivo por la izquierda si:
+\begin{align*}
+A::=Aw\qquad w\in\Sigma^*
+\end{align*}
+\textbf{Eliminación de Recursividad Izquierda.}\\
+
+Las reglas de un símbolo no terminal $A$ se pueden descomponer como:
+\begin{align*}
+&A::=A\alpha_1|...|A\alpha	\\
+&A::=\beta_1|...|\beta_m	\qquad \mbox{donde }\alpha_i,\beta_i\in\Sigma^*
+\end{align*}
+El primer símbolo de cada $\beta_i$ es diferente de $A$. Podemos eliminar la recursividad por la izquierda si introducimos una variable $Z$ de tal modo que:
+\begin{align*}
+&A::=\beta_1|...|\beta_m|\beta_1Z|...|\beta_mZ	\\
+&Z::=\alpha_1|...|\alpha_n|\alpha_1Z|...|\alpha_nZ
+\end{align*}
+\textbf{Lema: }En una GLC cualquiera, una producción de la forma $A\rightarrow uBv$ se puede reemplazar por:
+\begin{align*}
+&A\rightarrow uw_1v|...|uw_nv	\\
+&B\rightarrow w_1|...|w_n
+\end{align*}
+
+\section{Ambigüedad}
+No hay algún algoritmo que permita eliminar la ambigüedad. En caso de LLC que solo tienen GLC ambiguas es imposible eliminar dicha ambigüedad.
+
+Sin embargo en algunos casos es posible resolver este problema, analizando cuales son sus causas.
+
+\textbf{Ejemplo: }Sea la gramática $G$, que sirve para la definición de expresiones aritméticas, donde:
+\begin{align*}
+&\Sigma_T=\{id,cte,(,),+,-,*,/ \}	\\
+&\Sigma_N=\{E,O\}\qquad S=E	\\
+&E::=E\;O\;E|(E)|id|cte	\\
+&O::=+|-|*|/	
+\end{align*}
+Se pide obtener el árbol de derivación para $w=id+cte*id$
+
+\textbf{Solución: }
+\begin{center}
+$\begin{array}{cl}
+E	&::=EOE	\\
+	&::=EOEOE	\\
+	&::=idOEOE	\\
+	&::=id+EOE	\\
+	&::=id+cteOE	\\
+	&::=id+cte*E	\\
+	&::=id+cte*id \end{array}$
+\end{center}
+%grafico 1
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.6\textwidth]{img_18_1.png}
+\caption{Arbol de derivación}\label{img_18_1}
+\end{figure}
+Luego $G$ es ambigua.
+
+Para resolver esta ambigüedad que se debe a que no se ha definido un orden de prioridad entre los operadores , se considerará lo siguiente:
+\begin{enumerate}
+\item Los símbolos * y / tiene una prioridad más alta que + y -.
+\item Si hay dos operaciones con igual prioridad realizar la evaluación de izquierda a derecha.
+\end{enumerate}
+Introducimos las variables:\\
+T: término	\\
+A: + ó -	\\
+F: factor	\\
+M: multiplicación y división	\\
+Definimos las gramáticas equivalentes $G^2$.
+\begin{align*}
+&\Sigma_N=\{E,T,F,A,M\}\\
+&S=E	\\
+&E::=EAT|T	\\
+&T::=TMF|F	\\
+&F::=(E)|id|cte	\\
+&A::=+|-	\\
+&M::=*|div
+\end{align*}
+%GRAFICO2
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.3\textwidth]{img_18_2.png}
+\caption{Arbol de derivación}\label{img_18_2}
+\end{figure}
+
+\section{Forma Normal de Greibach}
+Una GLC está en la FNG si:
+\begin{enumerate}
+\item La variable inicial no es recursiva.
+\item $G$ no tiene variables inútiles.
+\item $G$ no tiene producciones $\varepsilon$( salvo $S\rightarrow\varepsilon$)
+\item Todas las producciones son de la forma:
+\begin{align*}
+&A\rightarrow \sigma\qquad\mbox{(regla simple)}	\\
+&A\rightarrow aB_1...B_k	\qquad\sigma,a\in\Sigma_T; B_i\in\Sigma_N	\\
+\end{align*}
+\end{enumerate}
+
+\subsection{Características}
+\begin{enumerate}
+\item En cada paso de la derivación aparece un único símbolo terminal.
+\item La derivación de una cadena de longitud $n$ $(n\geq 1)$ tiene exactamente $n$ pasos.
+\end{enumerate}
+\textbf{Método: }Para convertir una gramática a su FNG. realice estos pasos:
+\begin{enumerate}
+\item Enumere las variables en un orden arbitrario pero fijo en la que el símbolo $S$ sea la variable de orden.
+\item Para cada variable de la gramática, $A$, de acuerdo al orden elegido, modifique las producciones de tal modo que el primer símbolo a la derecha de la flecha sea un terminal.
+\item Utilice el \textbf{Lema} para modificar las variables originales de tal modo que el primer símbolo a la derecha de la flecha sea un terminal. Se debe seguir el orden inverso de enumeración de las variables: última, penúltima,etc.
+\item Utilice de nuevo el \textbf{Lema}, para modificar las producciones de las variables nuevas, de tal modo que el primer símbolo a la derecha de la flecha sea un terminal.
+\end{enumerate}
+
+\textbf{Ejemplo: }Sea $G$ la GLC dada por:
+\begin{align*}
+&S::=AA|a	\\
+&A::=AA|b
+\end{align*}
+Llevarla a su FNG
+\textbf{Solución: }
+\begin{enumerate}
+\item El orden es S,A
+\item Eliminamos la recursividad a la izquierda de la variable $A$. Introducimos la variable $Z$.
+\begin{align*}
+&A::=AA	\\
+&A::=b	\\
+&A::=b|bZ	\\
+&Z::=A|AZ
+\end{align*}
+Luego, nos queda la gramática:
+\begin{align*}
+&S::=AA|a	\\
+&A::=b|bZ	\qquad(*)	\\
+&Z::=A|AZ
+\end{align*}
+Usamos(*) para reemplazar en las derivaciones de $S$
+\begin{align*}
+&S::=bA|bZA|a	\\
+&A::=b|bZ	\\
+&Z::=A|AZ
+\end{align*}
+Descomponemos las reglas de $Z$ por: 
+\begin{align*}
+&Z::=A	\\
+&Z::=AZ	
+\end{align*}
+Usando $A::=b|bZ$, se obtiene finalmente:
+\begin{align*}
+&S::=bA|bZA|a	\\
+&A::=b|bZ	\\
+&Z::=b|bZ|bZZ
+\end{align*}
+Finalmente ya está en la FNG.
+\end{enumerate}

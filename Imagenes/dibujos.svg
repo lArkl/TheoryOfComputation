@@ -1,0 +1,2673 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:ns0="http://www.iki.fi/pav/software/textext/"
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="dibujos.svg"
+   inkscape:version="0.91 r13725"
+   version="1.1"
+   id="svg2"
+   height="1052.3622047"
+   width="744.09448819">
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="24"
+     inkscape:window-x="1417"
+     inkscape:window-height="744"
+     inkscape:window-width="1315"
+     showgrid="false"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="344.07157"
+     inkscape:cx="648.20018"
+     inkscape:zoom="1.4"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient9917"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop9919" />
+    </linearGradient>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path4442"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path4445"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3115"
+       is_visible="true"
+       pattern="m 213.14219,241.20969 a 15.152288,15.152288 0 1 1 -30.30458,0 15.152288,15.152288 0 1 1 30.30458,0 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3105"
+       is_visible="true"
+       pattern="m 213.14219,241.20969 a 15.152288,15.152288 0 1 1 -30.30458,0 15.152288,15.152288 0 1 1 30.30458,0 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3101"
+       is_visible="true"
+       pattern="M 0,5 C 0,2.24 2.24,0 5,0 7.76,0 10,2.24 10,5 10,7.76 7.76,10 5,10 2.24,10 0,7.76 0,5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <inkscape:path-effect
+       effect="skeletal"
+       id="path-effect3097"
+       is_visible="true"
+       pattern="M 0,0 0,10 10,5 z"
+       copytype="single_stretched"
+       prop_scale="1"
+       scale_y_rel="false"
+       spacing="0"
+       normal_offset="0"
+       tang_offset="0"
+       prop_units="false"
+       vertical_pattern="false"
+       fuse_tolerance="0" />
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-7"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4442-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-0"
+       style="overflow:visible">
+      <path
+         id="path4445-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-8"
+       style="overflow:visible">
+      <path
+         id="path4445-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-4"
+       style="overflow:visible">
+      <path
+         id="path4445-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-1"
+       style="overflow:visible">
+      <path
+         id="path4445-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-1"
+       style="overflow:visible">
+      <path
+         id="path4442-5"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-6"
+       style="overflow:visible">
+      <path
+         id="path4442-14"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-16"
+       style="overflow:visible">
+      <path
+         id="path4445-85"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-6"
+       style="overflow:visible">
+      <path
+         id="path4445-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-9"
+       style="overflow:visible">
+      <path
+         id="path4445-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-95"
+       style="overflow:visible">
+      <path
+         id="path4445-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-11"
+       style="overflow:visible">
+      <path
+         id="path4445-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-7"
+       style="overflow:visible">
+      <path
+         id="path4445-42"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-79"
+       style="overflow:visible">
+      <path
+         id="path4442-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-9"
+       style="overflow:visible">
+      <path
+         id="path4442-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-5"
+       style="overflow:visible">
+      <path
+         id="path4445-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-9-1"
+       style="overflow:visible">
+      <path
+         id="path4442-8-7"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart-9-0"
+       style="overflow:visible">
+      <path
+         id="path4442-8-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker6814"
+       style="overflow:visible">
+      <path
+         id="path6816"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-5-2"
+       style="overflow:visible">
+      <path
+         id="path4445-0-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-5-5"
+       style="overflow:visible">
+      <path
+         id="path4445-0-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-5-1"
+       style="overflow:visible">
+      <path
+         id="path4445-0-15"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-5-7"
+       style="overflow:visible">
+      <path
+         id="path4445-0-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-42"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4445-32"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-168"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4445-57"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-18"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4445-92"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-954"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4445-31"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-5-3"
+       style="overflow:visible">
+      <path
+         id="path4445-0-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-5-11"
+       style="overflow:visible">
+      <path
+         id="path4445-0-38"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-43"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4445-80"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-3"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4445-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-5-6"
+       style="overflow:visible">
+      <path
+         id="path4445-0-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-3-1"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4445-6-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-3-9"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4445-6-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-5-6-2"
+       style="overflow:visible">
+      <path
+         id="path4445-0-2-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-3-5"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4445-6-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-3-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4445-6-89"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-3-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4445-6-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-3-3"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4445-6-19"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-5-6-2-7"
+       style="overflow:visible">
+      <path
+         id="path4445-0-2-3-8"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-3-1-5"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4445-6-8-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985"
+       sodipodi:cx="197.9899"
+       sodipodi:cy="241.20969"
+       sodipodi:rx="15.152288"
+       sodipodi:ry="15.152288"
+       d="m 213.14219,241.20969 a 15.152288,15.152288 0 1 1 -30.30458,0 15.152288,15.152288 0 1 1 30.30458,0 z"
+       transform="translate(-111.29953,-89.23861)"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(-56.670063,-33.680218)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985-1"
+       sodipodi:cx="197.9899"
+       sodipodi:cy="241.20969"
+       sodipodi:rx="15.152288"
+       sodipodi:ry="15.152288"
+       d="m 213.14219,241.20969 a 15.152288,15.152288 0 1 1 -30.30458,0 15.152288,15.152288 0 1 1 30.30458,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(-52.649763,-139.74624)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985-7"
+       sodipodi:cx="197.9899"
+       sodipodi:cy="241.20969"
+       sodipodi:rx="15.152288"
+       sodipodi:ry="15.152288"
+       d="m 213.14219,241.20969 a 15.152288,15.152288 0 1 1 -30.30458,0 15.152288,15.152288 0 1 1 30.30458,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(-2.1218225,-87.2183)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985-4"
+       sodipodi:cx="197.9899"
+       sodipodi:cy="241.20969"
+       sodipodi:rx="15.152288"
+       sodipodi:ry="15.152288"
+       d="m 213.14219,241.20969 a 15.152288,15.152288 0 1 1 -30.30458,0 15.152288,15.152288 0 1 1 30.30458,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(64.167547,-87.5838)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985-0"
+       sodipodi:cx="197.9899"
+       sodipodi:cy="241.20969"
+       sodipodi:rx="15.152288"
+       sodipodi:ry="15.152288"
+       d="m 213.14219,241.20969 a 15.152288,15.152288 0 1 1 -30.30458,0 15.152288,15.152288 0 1 1 30.30458,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(110.06602,-139.84776)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985-9"
+       sodipodi:cx="197.9899"
+       sodipodi:cy="241.20969"
+       sodipodi:rx="15.152288"
+       sodipodi:ry="15.152288"
+       d="m 213.14219,241.20969 a 15.152288,15.152288 0 1 1 -30.30458,0 15.152288,15.152288 0 1 1 30.30458,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(158.49242,-89.2183)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985-48"
+       sodipodi:cx="197.9899"
+       sodipodi:cy="241.20969"
+       sodipodi:rx="15.152288"
+       sodipodi:ry="15.152288"
+       d="m 213.14219,241.20969 a 15.152288,15.152288 0 1 1 -30.30458,0 15.152288,15.152288 0 1 1 30.30458,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(112.04571,-35.639608)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985-8"
+       sodipodi:cx="197.9899"
+       sodipodi:cy="241.20969"
+       sodipodi:rx="15.152288"
+       sodipodi:ry="15.152288"
+       d="m 213.14219,241.20969 a 15.152288,15.152288 0 1 1 -30.30458,0 15.152288,15.152288 0 1 1 30.30458,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:13px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="307.08636"
+       y="199.79343"
+       id="text3047"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3049"
+         x="307.08636"
+         y="199.79343" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="138.37059"
+       y="107.52437"
+       id="text3051"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3053"
+         x="138.37059"
+         y="107.52437">1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="82.832512"
+       y="155.99136"
+       id="text3055"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3057"
+         x="82.832512"
+         y="155.99136">0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="191.00005"
+       y="160.05231"
+       id="text3059"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3061"
+         x="191.00005"
+         y="160.05231">2</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="257.5889"
+       y="160.01169"
+       id="text3063"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3065"
+         x="257.5889"
+         y="160.01169">5</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="304.0762"
+       y="106.4736"
+       id="text3067"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3069"
+         x="304.0762"
+         y="106.4736">3</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="352.56351"
+       y="156.98123"
+       id="text3071"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3073"
+         x="352.56351"
+         y="156.98123">7</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="305.06607"
+       y="210.53961"
+       id="text3075"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3077"
+         x="305.06607"
+         y="210.53961">6</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="136.37059"
+       y="212.53961"
+       id="text3079"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan3081"
+         x="136.37059"
+         y="212.53961">4</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="M 82.832517,134.79849 C 88.019837,103.95248 107.32825,95.765949 130.30968,94.392379"
+       id="path3087"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
+       d="m 81.822347,167.12337 c -0.52006,28.9697 20.277443,40.88534 46.467033,48.48732"
+       id="path3089"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
+       d="m 145.46197,116.61574 -2.02031,73.74114"
+       id="path3091"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 158.59395,95.402539 c 26.70271,-1.03538 41.43211,13.044891 40.40611,41.416251"
+       id="path3093"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:none"
+       d="m 154.55334,212.58023 c 31.04202,-6.22454 44.31727,-23.10914 48.48732,-45.45686"
+       id="path4903"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 206.07112,163.08276 c 20.89796,21.87085 36.55197,9.33691 44.44671,0"
+       id="path4905"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart);marker-end:none"
+       d="M 293.95439,96.412689 C 263.7238,102.34224 258.35214,120.70126 254.55844,139.84925"
+       id="path4907"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 322.23866,98.432989 c 32.69506,1.53091 45.74811,16.660151 43.43656,42.426411"
+       id="path4909"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 364.66507,165.10306 c 1.00613,30.97398 -15.54401,44.39171 -41.41625,48.48732"
+       id="path4911"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="M 294.96455,210.55993 C 267.6578,201.74495 256.6814,185.67203 253.54829,166.11321"
+       id="path4913"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:url(#Arrow1Lend)"
+       d="m 144.45182,85.301009 c 56.45774,-28.3102 110.87317,-19.85875 164.65486,0"
+       id="path4915"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
+       d="m 140.41121,222.68176 c 58.38069,25.88424 115.02344,20.48572 170.71578,-2.02031"
+       id="path4917"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="m 306.07622,116.61574 0,73.74114"
+       id="path4919"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart)"
+       d="m 202.03051,140.8594 c 22.26169,-16.43622 36.95801,-12.06767 48.48732,1.01015"
+       id="path10293"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       transform="translate(-158.59395,59.599)"
+       id="g11860">
+      <g
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="content"
+         transform="matrix(1.0629921,0,0,-1.0629921,-186.02362,789.27165)"
+         xml:space="preserve"
+         stroke-miterlimit="10.433"
+         font-style="normal"
+         font-variant="normal"
+         font-weight="normal"
+         font-stretch="normal"
+         font-size-adjust="none"
+         letter-spacing="normal"
+         word-spacing="normal" />    </g>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:6.60000014"
+       id="path12127"
+       sodipodi:cx="80.812202"
+       sodipodi:cy="324.04221"
+       sodipodi:rx="16.162441"
+       sodipodi:ry="16.162441"
+       d="m 96.974644,324.04221 a 16.162441,16.162441 0 1 1 -32.324883,0 16.162441,16.162441 0 1 1 32.324883,0 z"
+       transform="matrix(1.2121858,0,0,1.2121858,352.06355,-245.37397)"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="439.39606"
+       y="152.94061"
+       id="text12129"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan12131"
+         x="439.39606"
+         y="152.94061">{0}</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:6.60000014"
+       id="path12127-9"
+       sodipodi:cx="80.812202"
+       sodipodi:cy="324.04221"
+       sodipodi:rx="16.162441"
+       sodipodi:ry="16.162441"
+       d="m 96.974644,324.04221 a 16.162441,16.162441 0 1 1 -32.324883,0 16.162441,16.162441 0 1 1 32.324883,0 z"
+       transform="matrix(1.2121858,0,0,1.2121858,467.72602,-244.9095)"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="549.05853"
+       y="153.40509"
+       id="text12129-7"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan12131-1"
+         x="549.05853"
+         y="153.40509">{0,2}</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:6.60000014"
+       id="path12127-4"
+       sodipodi:cx="80.812202"
+       sodipodi:cy="324.04221"
+       sodipodi:rx="16.162441"
+       sodipodi:ry="16.162441"
+       d="m 96.974644,324.04221 a 16.162441,16.162441 0 1 1 -32.324883,0 16.162441,16.162441 0 1 1 32.324883,0 z"
+       transform="matrix(1.2121858,0,0,1.2121858,353.60541,-146.02496)"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:6.60000014"
+       id="path12127-9-5"
+       sodipodi:cx="80.812202"
+       sodipodi:cy="324.04221"
+       sodipodi:rx="16.162441"
+       sodipodi:ry="16.162441"
+       d="m 96.974644,324.04221 a 16.162441,16.162441 0 1 1 -32.324883,0 16.162441,16.162441 0 1 1 32.324883,0 z"
+       transform="matrix(1.2121858,0,0,1.2121858,469.26788,-145.56049)"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="556.6004"
+       y="252.75412"
+       id="text12129-7-1"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan12131-1-4"
+         x="556.6004"
+         y="252.75412">{2}</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:6.60000014"
+       id="path12127-1"
+       sodipodi:cx="80.812202"
+       sodipodi:cy="324.04221"
+       sodipodi:rx="16.162441"
+       sodipodi:ry="16.162441"
+       d="m 96.974644,324.04221 a 16.162441,16.162441 0 1 1 -32.324883,0 16.162441,16.162441 0 1 1 32.324883,0 z"
+       transform="matrix(1.2121858,0,0,1.2121858,419.65179,-293.0193)"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="500.98428"
+       y="105.29529"
+       id="text12129-2"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan12131-6"
+         x="500.98428"
+         y="105.29529">{0,1}</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:6.60000014"
+       id="path12127-9-6"
+       sodipodi:cx="80.812202"
+       sodipodi:cy="324.04221"
+       sodipodi:rx="16.162441"
+       sodipodi:ry="16.162441"
+       d="m 96.974644,324.04221 a 16.162441,16.162441 0 1 1 -32.324883,0 16.162441,16.162441 0 1 1 32.324883,0 z"
+       transform="matrix(1.2121858,0,0,1.2121858,535.31426,-292.55483)"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:12.39921856px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="744.79041"
+       y="86.3965"
+       id="text12129-7-3"
+       sodipodi:linespacing="125%"
+       transform="scale(0.83084496,1.203594)"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan12131-1-3"
+         x="744.79041"
+         y="86.3965">{0,1,2}</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:6.60000014"
+       id="path12127-4-0"
+       sodipodi:cx="80.812202"
+       sodipodi:cy="324.04221"
+       sodipodi:rx="16.162441"
+       sodipodi:ry="16.162441"
+       d="m 96.974644,324.04221 a 16.162441,16.162441 0 1 1 -32.324883,0 16.162441,16.162441 0 1 1 32.324883,0 z"
+       transform="matrix(1.2121858,0,0,1.2121858,421.19365,-193.67028)"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="508.52615"
+       y="204.64432"
+       id="text12129-4-0"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan12131-5-8"
+         x="508.52615"
+         y="204.64432">{1}</tspan></text>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:6.60000014"
+       id="path12127-9-5-1"
+       sodipodi:cx="80.812202"
+       sodipodi:cy="324.04221"
+       sodipodi:rx="16.162441"
+       sodipodi:ry="16.162441"
+       d="m 96.974644,324.04221 a 16.162441,16.162441 0 1 1 -32.324883,0 16.162441,16.162441 0 1 1 32.324883,0 z"
+       transform="matrix(1.2121858,0,0,1.2121858,536.85612,-193.20581)"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="618.1886"
+       y="205.1088"
+       id="text12129-7-1-3"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan12131-1-4-8"
+         x="618.1886"
+         y="205.1088">{1,2}</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 463.66002,132.77818 35.35534,-23.23351"
+       id="path12278"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 536.391,96.41269 75.76144,0"
+       id="path12280"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend-5-11)"
+       d="M 581.84786,135.80864 617.2032,112.57513"
+       id="path12282"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 470.73108,147.93047 74.75129,0"
+       id="path12284"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 468.71078,236.82389 34.34519,-25.25381"
+       id="path12286"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 470.73108,250.96603 75.76145,0"
+       id="path12288"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 447.49758,225.71221 0,-59.599"
+       id="path12290"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 518.20825,178.23504 0,-58.58884"
+       id="path12292"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 565.68542,226.72237 0,-60.60916"
+       id="path12294"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 584.87832,240.8645 35.35534,-27.27412"
+       id="path12296"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 635.38595,178.23504 0,-58.58884"
+       id="path12298"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 539.42146,200.4584 75.76144,0"
+       id="path12300"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_2.png"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g3964"
+       transform="matrix(1.9662833,0,0,-1.9662833,-4.2829682,1641.9437)"
+       xml:space="preserve"
+       stroke-miterlimit="10.433"
+       font-style="normal"
+       font-variant="normal"
+       font-weight="normal"
+       font-stretch="normal"
+       font-size-adjust="none"
+       letter-spacing="normal"
+       word-spacing="normal"
+       ns0:text="$\\lbrace \\phi \\rbrace$"
+       ns0:preamble=""><path
+         style="fill:#000000;stroke-width:0"
+         inkscape:connector-curvature="0"
+         d="m 226.25,713.38 0,0.03 0.01,0.04 0,0.04 0.01,0.04 0,0.05 0.01,0.04 0.02,0.04 0.01,0.05 0.02,0.04 0.02,0.04 0.02,0.05 0.02,0.04 0.03,0.05 0.03,0.04 0.03,0.04 0.04,0.04 0.04,0.04 0.04,0.04 0.05,0.04 0.05,0.04 0.05,0.03 0.06,0.03 0.06,0.03 0.06,0.03 0.07,0.03 0.07,0.03 0.08,0.02 0.08,0.02 0.04,0.01 0.04,0.01 0.05,0 0.04,0.01 0.05,0.01 0.05,0 0.05,0.01 0.05,0 c 0.05,0.01 0.09,0.05 0.09,0.11 0,0.11 -0.08,0.11 -0.19,0.11 -1,0 -1.9,-0.51 -1.91,-1.24 v -2.27 c 0,-0.39 0,-0.71 -0.4,-1.04 -0.35,-0.29 -0.73,-0.31 -0.95,-0.32 -0.05,-0.01 -0.09,-0.05 -0.09,-0.11 0,-0.1 0.06,-0.1 0.16,-0.11 0.66,-0.04 1.14,-0.39 1.24,-0.88 0.04,-0.11 0.04,-0.13 0.04,-0.49 v -1.97 c 0,-0.42 0,-0.74 0.47,-1.11 0.39,-0.3 1.05,-0.41 1.44,-0.41 0.11,0 0.19,0 0.19,0.11 0,0.1 -0.06,0.1 -0.16,0.11 -0.63,0.04 -1.12,0.35 -1.25,0.86 -0.03,0.09 -0.03,0.11 -0.03,0.47 v 2.09 c 0,0.46 -0.08,0.63 -0.4,0.95 -0.2,0.2 -0.49,0.3 -0.77,0.38 0.81,0.23 1.17,0.69 1.17,1.27 z"
+         id="path3966" /><path
+         style="fill:#000000;stroke-width:0"
+         inkscape:connector-curvature="0"
+         d="m 232.77,713.9 0,0 0,0.01 0,0 0,0 0,0 0,0 0,0 0,0 0,0.01 0,0 0,0.01 0,0 0,0.01 0.01,0 0,0.01 0,0 0,0.01 0,0 0,0.02 0.01,0.01 0,0 0,0.01 0,0 0,0.01 0,0 0,0.01 0.01,0 0,0.01 0,0 0,0 0,0 0,0 0,0.01 0,0 0,0 0,0 0,0 0,0 0,0 0,0 c 0,0.01 0,0.1 -0.12,0.1 -0.1,0 -0.11,-0.03 -0.15,-0.2 l -0.58,-2.3 c -1.58,-0.05 -3.05,-1.37 -3.05,-2.72 0,-0.95 0.7,-1.74 1.92,-1.8 l 0.05,0.21 c -0.6,0.03 -1.32,0.38 -1.32,1.38 0,1.19 0.86,2.59 2.34,2.71 l -1.02,-4.09 -0.05,-0.21 c -0.08,-0.31 -0.15,-0.63 -0.23,-0.94 -0.12,-0.47 -0.22,-0.85 -0.22,-0.88 0,-0.09 0.07,-0.1 0.12,-0.1 0.05,0 0.07,0.01 0.1,0.03 0.02,0.02 0.08,0.26 0.11,0.4 l 0.37,1.49 0.05,0.21 1.03,4.09 c 0.76,-0.03 1.33,-0.49 1.33,-1.37 0,-1.17 -0.86,-2.6 -2.36,-2.72 l -0.05,-0.21 c 1.61,0.04 3.06,1.39 3.06,2.72 0,0.79 -0.53,1.7 -1.92,1.8 z"
+         id="path3968" /><path
+         style="fill:#000000;stroke-width:0"
+         inkscape:connector-curvature="0"
+         d="m 236.5,706.07 0,-0.04 0,-0.04 0,-0.04 -0.01,-0.04 -0.01,-0.04 -0.01,-0.04 -0.01,-0.05 -0.01,-0.04 -0.02,-0.04 -0.02,-0.05 -0.02,-0.04 -0.03,-0.05 -0.02,-0.04 -0.03,-0.04 -0.04,-0.04 -0.03,-0.05 -0.04,-0.04 -0.04,-0.03 -0.05,-0.04 -0.05,-0.04 -0.05,-0.03 -0.06,-0.04 -0.06,-0.03 -0.06,-0.03 -0.07,-0.03 -0.08,-0.02 -0.07,-0.02 -0.08,-0.02 -0.05,-0.01 -0.04,-0.01 -0.04,-0.01 -0.05,0 -0.05,-0.01 -0.04,-0.01 -0.05,0 -0.05,0 c -0.05,-0.01 -0.09,-0.05 -0.09,-0.11 0,-0.11 0.11,-0.11 0.2,-0.11 0.96,0 1.89,0.48 1.9,1.24 v 2.27 c 0,0.39 0,0.71 0.4,1.03 0.35,0.29 0.73,0.31 0.95,0.32 0.05,0.01 0.09,0.05 0.09,0.11 0,0.1 -0.06,0.1 -0.16,0.11 -0.66,0.04 -1.14,0.4 -1.25,0.89 -0.03,0.11 -0.03,0.13 -0.03,0.49 v 1.97 c 0,0.41 0,0.73 -0.48,1.11 -0.4,0.31 -1.08,0.41 -1.42,0.41 -0.09,0 -0.2,0 -0.2,-0.11 0,-0.1 0.06,-0.1 0.16,-0.11 0.62,-0.04 1.11,-0.36 1.24,-0.87 0.03,-0.08 0.03,-0.1 0.03,-0.46 v -2.09 c 0,-0.46 0.08,-0.63 0.4,-0.95 0.21,-0.21 0.5,-0.31 0.78,-0.39 -0.82,-0.23 -1.18,-0.68 -1.18,-1.26 z"
+         id="path3970" /></g>    <path
+       transform="translate(-79.802051,211.31983)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985-1-1"
+       sodipodi:cx="197.9899"
+       sodipodi:cy="241.20969"
+       sodipodi:rx="15.152288"
+       sodipodi:ry="15.152288"
+       d="m 213.14219,241.20969 a 15.152288,15.152288 0 1 1 -30.30458,0 15.152288,15.152288 0 1 1 30.30458,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(41.416255,150.71068)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985-1-7"
+       sodipodi:cx="197.9899"
+       sodipodi:cy="241.20969"
+       sodipodi:rx="15.152288"
+       sodipodi:ry="15.152288"
+       d="m 213.14219,241.20969 a 15.152288,15.152288 0 1 1 -30.30458,0 15.152288,15.152288 0 1 1 30.30458,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(42.426408,247.68532)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985-1-4"
+       sodipodi:cx="197.9899"
+       sodipodi:cy="241.20969"
+       sodipodi:rx="15.152288"
+       sodipodi:ry="15.152288"
+       d="m 213.14219,241.20969 a 15.152288,15.152288 0 1 1 -30.30458,0 15.152288,15.152288 0 1 1 30.30458,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:transform-center-y="23.677444"
+       inkscape:transform-center-x="5.5787359"
+       style="fill:none;stroke:#000000;stroke-width:1.00923347px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="M 235.59205,475.57043 C 212.83595,454.49489 211.34383,428.13169 224.99543,402.6666"
+       id="path3087-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.010396px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="m 226.15596,494.75267 c -53.22102,6.69047 -80.64152,-9.20975 -99.31179,-30.89739"
+       id="path3087-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3221"
+       y="367.6767"
+       x="282.84271"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="367.6767"
+         x="282.84271"
+         id="tspan3223"
+         sodipodi:role="line">1.0</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3233"
+       y="507.09805"
+       x="154.49242"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="507.09805"
+         x="154.49242"
+         id="tspan3235"
+         sodipodi:role="line">0,0</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3237"
+       y="449.49905"
+       x="188.89853"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="449.49905"
+         x="188.89853"
+         id="tspan3239"
+         sodipodi:role="line">1,1</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3241"
+       y="448.40768"
+       x="268.76151"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="448.40768"
+         x="268.76151"
+         id="tspan3243"
+         sodipodi:role="line">0,0</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3245"
+       y="387.83914"
+       x="147.48227"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="387.83914"
+         x="147.48227"
+         id="tspan3247"
+         sodipodi:role="line">1,0</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3249"
+       y="406.0625"
+       x="72.730988"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="406.0625"
+         x="72.730988"
+         id="tspan3251"
+         sodipodi:role="line">0,0</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 27.393394,457.70211 75.761446,0"
+       id="path12288-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       y="374.54984"
+       x="471.74124"
+       height="81.822357"
+       width="115.01237"
+       id="rect3281"
+       style="fill:none;stroke:#000000;stroke-width:0.83068585;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:6.60000014"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3283"
+       y="401.82394"
+       x="495.05597"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="401.82394"
+         x="495.05597"
+         id="tspan3285"
+         sodipodi:role="line">Sumador </tspan><tspan
+         id="tspan3287"
+         y="421.82394"
+         x="495.05597"
+         sodipodi:role="line">Binario en</tspan><tspan
+         id="tspan3289"
+         y="441.82394"
+         x="495.05597"
+         sodipodi:role="line">Serie</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3291"
+       y="382.5701"
+       x="405.07117"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="382.5701"
+         x="405.07117"
+         id="tspan3293"
+         sodipodi:role="line">x</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3295"
+       y="430.12851"
+       x="405.07117"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="430.12851"
+         x="405.07117"
+         id="tspan3297"
+         sodipodi:role="line">y</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 390.94678,394.75287 75.76146,0"
+       id="path12288-7-8"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 390.36304,440.29096 75.76145,0"
+       id="path12288-7-7"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 593.70828,418.02699 75.76145,0"
+       id="path12288-7-3"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(-70.710678,361.63461)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985-1-1-3"
+       sodipodi:cx="197.9899"
+       sodipodi:cy="241.20969"
+       sodipodi:rx="15.152288"
+       sodipodi:ry="15.152288"
+       d="m 213.14219,241.20969 a 15.152288,15.152288 0 1 1 -30.30458,0 15.152288,15.152288 0 1 1 30.30458,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(70.99495,364.62446)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985-1-1-34"
+       sodipodi:cx="197.9899"
+       sodipodi:cy="241.20969"
+       sodipodi:rx="15.152288"
+       sodipodi:ry="15.152288"
+       d="m 213.14219,241.20969 a 15.152288,15.152288 0 1 1 -30.30458,0 15.152288,15.152288 0 1 1 30.30458,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3473"
+       y="568.37726"
+       x="177.84778"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="568.37726"
+         x="177.84778"
+         id="tspan3475"
+         sodipodi:role="line">11,0</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3477"
+       y="655.37225"
+       x="180.95946"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="655.37225"
+         x="180.95946"
+         id="tspan3479"
+         sodipodi:role="line">00,1</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3481"
+       y="538.15393"
+       x="311.41125"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="538.15393"
+         x="311.41125"
+         id="tspan3483"
+         sodipodi:role="line">11,1</tspan><tspan
+         id="tspan3485"
+         y="558.15393"
+         x="311.41125"
+         sodipodi:role="line">10,0</tspan><tspan
+         id="tspan3487"
+         y="578.15393"
+         x="311.41125"
+         sodipodi:role="line">01,0</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text3489"
+       y="528.07269"
+       x="56.527931"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="528.07269"
+         x="56.527931"
+         id="tspan3491"
+         sodipodi:role="line">10,1</tspan><tspan
+         id="tspan3493"
+         y="548.07269"
+         x="56.527931"
+         sodipodi:role="line">01,1</tspan><tspan
+         id="tspan3495"
+         y="568.07269"
+         x="56.527931"
+         sodipodi:role="line">00,0</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend)"
+       d="m 33.677665,603.93567 75.761455,0"
+       id="path12288-7-2"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       ns0:preamble=""
+       ns0:text="$s_1$"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(2.2401276,0,0,-2.5277809,-272.38018,2183.9138)"
+       id="g3369"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><path
+         id="path3371"
+         d="m 227.33,710.96 -0.03,0 -0.02,-0.01 -0.03,0 -0.02,-0.01 -0.02,0 -0.03,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.02 -0.01,-0.02 -0.01,-0.01 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 0,-0.02 c 0,-0.14 0.09,-0.29 0.31,-0.29 0.22,0 0.46,0.17 0.46,0.56 0,0.45 -0.43,0.85 -1.19,0.85 -1.31,0 -1.68,-1.01 -1.68,-1.45 0,-0.77 0.74,-0.92 1.02,-0.98 0.52,-0.1 1.04,-0.21 1.04,-0.76 0,-0.26 -0.23,-1.1 -1.42,-1.1 -0.14,0 -0.91,0 -1.14,0.53 0.38,-0.05 0.63,0.25 0.63,0.53 0,0.23 -0.16,0.35 -0.37,0.35 -0.26,0 -0.56,-0.21 -0.56,-0.66 0,-0.57 0.57,-0.96 1.43,-0.96 1.61,0 2,1.2 2,1.65 0,0.36 -0.19,0.61 -0.31,0.72 -0.27,0.28 -0.56,0.33 -1,0.42 -0.36,0.08 -0.75,0.15 -0.75,0.6 0,0.29 0.23,0.89 1.11,0.89 0.25,0 0.75,-0.07 0.9,-0.45 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path3373"
+         d="m 230.43,710.16 0,0.01 0,0.01 0,0.01 0,0.01 0,0 0,0.01 0,0.01 0,0.01 0,0 0,0.01 0,0 0,0.01 0,0.01 0,0 0,0.01 0,0 0,0.01 0,0 0,0.01 -0.01,0.01 0,0.01 0,0 -0.01,0.01 0,0.01 -0.01,0 0,0.01 -0.01,0 0,0 -0.01,0.01 -0.01,0 -0.01,0 -0.01,0 0,0 -0.01,0 0,0 -0.01,0.01 -0.01,0 0,0 -0.01,0 -0.01,0 0,0 -0.01,0 -0.01,0 0,0 -0.01,0 -0.01,0 -0.01,0 -0.01,0 0,0 -0.01,0 c -0.45,-0.44 -1.08,-0.45 -1.37,-0.45 v -0.25 c 0.17,0 0.63,0 1.01,0.2 v -3.55 c 0,-0.23 0,-0.32 -0.69,-0.32 h -0.27 v -0.25 c 0.13,0.01 0.98,0.03 1.24,0.03 0.22,0 1.09,-0.02 1.25,-0.03 v 0.25 h -0.27 c -0.7,0 -0.7,0.09 -0.7,0.32 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /></g>    <g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g3767"
+       transform="matrix(2.4929993,0,0,-2.4929993,-328.8072,2257.7931)"
+       xml:space="preserve"
+       stroke-miterlimit="10.433"
+       font-style="normal"
+       font-variant="normal"
+       font-weight="normal"
+       font-stretch="normal"
+       font-size-adjust="none"
+       letter-spacing="normal"
+       word-spacing="normal"
+       ns0:text="$s_2$"
+       ns0:preamble=""
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><path
+         style="fill:#000000;stroke-width:0"
+         inkscape:connector-curvature="0"
+         d="m 227.33,710.96 -0.03,0 -0.02,-0.01 -0.03,0 -0.02,-0.01 -0.02,0 -0.03,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.02 -0.01,-0.02 -0.01,-0.01 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 0,-0.02 c 0,-0.14 0.09,-0.29 0.31,-0.29 0.22,0 0.46,0.17 0.46,0.56 0,0.45 -0.43,0.85 -1.19,0.85 -1.31,0 -1.68,-1.01 -1.68,-1.45 0,-0.77 0.74,-0.92 1.02,-0.98 0.52,-0.1 1.04,-0.21 1.04,-0.76 0,-0.26 -0.23,-1.1 -1.42,-1.1 -0.14,0 -0.91,0 -1.14,0.53 0.38,-0.05 0.63,0.25 0.63,0.53 0,0.23 -0.16,0.35 -0.37,0.35 -0.26,0 -0.56,-0.21 -0.56,-0.66 0,-0.57 0.57,-0.96 1.43,-0.96 1.61,0 2,1.2 2,1.65 0,0.36 -0.19,0.61 -0.31,0.72 -0.27,0.28 -0.56,0.33 -1,0.42 -0.36,0.08 -0.75,0.15 -0.75,0.6 0,0.29 0.23,0.89 1.11,0.89 0.25,0 0.75,-0.07 0.9,-0.45 z"
+         id="path3769" /><path
+         style="fill:#000000;stroke-width:0"
+         inkscape:connector-curvature="0"
+         d="m 231.62,707.01 h -0.24 c -0.02,-0.16 -0.09,-0.57 -0.18,-0.64 -0.05,-0.04 -0.59,-0.04 -0.69,-0.04 h -1.28 c 0.73,0.65 0.98,0.84 1.39,1.17 0.52,0.41 1,0.84 1,1.5 0,0.84 -0.74,1.36 -1.63,1.36 -0.86,0 -1.45,-0.61 -1.45,-1.25 0,-0.35 0.3,-0.39 0.37,-0.39 0.17,0 0.37,0.12 0.37,0.37 0,0.13 -0.05,0.37 -0.41,0.37 0.21,0.5 0.69,0.65 1.01,0.65 0.7,0 1.06,-0.54 1.06,-1.11 0,-0.6 -0.43,-1.08 -0.65,-1.33 l -1.68,-1.66 c -0.07,-0.06 -0.07,-0.07 -0.07,-0.27 h 2.87 z"
+         id="path3771" /></g>    <g
+       ns0:preamble=""
+       ns0:text="$s_0$"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(2.5704909,0,0,-2.5704909,-469.50158,2275.7659)"
+       id="g4165"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><path
+         id="path4167"
+         d="m 227.33,710.96 -0.03,0 -0.02,-0.01 -0.03,0 -0.02,-0.01 -0.02,0 -0.03,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.02 -0.01,-0.02 -0.01,-0.01 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 0,-0.02 c 0,-0.14 0.09,-0.29 0.31,-0.29 0.22,0 0.46,0.17 0.46,0.56 0,0.45 -0.43,0.85 -1.19,0.85 -1.31,0 -1.68,-1.01 -1.68,-1.45 0,-0.77 0.74,-0.92 1.02,-0.98 0.52,-0.1 1.04,-0.21 1.04,-0.76 0,-0.26 -0.23,-1.1 -1.42,-1.1 -0.14,0 -0.91,0 -1.14,0.53 0.38,-0.05 0.63,0.25 0.63,0.53 0,0.23 -0.16,0.35 -0.37,0.35 -0.26,0 -0.56,-0.21 -0.56,-0.66 0,-0.57 0.57,-0.96 1.43,-0.96 1.61,0 2,1.2 2,1.65 0,0.36 -0.19,0.61 -0.31,0.72 -0.27,0.28 -0.56,0.33 -1,0.42 -0.36,0.08 -0.75,0.15 -0.75,0.6 0,0.29 0.23,0.89 1.11,0.89 0.25,0 0.75,-0.07 0.9,-0.45 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path4169"
+         d="m 231.7,707.96 -0.01,0.14 0,0.14 0,0.13 -0.01,0.12 -0.01,0.13 -0.02,0.12 -0.02,0.11 -0.02,0.11 -0.02,0.11 -0.03,0.11 -0.04,0.1 -0.04,0.1 -0.04,0.1 -0.05,0.09 -0.05,0.1 -0.03,0.04 -0.02,0.05 c -0.22,0.32 -0.65,0.6 -1.21,0.6 v -0.2 c 0.38,0 0.74,-0.23 0.86,-0.63 0.11,-0.37 0.12,-0.88 0.12,-1.48 0,-0.52 0,-1.03 -0.09,-1.47 -0.14,-0.63 -0.61,-0.78 -0.89,-0.78 h 0 c -0.32,0 -0.74,0.18 -0.88,0.75 -0.1,0.42 -0.1,0.98 -0.1,1.5 0,0.51 0,1.04 0.1,1.42 0.15,0.55 0.59,0.69 0.88,0.69 v 0.2 c -1.62,0 -1.62,-1.9 -1.62,-2.4 0,-0.5 0,-2.36 1.62,-2.36 1.62,0 1.62,1.86 1.62,2.36 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /></g>    <g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g4567"
+       transform="matrix(1.8850663,0,0,-3.0436426,-124.09205,2562.4826)"
+       xml:space="preserve"
+       stroke-miterlimit="10.433"
+       font-style="normal"
+       font-variant="normal"
+       font-weight="normal"
+       font-stretch="normal"
+       font-size-adjust="none"
+       letter-spacing="normal"
+       word-spacing="normal"
+       ns0:text="$s^*=s_0$"
+       ns0:preamble=""
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><path
+         style="fill:#000000;stroke-width:0"
+         inkscape:connector-curvature="0"
+         d="m 227.33,710.96 -0.03,0 -0.02,-0.01 -0.03,0 -0.02,-0.01 -0.02,0 -0.03,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.02 -0.01,-0.02 -0.01,-0.01 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 0,-0.02 c 0,-0.14 0.09,-0.29 0.31,-0.29 0.22,0 0.46,0.17 0.46,0.56 0,0.45 -0.43,0.85 -1.19,0.85 -1.31,0 -1.68,-1.01 -1.68,-1.45 0,-0.77 0.74,-0.92 1.02,-0.98 0.52,-0.1 1.04,-0.21 1.04,-0.76 0,-0.26 -0.23,-1.1 -1.42,-1.1 -0.14,0 -0.91,0 -1.14,0.53 0.38,-0.05 0.63,0.25 0.63,0.53 0,0.23 -0.16,0.35 -0.37,0.35 -0.26,0 -0.56,-0.21 -0.56,-0.66 0,-0.57 0.57,-0.96 1.43,-0.96 1.61,0 2,1.2 2,1.65 0,0.36 -0.19,0.61 -0.31,0.72 -0.27,0.28 -0.56,0.33 -1,0.42 -0.36,0.08 -0.75,0.15 -0.75,0.6 0,0.29 0.23,0.89 1.11,0.89 0.25,0 0.75,-0.07 0.9,-0.45 z"
+         id="path4569" /><path
+         style="fill:#000000;stroke-width:0"
+         inkscape:connector-curvature="0"
+         d="m 230.35,712.58 0.05,0.03 0.06,0.02 0.04,0.02 0.05,0.02 0.05,0.02 0.04,0.02 0.04,0.02 0.04,0.01 0.04,0.02 0.04,0.02 0.04,0.01 0.03,0.02 0.04,0.01 0.03,0.01 0.03,0.02 0.03,0.01 0.03,0.01 0.03,0.01 0.03,0.02 0.02,0.01 0.03,0.01 0.02,0.01 0.02,0.01 0.02,0.01 0.03,0.01 0.02,0 0.03,0.02 0.04,0.02 0.03,0.01 c 0.14,0.06 0.2,0.09 0.2,0.22 0,0.12 -0.09,0.22 -0.22,0.22 -0.04,0 -0.06,0 -0.14,-0.06 l -0.95,-0.63 0.11,1.02 c 0.01,0.13 0,0.3 -0.21,0.3 -0.09,0 -0.22,-0.05 -0.22,-0.2 0,-0.07 0.03,-0.28 0.04,-0.35 0.01,-0.11 0.06,-0.61 0.07,-0.77 l -0.94,0.63 c -0.07,0.04 -0.09,0.06 -0.15,0.06 -0.13,0 -0.22,-0.1 -0.22,-0.22 0,-0.14 0.08,-0.18 0.15,-0.2 l 1.05,-0.44 c -0.57,-0.25 -0.83,-0.35 -1,-0.43 -0.13,-0.06 -0.2,-0.08 -0.2,-0.22 0,-0.12 0.09,-0.22 0.22,-0.22 0.05,0 0.06,0 0.14,0.06 l 0.95,0.63 -0.11,-1.11 c 0,-0.16 0.13,-0.21 0.22,-0.21 0.08,0 0.21,0.05 0.21,0.21 0,0.06 -0.03,0.27 -0.03,0.34 -0.02,0.12 -0.07,0.62 -0.08,0.77 l 0.84,-0.55 c 0.18,-0.14 0.19,-0.14 0.25,-0.14 0.13,0 0.22,0.1 0.22,0.22 0,0.14 -0.08,0.18 -0.15,0.2 z"
+         id="path4571" /><path
+         style="fill:#000000;stroke-width:0"
+         inkscape:connector-curvature="0"
+         d="m 242.3,710.49 0.03,0 0.02,0 0.03,0 0.02,0 0.01,0 0.02,0 0.01,0.01 0.02,0 0.01,0 0.01,0 0.02,0.01 0.01,0 0.01,0 0.01,0.01 0.02,0 0.01,0.01 0.01,0.01 0.01,0.01 0.01,0 0.01,0.01 0,0.01 0.01,0.01 0,0 0,0.01 0.01,0.01 0,0 0,0.01 0.01,0.01 0,0 0,0.01 0,0.01 0,0 0,0.01 0,0.01 0.01,0.01 0,0.01 0,0.01 c 0,0.2 -0.19,0.2 -0.33,0.2 h -5.97 c -0.14,0 -0.33,0 -0.33,-0.2 0,-0.2 0.19,-0.2 0.34,-0.2 z"
+         id="path4573" /><path
+         style="fill:#000000;stroke-width:0"
+         inkscape:connector-curvature="0"
+         d="m 242.31,708.56 0.02,0 0.03,0 0.03,0 0.01,0 0.02,0 0.01,0 0.02,0.01 0.01,0 0.01,0 0.02,0 0.01,0.01 0.01,0 0.01,0 0.02,0.01 0.01,0 0.01,0.01 0.01,0.01 0.01,0.01 0.01,0 0.01,0.01 0,0.01 0,0 0.01,0.01 0,0 0,0.01 0.01,0.01 0,0 0,0.01 0.01,0.01 0,0 0,0.01 0,0.01 0,0 0,0.01 0,0.01 0.01,0.01 0,0.01 0,0.01 c 0,0.2 -0.19,0.2 -0.34,0.2 h -5.95 c -0.15,0 -0.34,0 -0.34,-0.2 0,-0.2 0.19,-0.2 0.33,-0.2 z"
+         id="path4575" /><path
+         style="fill:#000000;stroke-width:0"
+         inkscape:connector-curvature="0"
+         d="m 249.86,710.96 -0.02,0 -0.03,-0.01 -0.02,0 -0.03,-0.01 -0.02,0 -0.02,-0.01 -0.03,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.02 -0.01,-0.01 -0.02,-0.02 -0.02,-0.01 -0.01,-0.02 -0.01,-0.02 -0.02,-0.02 -0.01,-0.01 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 -0.01,-0.02 0,-0.02 0,-0.02 0,-0.02 -0.01,-0.02 c 0,-0.14 0.1,-0.29 0.31,-0.29 0.22,0 0.46,0.17 0.46,0.56 0,0.45 -0.43,0.85 -1.18,0.85 -1.32,0 -1.69,-1.01 -1.69,-1.45 0,-0.77 0.74,-0.92 1.03,-0.98 0.52,-0.1 1.04,-0.21 1.04,-0.76 0,-0.26 -0.23,-1.1 -1.43,-1.1 -0.14,0 -0.91,0 -1.14,0.53 0.38,-0.05 0.63,0.25 0.63,0.53 0,0.23 -0.16,0.35 -0.37,0.35 -0.26,0 -0.56,-0.21 -0.56,-0.66 0,-0.57 0.57,-0.96 1.43,-0.96 1.61,0 2,1.2 2,1.65 0,0.36 -0.19,0.61 -0.31,0.72 -0.26,0.28 -0.55,0.33 -0.99,0.42 -0.36,0.08 -0.76,0.15 -0.76,0.6 0,0.29 0.24,0.89 1.12,0.89 0.25,0 0.74,-0.07 0.89,-0.45 z"
+         id="path4577" /><path
+         style="fill:#000000;stroke-width:0"
+         inkscape:connector-curvature="0"
+         d="m 254.23,707.96 0,0.14 0,0.14 -0.01,0.13 -0.01,0.12 -0.01,0.13 -0.02,0.12 -0.01,0.11 -0.03,0.11 -0.02,0.11 -0.03,0.11 -0.03,0.1 -0.04,0.1 -0.04,0.1 -0.05,0.09 -0.05,0.1 -0.03,0.04 -0.03,0.05 c -0.22,0.32 -0.65,0.6 -1.21,0.6 v -0.2 c 0.38,0 0.74,-0.23 0.87,-0.63 0.11,-0.37 0.12,-0.88 0.12,-1.48 0,-0.52 0,-1.03 -0.09,-1.47 -0.14,-0.63 -0.62,-0.78 -0.9,-0.78 h 0 c -0.32,0 -0.74,0.18 -0.88,0.75 -0.1,0.42 -0.1,0.98 -0.1,1.5 0,0.51 0,1.04 0.11,1.42 0.14,0.55 0.59,0.69 0.87,0.69 v 0.2 c -1.61,0 -1.61,-1.9 -1.61,-2.4 0,-0.5 0,-2.36 1.61,-2.36 1.62,0 1.62,1.86 1.62,2.36 z"
+         id="path4579" /></g>    <g
+       ns0:preamble=""
+       ns0:text="$z=z_5z_4z_3z_2z_1$"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(2.1265058,0,0,-2.1265058,118.13406,1905.0665)"
+       id="g4989"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_3.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><path
+         id="path4991"
+         d="m 224.76,708.06 0.05,0.05 0.05,0.06 0.04,0.04 0.05,0.05 0.04,0.05 0.05,0.04 0.04,0.05 0.04,0.04 0.04,0.04 0.04,0.04 0.04,0.04 0.04,0.03 0.03,0.04 0.04,0.03 0.07,0.07 0.07,0.06 0.06,0.06 0.07,0.06 0.06,0.06 0.13,0.11 0.07,0.06 0.06,0.06 c 0,0.01 0.62,0.53 0.98,0.89 0.95,0.93 1.17,1.4 1.17,1.44 0,0.1 -0.09,0.1 -0.11,0.1 -0.07,0 -0.1,-0.02 -0.15,-0.11 -0.3,-0.47 -0.51,-0.63 -0.75,-0.63 -0.24,0 -0.36,0.15 -0.51,0.32 -0.19,0.22 -0.36,0.42 -0.69,0.42 -0.74,0 -1.2,-0.92 -1.2,-1.13 0,-0.05 0.03,-0.11 0.12,-0.11 0.09,0 0.11,0.05 0.13,0.11 0.19,0.46 0.77,0.47 0.84,0.47 0.21,0 0.4,-0.07 0.63,-0.15 0.4,-0.15 0.51,-0.15 0.77,-0.15 -0.36,-0.43 -1.2,-1.15 -1.38,-1.31 l -0.9,-0.83 c -0.68,-0.67 -1.03,-1.24 -1.03,-1.31 0,-0.09 0.1,-0.09 0.12,-0.09 0.08,0 0.1,0.02 0.16,0.13 0.23,0.34 0.53,0.61 0.85,0.61 0.23,0 0.33,-0.09 0.58,-0.38 0.17,-0.21 0.34,-0.36 0.63,-0.36 0.99,0 1.57,1.26 1.57,1.53 0,0.05 -0.04,0.1 -0.12,0.1 -0.09,0 -0.11,-0.06 -0.14,-0.13 -0.23,-0.65 -0.87,-0.84 -1.2,-0.84 -0.2,0 -0.38,0.06 -0.58,0.13 -0.34,0.13 -0.49,0.17 -0.7,0.17 -0.02,0 -0.18,0 -0.27,-0.03 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path4993"
+         d="m 238.12,710.49 0.03,0 0.03,0 0.03,0 0.01,0 0.02,0 0.01,0 0.01,0.01 0.02,0 0.01,0 0.02,0 0.01,0.01 0.01,0 0.01,0 0.02,0.01 0.01,0 0.01,0.01 0.01,0.01 0.01,0.01 0.01,0 0.01,0.01 0.01,0.01 0,0.01 0,0 0.01,0.01 0,0.01 0,0 0.01,0.01 0,0.01 0,0 0,0.01 0,0.01 0,0 0.01,0.01 0,0.01 0,0.01 0,0.01 0,0.01 c 0,0.2 -0.19,0.2 -0.33,0.2 h -5.97 c -0.14,0 -0.33,0 -0.33,-0.2 0,-0.2 0.19,-0.2 0.34,-0.2 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path4995"
+         d="m 238.13,708.56 0.03,0 0.02,0 0.03,0 0.02,0 0.01,0 0.01,0 0.02,0.01 0.01,0 0.01,0 0.02,0 0.01,0.01 0.01,0 0.02,0 0.01,0.01 0.01,0 0.01,0.01 0.01,0.01 0.01,0.01 0.01,0 0.01,0.01 0,0.01 0.01,0 0,0.01 0,0 0.01,0.01 0,0.01 0,0 0.01,0.01 0,0.01 0,0 0,0.01 0,0.01 0,0 0.01,0.01 0,0.01 0,0.01 0,0.01 0,0.01 c 0,0.2 -0.19,0.2 -0.34,0.2 h -5.95 c -0.15,0 -0.34,0 -0.34,-0.2 0,-0.2 0.19,-0.2 0.33,-0.2 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path4997"
+         d="m 243.11,708.06 0.05,0.05 0.05,0.06 0.05,0.04 0.04,0.05 0.05,0.05 0.04,0.04 0.04,0.05 0.04,0.04 0.04,0.04 0.04,0.04 0.04,0.04 0.04,0.03 0.04,0.04 0.03,0.03 0.07,0.07 0.07,0.06 0.07,0.06 0.06,0.06 0.07,0.06 0.13,0.11 0.06,0.06 0.07,0.06 c 0,0.01 0.62,0.53 0.98,0.89 0.94,0.93 1.16,1.4 1.16,1.44 0,0.1 -0.09,0.1 -0.11,0.1 -0.07,0 -0.1,-0.02 -0.15,-0.11 -0.3,-0.47 -0.5,-0.63 -0.75,-0.63 -0.23,0 -0.35,0.15 -0.5,0.32 -0.19,0.22 -0.36,0.42 -0.69,0.42 -0.75,0 -1.21,-0.92 -1.21,-1.13 0,-0.05 0.03,-0.11 0.12,-0.11 0.09,0 0.11,0.05 0.13,0.11 0.19,0.46 0.77,0.47 0.85,0.47 0.21,0 0.4,-0.07 0.63,-0.15 0.4,-0.15 0.51,-0.15 0.76,-0.15 -0.35,-0.43 -1.19,-1.15 -1.38,-1.31 l -0.9,-0.83 c -0.67,-0.67 -1.02,-1.24 -1.02,-1.31 0,-0.09 0.1,-0.09 0.12,-0.09 0.07,0 0.09,0.02 0.15,0.13 0.23,0.34 0.53,0.61 0.85,0.61 0.23,0 0.33,-0.09 0.58,-0.38 0.17,-0.21 0.35,-0.36 0.64,-0.36 0.98,0 1.56,1.26 1.56,1.53 0,0.05 -0.04,0.1 -0.12,0.1 -0.09,0 -0.11,-0.06 -0.14,-0.13 -0.23,-0.65 -0.86,-0.84 -1.19,-0.84 -0.2,0 -0.38,0.06 -0.59,0.13 -0.34,0.13 -0.49,0.17 -0.7,0.17 -0.02,0 -0.18,0 -0.27,-0.03 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path4999"
+         d="m 247.5,709.62 0.03,-0.01 0.03,0 0.04,-0.01 0.03,-0.01 0.03,0 0.02,-0.01 0.03,-0.01 0.03,0 0.03,-0.01 0.02,0 0.03,0 0.02,-0.01 0.02,0 0.03,0 0.02,-0.01 0.02,0 0.02,0 0.02,0 0.02,0 0.02,0 0.01,-0.01 0.02,0 0.02,0 0.01,0 0.02,0 0.01,0 0.02,0 0.01,0 0.01,0 0.01,0 0.01,0 0.02,0 c 0.91,0 1.46,0.63 1.46,0.73 0,0.08 -0.05,0.1 -0.09,0.1 -0.01,0 -0.02,0 -0.05,-0.02 -0.17,-0.06 -0.54,-0.2 -1.05,-0.2 -0.2,0 -0.57,0.01 -1.02,0.18 -0.07,0.04 -0.08,0.04 -0.09,0.04 -0.09,0 -0.09,-0.08 -0.09,-0.19 v -2.05 c 0,-0.12 0,-0.2 0.11,-0.2 0.06,0 0.07,0.01 0.14,0.1 0.3,0.38 0.72,0.43 0.97,0.43 0.41,0 0.6,-0.33 0.64,-0.39 0.12,-0.23 0.16,-0.49 0.16,-0.89 0,-0.21 0,-0.62 -0.2,-0.93 -0.18,-0.25 -0.48,-0.42 -0.82,-0.42 -0.45,0 -0.92,0.26 -1.09,0.71 0.26,-0.02 0.39,0.16 0.39,0.34 0,0.3 -0.25,0.36 -0.34,0.36 -0.02,0 -0.35,0 -0.35,-0.38 0,-0.62 0.57,-1.25 1.41,-1.25 0.89,0 1.67,0.66 1.67,1.54 0,0.78 -0.6,1.51 -1.46,1.51 -0.31,0 -0.67,-0.08 -0.98,-0.34 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path5001"
+         d="m 252.21,708.06 0.05,0.05 0.05,0.06 0.05,0.04 0.05,0.05 0.04,0.05 0.04,0.04 0.05,0.05 0.04,0.04 0.04,0.04 0.04,0.04 0.03,0.04 0.04,0.03 0.04,0.04 0.03,0.03 0.08,0.07 0.06,0.06 0.07,0.06 0.07,0.06 0.06,0.06 0.13,0.11 0.06,0.06 0.07,0.06 c 0,0.01 0.62,0.53 0.98,0.89 0.94,0.93 1.16,1.4 1.16,1.44 0,0.1 -0.08,0.1 -0.11,0.1 -0.06,0 -0.09,-0.02 -0.14,-0.11 -0.3,-0.47 -0.51,-0.63 -0.75,-0.63 -0.24,0 -0.36,0.15 -0.51,0.32 -0.19,0.22 -0.36,0.42 -0.69,0.42 -0.75,0 -1.21,-0.92 -1.21,-1.13 0,-0.05 0.03,-0.11 0.13,-0.11 0.08,0 0.1,0.05 0.12,0.11 0.19,0.46 0.77,0.47 0.85,0.47 0.21,0 0.4,-0.07 0.63,-0.15 0.4,-0.15 0.51,-0.15 0.77,-0.15 -0.36,-0.43 -1.2,-1.15 -1.39,-1.31 l -0.9,-0.83 c -0.67,-0.67 -1.02,-1.24 -1.02,-1.31 0,-0.09 0.1,-0.09 0.12,-0.09 0.08,0 0.1,0.02 0.16,0.13 0.23,0.34 0.53,0.61 0.84,0.61 0.23,0 0.33,-0.09 0.58,-0.38 0.17,-0.21 0.35,-0.36 0.64,-0.36 0.99,0 1.57,1.26 1.57,1.53 0,0.05 -0.05,0.1 -0.12,0.1 -0.09,0 -0.11,-0.06 -0.14,-0.13 -0.23,-0.65 -0.87,-0.84 -1.2,-0.84 -0.2,0 -0.38,0.06 -0.59,0.13 -0.34,0.13 -0.49,0.17 -0.7,0.17 -0.02,0 -0.18,0 -0.27,-0.03 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path5003"
+         d="m 259.21,706.88 v 0.25 h -0.78 v 3.1 c 0,0.15 0,0.2 -0.15,0.2 -0.08,0 -0.11,0 -0.18,-0.1 l -2.31,-3.2 v -0.25 h 2.05 l 0.05,0.25 h -1.84 l 1.84,2.55 v -2.55 l -0.05,-0.25 v -0.57 c 0,-0.23 0,-0.32 -0.56,-0.32 h -0.19 v -0.25 c 0.35,0.02 0.79,0.03 1.04,0.03 0.26,0 0.71,-0.01 1.05,-0.03 v 0.25 H 259 c -0.57,0 -0.57,0.09 -0.57,0.32 v 0.57 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path5005"
+         d="m 261.32,708.06 0.05,0.05 0.05,0.06 0.04,0.04 0.05,0.05 0.04,0.05 0.05,0.04 0.04,0.05 0.04,0.04 0.04,0.04 0.04,0.04 0.04,0.04 0.04,0.03 0.03,0.04 0.04,0.03 0.07,0.07 0.07,0.06 0.06,0.06 0.07,0.06 0.06,0.06 0.13,0.11 0.07,0.06 0.06,0.06 c 0,0.01 0.62,0.53 0.98,0.89 0.95,0.93 1.17,1.4 1.17,1.44 0,0.1 -0.09,0.1 -0.11,0.1 -0.07,0 -0.1,-0.02 -0.15,-0.11 -0.3,-0.47 -0.51,-0.63 -0.75,-0.63 -0.24,0 -0.36,0.15 -0.51,0.32 -0.19,0.22 -0.36,0.42 -0.69,0.42 -0.74,0 -1.2,-0.92 -1.2,-1.13 0,-0.05 0.03,-0.11 0.12,-0.11 0.09,0 0.11,0.05 0.13,0.11 0.19,0.46 0.77,0.47 0.84,0.47 0.21,0 0.4,-0.07 0.63,-0.15 0.4,-0.15 0.51,-0.15 0.77,-0.15 -0.36,-0.43 -1.2,-1.15 -1.38,-1.31 l -0.9,-0.83 c -0.68,-0.67 -1.03,-1.24 -1.03,-1.31 0,-0.09 0.1,-0.09 0.12,-0.09 0.08,0 0.1,0.02 0.16,0.13 0.23,0.34 0.53,0.61 0.85,0.61 0.23,0 0.33,-0.09 0.58,-0.38 0.17,-0.21 0.34,-0.36 0.63,-0.36 0.99,0 1.57,1.26 1.57,1.53 0,0.05 -0.04,0.1 -0.12,0.1 -0.09,0 -0.11,-0.06 -0.14,-0.13 -0.23,-0.65 -0.87,-0.84 -1.2,-0.84 -0.2,0 -0.38,0.06 -0.58,0.13 -0.34,0.13 -0.49,0.17 -0.7,0.17 -0.02,0 -0.18,0 -0.27,-0.03 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path5007"
+         d="m 266.53,708.06 0.05,0 0.05,0 0.04,-0.01 0.05,0 0.05,-0.01 0.04,-0.02 0.05,-0.01 0.04,-0.02 0.04,-0.02 0.04,-0.02 0.04,-0.02 0.04,-0.02 0.04,-0.03 0.03,-0.03 0.04,-0.03 0.03,-0.04 0.03,-0.03 0.03,-0.04 0.02,-0.04 0.03,-0.05 0.02,-0.04 0.02,-0.05 0.02,-0.05 0.02,-0.05 0.02,-0.05 0.01,-0.06 0.01,-0.05 0.01,-0.06 0.01,-0.07 0.01,-0.06 0,-0.07 0,-0.07 c 0,-0.86 -0.5,-1.12 -0.91,-1.12 -0.27,0 -0.89,0.08 -1.18,0.49 0.33,0.02 0.4,0.24 0.4,0.39 0,0.22 -0.16,0.38 -0.38,0.38 -0.19,0 -0.39,-0.11 -0.39,-0.4 0,-0.65 0.73,-1.08 1.57,-1.08 0.97,0 1.63,0.65 1.63,1.34 0,0.55 -0.44,1.09 -1.21,1.25 0.73,0.26 1,0.78 1,1.21 0,0.55 -0.63,0.96 -1.41,0.96 -0.77,0 -1.36,-0.38 -1.36,-0.93 0,-0.24 0.15,-0.37 0.36,-0.37 0.22,0 0.35,0.16 0.35,0.35 0,0.2 -0.13,0.35 -0.35,0.36 0.24,0.31 0.72,0.39 0.98,0.39 0.32,0 0.75,-0.16 0.75,-0.76 0,-0.29 -0.09,-0.61 -0.27,-0.83 -0.24,-0.26 -0.43,-0.28 -0.78,-0.3 -0.17,-0.01 -0.19,-0.01 -0.22,-0.02 -0.02,0 -0.07,-0.01 -0.07,-0.09 0,-0.1 0.06,-0.1 0.18,-0.1 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path5009"
+         d="m 270.42,708.06 0.05,0.05 0.05,0.06 0.05,0.04 0.04,0.05 0.05,0.05 0.04,0.04 0.04,0.05 0.04,0.04 0.04,0.04 0.04,0.04 0.04,0.04 0.04,0.03 0.03,0.04 0.04,0.03 0.07,0.07 0.07,0.06 0.06,0.06 0.07,0.06 0.06,0.06 0.13,0.11 0.07,0.06 0.07,0.06 c 0,0.01 0.61,0.53 0.97,0.89 0.95,0.93 1.17,1.4 1.17,1.44 0,0.1 -0.09,0.1 -0.11,0.1 -0.07,0 -0.1,-0.02 -0.15,-0.11 -0.3,-0.47 -0.51,-0.63 -0.75,-0.63 -0.24,0 -0.36,0.15 -0.51,0.32 -0.18,0.22 -0.35,0.42 -0.68,0.42 -0.75,0 -1.21,-0.92 -1.21,-1.13 0,-0.05 0.03,-0.11 0.12,-0.11 0.09,0 0.11,0.05 0.13,0.11 0.19,0.46 0.77,0.47 0.85,0.47 0.21,0 0.39,-0.07 0.63,-0.15 0.39,-0.15 0.5,-0.15 0.76,-0.15 -0.36,-0.43 -1.19,-1.15 -1.38,-1.31 l -0.9,-0.83 c -0.68,-0.67 -1.03,-1.24 -1.03,-1.31 0,-0.09 0.1,-0.09 0.12,-0.09 0.08,0 0.1,0.02 0.16,0.13 0.23,0.34 0.53,0.61 0.85,0.61 0.23,0 0.33,-0.09 0.58,-0.38 0.17,-0.21 0.35,-0.36 0.63,-0.36 0.99,0 1.57,1.26 1.57,1.53 0,0.05 -0.04,0.1 -0.12,0.1 -0.09,0 -0.11,-0.06 -0.14,-0.13 -0.23,-0.65 -0.87,-0.84 -1.19,-0.84 -0.21,0 -0.38,0.06 -0.59,0.13 -0.34,0.13 -0.49,0.17 -0.7,0.17 -0.02,0 -0.18,0 -0.27,-0.03 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path5011"
+         d="m 277.24,707.01 h -0.23 c -0.02,-0.16 -0.09,-0.57 -0.18,-0.64 -0.06,-0.04 -0.6,-0.04 -0.69,-0.04 h -1.28 c 0.73,0.65 0.97,0.84 1.39,1.17 0.51,0.41 0.99,0.84 0.99,1.5 0,0.84 -0.73,1.36 -1.63,1.36 -0.86,0 -1.44,-0.61 -1.44,-1.25 0,-0.35 0.29,-0.39 0.37,-0.39 0.16,0 0.36,0.12 0.36,0.37 0,0.13 -0.04,0.37 -0.41,0.37 0.22,0.5 0.69,0.65 1.02,0.65 0.7,0 1.06,-0.54 1.06,-1.11 0,-0.6 -0.43,-1.08 -0.66,-1.33 l -1.68,-1.66 c -0.06,-0.06 -0.06,-0.07 -0.06,-0.27 h 2.87 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path5013"
+         d="m 279.52,708.06 0.05,0.05 0.05,0.06 0.05,0.04 0.04,0.05 0.05,0.05 0.04,0.04 0.04,0.05 0.04,0.04 0.04,0.04 0.04,0.04 0.04,0.04 0.04,0.03 0.04,0.04 0.03,0.03 0.07,0.07 0.07,0.06 0.07,0.06 0.06,0.06 0.07,0.06 0.13,0.11 0.06,0.06 0.07,0.06 c 0,0.01 0.62,0.53 0.98,0.89 0.94,0.93 1.16,1.4 1.16,1.44 0,0.1 -0.09,0.1 -0.11,0.1 -0.07,0 -0.1,-0.02 -0.15,-0.11 -0.3,-0.47 -0.51,-0.63 -0.74,-0.63 -0.24,0 -0.36,0.15 -0.51,0.32 -0.19,0.22 -0.36,0.42 -0.69,0.42 -0.75,0 -1.21,-0.92 -1.21,-1.13 0,-0.05 0.03,-0.11 0.12,-0.11 0.09,0 0.11,0.05 0.13,0.11 0.19,0.46 0.77,0.47 0.85,0.47 0.21,0 0.4,-0.07 0.63,-0.15 0.4,-0.15 0.51,-0.15 0.76,-0.15 -0.35,-0.43 -1.19,-1.15 -1.38,-1.31 l -0.9,-0.83 c -0.67,-0.67 -1.02,-1.24 -1.02,-1.31 0,-0.09 0.1,-0.09 0.11,-0.09 0.09,0 0.11,0.02 0.16,0.13 0.23,0.34 0.53,0.61 0.85,0.61 0.23,0 0.33,-0.09 0.58,-0.38 0.17,-0.21 0.35,-0.36 0.64,-0.36 0.98,0 1.56,1.26 1.56,1.53 0,0.05 -0.04,0.1 -0.12,0.1 -0.09,0 -0.11,-0.06 -0.14,-0.13 -0.22,-0.65 -0.86,-0.84 -1.19,-0.84 -0.2,0 -0.38,0.06 -0.59,0.13 -0.34,0.13 -0.49,0.17 -0.7,0.17 -0.02,0 -0.18,0 -0.27,-0.03 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path5015"
+         d="m 285.16,710.16 0,0.01 0,0.01 0,0.01 0,0.01 0,0 0,0.01 0,0.01 0,0.01 0,0 0,0.01 0,0 0,0.01 0,0.01 0,0 0,0.01 0,0 0,0.01 0,0 -0.01,0.01 0,0.01 0,0.01 -0.01,0 0,0.01 0,0.01 -0.01,0 0,0.01 -0.01,0 -0.01,0 0,0.01 -0.01,0 -0.01,0 -0.01,0 -0.01,0 0,0 -0.01,0 0,0.01 -0.01,0 0,0 -0.01,0 -0.01,0 0,0 -0.01,0 -0.01,0 -0.01,0 0,0 -0.01,0 -0.01,0 -0.01,0 -0.01,0 -0.01,0 c -0.44,-0.44 -1.07,-0.45 -1.36,-0.45 v -0.25 c 0.17,0 0.63,0 1.01,0.2 v -3.55 c 0,-0.23 0,-0.32 -0.7,-0.32 h -0.26 v -0.25 c 0.12,0.01 0.98,0.03 1.24,0.03 0.21,0 1.09,-0.02 1.24,-0.03 v 0.25 h -0.26 c -0.7,0 -0.7,0.09 -0.7,0.32 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /></g>    <path
+       transform="translate(-416.5788,-272.2361)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:6.60000014;marker-start:url(#Arrow1Lstart-9)"
+       id="path6560-48"
+       sodipodi:cx="466.69049"
+       sodipodi:cy="305.85944"
+       sodipodi:rx="18.182745"
+       sodipodi:ry="18.182745"
+       d="m 484.87324,305.85944 a 18.182745,18.182745 0 1 1 -36.36549,0 18.182745,18.182745 0 1 1 36.36549,0 z" />
+    <path
+       transform="translate(-359.15746,-273.22594)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:6.60000014;marker-start:url(#Arrow1Lend-5);marker-end:none"
+       id="path6560-4-8"
+       sodipodi:cx="466.69049"
+       sodipodi:cy="305.85944"
+       sodipodi:rx="18.182745"
+       sodipodi:ry="18.182745"
+       d="m 484.87324,305.85944 a 18.182745,18.182745 0 1 1 -36.36549,0 18.182745,18.182745 0 1 1 36.36549,0 z" />
+    <path
+       transform="translate(-414.22347,-153.50256)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:6.60000014;marker-start:url(#Arrow1Lend-5);marker-end:none"
+       id="path6560-4-8-5"
+       sodipodi:cx="466.69049"
+       sodipodi:cy="305.85944"
+       sodipodi:rx="18.182745"
+       sodipodi:ry="18.182745"
+       d="m 484.87324,305.85944 a 18.182745,18.182745 0 1 1 -36.36549,0 18.182745,18.182745 0 1 1 36.36549,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(-0.89661122,0.44281861,-0.44281861,-0.89661122,944.52122,219.0287)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:6.60000014;marker-start:url(#Arrow1Lend-5);marker-end:none"
+       id="path6560-4-8-7"
+       sodipodi:cx="466.69049"
+       sodipodi:cy="305.85944"
+       sodipodi:rx="18.182745"
+       sodipodi:ry="18.182745"
+       d="m 484.87324,305.85944 a 18.182745,18.182745 0 1 1 -36.36549,0 18.182745,18.182745 0 1 1 36.36549,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_2_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(-0.44483286,0.8956136,-0.8956136,-0.44483286,742.74118,85.39504)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:6.60000014;marker-start:url(#Arrow1Lend-5);marker-end:none"
+       id="path6560-4-8-2"
+       sodipodi:cx="466.69049"
+       sodipodi:cy="305.85944"
+       sodipodi:rx="18.182745"
+       sodipodi:ry="18.182745"
+       d="m 484.87324,305.85944 a 18.182745,18.182745 0 1 1 -36.36549,0 18.182745,18.182745 0 1 1 36.36549,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.90395117,0.42763569,-0.42763569,0.90395117,-199.49826,-42.69063)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:6.60000014;marker-start:url(#Arrow1Lend-5);marker-end:none"
+       id="path6560-4-8-1"
+       sodipodi:cx="466.69049"
+       sodipodi:cy="305.85944"
+       sodipodi:rx="18.182745"
+       sodipodi:ry="18.182745"
+       d="m 484.87324,305.85944 a 18.182745,18.182745 0 1 1 -36.36549,0 18.182745,18.182745 0 1 1 36.36549,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-mid:none;marker-end:url(#Arrow1Lend)"
+       d="m 120.366,434.99898 c 23.35132,-33.54705 38.79091,-45.17862 106.21843,-47.95511"
+       id="path4915-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:transform-center-y="-23.531491"
+       inkscape:transform-center-x="-8.6086369"
+       style="fill:none;stroke:#000000;stroke-width:1.00923347px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="m 252.09498,401.62501 c 20.69414,23.10348 14.67348,51.51137 -1.29066,75.59421"
+       id="path3087-2-6"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.010396px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="m 137.3915,588.37424 c 49.82889,-19.8575 94.50856,-11.36278 118.03217,4.9336"
+       id="path3087-1-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.010396px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="m 258.75748,617.52013 c -57.26163,32.95443 -105.89534,21.09483 -124.56561,-0.59281"
+       id="path3087-1-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(-0.67177282,0.74075723,-0.74075723,-0.67177282,833.08769,442.64075)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:6.60000014;marker-start:url(#Arrow1Lend-5);marker-end:none"
+       id="path6560-4-8-2-4"
+       sodipodi:cx="466.69049"
+       sodipodi:cy="305.85944"
+       sodipodi:rx="18.182745"
+       sodipodi:ry="18.182745"
+       d="m 484.87324,305.85944 a 18.182745,18.182745 0 1 1 -36.36549,0 18.182745,18.182745 0 1 1 36.36549,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.64415143,0.76489798,-0.76489798,0.64415143,40.82221,22.004041)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:6.60000014;marker-start:url(#Arrow1Lend-5);marker-end:none"
+       id="path6560-4-8-2-7"
+       sodipodi:cx="466.69049"
+       sodipodi:cy="305.85944"
+       sodipodi:rx="18.182745"
+       sodipodi:ry="18.182745"
+       d="m 484.87324,305.85944 a 18.182745,18.182745 0 1 1 -36.36549,0 18.182745,18.182745 0 1 1 36.36549,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       ns0:preamble=""
+       ns0:text="$s_1$"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(2.2401276,0,0,-2.5277809,-244.37124,2398.3259)"
+       id="g3369-4"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><path
+         id="path3371-2"
+         d="m 227.33,710.96 -0.03,0 -0.02,-0.01 -0.03,0 -0.02,-0.01 -0.02,0 -0.03,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.02 -0.01,-0.02 -0.01,-0.01 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 0,-0.02 c 0,-0.14 0.09,-0.29 0.31,-0.29 0.22,0 0.46,0.17 0.46,0.56 0,0.45 -0.43,0.85 -1.19,0.85 -1.31,0 -1.68,-1.01 -1.68,-1.45 0,-0.77 0.74,-0.92 1.02,-0.98 0.52,-0.1 1.04,-0.21 1.04,-0.76 0,-0.26 -0.23,-1.1 -1.42,-1.1 -0.14,0 -0.91,0 -1.14,0.53 0.38,-0.05 0.63,0.25 0.63,0.53 0,0.23 -0.16,0.35 -0.37,0.35 -0.26,0 -0.56,-0.21 -0.56,-0.66 0,-0.57 0.57,-0.96 1.43,-0.96 1.61,0 2,1.2 2,1.65 0,0.36 -0.19,0.61 -0.31,0.72 -0.27,0.28 -0.56,0.33 -1,0.42 -0.36,0.08 -0.75,0.15 -0.75,0.6 0,0.29 0.23,0.89 1.11,0.89 0.25,0 0.75,-0.07 0.9,-0.45 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path3373-7"
+         d="m 230.43,710.16 0,0.01 0,0.01 0,0.01 0,0.01 0,0 0,0.01 0,0.01 0,0.01 0,0 0,0.01 0,0 0,0.01 0,0.01 0,0 0,0.01 0,0 0,0.01 0,0 0,0.01 -0.01,0.01 0,0.01 0,0 -0.01,0.01 0,0.01 -0.01,0 0,0.01 -0.01,0 0,0 -0.01,0.01 -0.01,0 -0.01,0 -0.01,0 0,0 -0.01,0 0,0 -0.01,0.01 -0.01,0 0,0 -0.01,0 -0.01,0 0,0 -0.01,0 -0.01,0 0,0 -0.01,0 -0.01,0 -0.01,0 -0.01,0 0,0 -0.01,0 c -0.45,-0.44 -1.08,-0.45 -1.37,-0.45 v -0.25 c 0.17,0 0.63,0 1.01,0.2 v -3.55 c 0,-0.23 0,-0.32 -0.69,-0.32 h -0.27 v -0.25 c 0.13,0.01 0.98,0.03 1.24,0.03 0.22,0 1.09,-0.02 1.25,-0.03 v 0.25 h -0.27 c -0.7,0 -0.7,0.09 -0.7,0.32 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /></g>    <g
+       ns0:preamble=""
+       ns0:text="$s_0$"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(2.5704909,0,0,-2.5704909,-459.39363,2426.3936)"
+       id="g4165-7"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><path
+         id="path4167-9"
+         d="m 227.33,710.96 -0.03,0 -0.02,-0.01 -0.03,0 -0.02,-0.01 -0.02,0 -0.03,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.02 -0.01,-0.02 -0.01,-0.01 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 0,-0.02 c 0,-0.14 0.09,-0.29 0.31,-0.29 0.22,0 0.46,0.17 0.46,0.56 0,0.45 -0.43,0.85 -1.19,0.85 -1.31,0 -1.68,-1.01 -1.68,-1.45 0,-0.77 0.74,-0.92 1.02,-0.98 0.52,-0.1 1.04,-0.21 1.04,-0.76 0,-0.26 -0.23,-1.1 -1.42,-1.1 -0.14,0 -0.91,0 -1.14,0.53 0.38,-0.05 0.63,0.25 0.63,0.53 0,0.23 -0.16,0.35 -0.37,0.35 -0.26,0 -0.56,-0.21 -0.56,-0.66 0,-0.57 0.57,-0.96 1.43,-0.96 1.61,0 2,1.2 2,1.65 0,0.36 -0.19,0.61 -0.31,0.72 -0.27,0.28 -0.56,0.33 -1,0.42 -0.36,0.08 -0.75,0.15 -0.75,0.6 0,0.29 0.23,0.89 1.11,0.89 0.25,0 0.75,-0.07 0.9,-0.45 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path4169-3"
+         d="m 231.7,707.96 -0.01,0.14 0,0.14 0,0.13 -0.01,0.12 -0.01,0.13 -0.02,0.12 -0.02,0.11 -0.02,0.11 -0.02,0.11 -0.03,0.11 -0.04,0.1 -0.04,0.1 -0.04,0.1 -0.05,0.09 -0.05,0.1 -0.03,0.04 -0.02,0.05 c -0.22,0.32 -0.65,0.6 -1.21,0.6 v -0.2 c 0.38,0 0.74,-0.23 0.86,-0.63 0.11,-0.37 0.12,-0.88 0.12,-1.48 0,-0.52 0,-1.03 -0.09,-1.47 -0.14,-0.63 -0.61,-0.78 -0.89,-0.78 h 0 c -0.32,0 -0.74,0.18 -0.88,0.75 -0.1,0.42 -0.1,0.98 -0.1,1.5 0,0.51 0,1.04 0.1,1.42 0.15,0.55 0.59,0.69 0.88,0.69 v 0.2 c -1.62,0 -1.62,-1.9 -1.62,-2.4 0,-0.5 0,-2.36 1.62,-2.36 1.62,0 1.62,1.86 1.62,2.36 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /></g>    <path
+       transform="translate(-152.67517,71.618385)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985-1-1-3-8"
+       sodipodi:cx="197.9899"
+       sodipodi:cy="241.20969"
+       sodipodi:rx="15.152288"
+       sodipodi:ry="15.152288"
+       d="m 213.14219,241.20969 a 15.152288,15.152288 0 1 1 -30.30458,0 15.152288,15.152288 0 1 1 30.30458,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="translate(-10.969541,74.608235)"
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985-1-1-34-8"
+       sodipodi:cx="197.9899"
+       sodipodi:cy="241.20969"
+       sodipodi:rx="15.152288"
+       sodipodi:ry="15.152288"
+       d="m 213.14219,241.20969 a 15.152288,15.152288 0 1 1 -30.30458,0 15.152288,15.152288 0 1 1 30.30458,0 z"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.010396px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend)"
+       d="m 55.427009,298.35802 c 49.828891,-19.8575 94.508561,-11.36278 118.032171,4.9336"
+       id="path3087-1-7-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="97.98481"
+       y="278.56503"
+       id="text9401"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan9403"
+         x="97.98481"
+         y="278.56503">x,y</tspan></text>
+    <g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="g9658"
+       transform="matrix(2.9488593,0,0,-2.9488593,-624.96812,2402.3946)"
+       xml:space="preserve"
+       stroke-miterlimit="10.433"
+       font-style="normal"
+       font-variant="normal"
+       font-weight="normal"
+       font-stretch="normal"
+       font-size-adjust="none"
+       letter-spacing="normal"
+       word-spacing="normal"
+       ns0:text="$s_i$"
+       ns0:preamble=""
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><path
+         style="fill:#000000;stroke-width:0"
+         inkscape:connector-curvature="0"
+         d="m 227.33,710.96 -0.03,0 -0.02,-0.01 -0.03,0 -0.02,-0.01 -0.02,0 -0.03,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.02 -0.01,-0.02 -0.01,-0.01 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 0,-0.02 c 0,-0.14 0.09,-0.29 0.31,-0.29 0.22,0 0.46,0.17 0.46,0.56 0,0.45 -0.43,0.85 -1.19,0.85 -1.31,0 -1.68,-1.01 -1.68,-1.45 0,-0.77 0.74,-0.92 1.02,-0.98 0.52,-0.1 1.04,-0.21 1.04,-0.76 0,-0.26 -0.23,-1.1 -1.42,-1.1 -0.14,0 -0.91,0 -1.14,0.53 0.38,-0.05 0.63,0.25 0.63,0.53 0,0.23 -0.16,0.35 -0.37,0.35 -0.26,0 -0.56,-0.21 -0.56,-0.66 0,-0.57 0.57,-0.96 1.43,-0.96 1.61,0 2,1.2 2,1.65 0,0.36 -0.19,0.61 -0.31,0.72 -0.27,0.28 -0.56,0.33 -1,0.42 -0.36,0.08 -0.75,0.15 -0.75,0.6 0,0.29 0.23,0.89 1.11,0.89 0.25,0 0.75,-0.07 0.9,-0.45 z"
+         id="path9660" /><path
+         style="fill:#000000;stroke-width:0"
+         inkscape:connector-curvature="0"
+         d="m 230.36,710.09 0,0.01 0,0.01 0,0.01 -0.01,0.01 0,0.01 0,0.01 0,0.01 -0.01,0.02 0,0.01 -0.01,0.01 0,0.01 -0.01,0.01 -0.01,0.01 0,0.01 -0.01,0.01 -0.01,0.01 -0.01,0.01 -0.01,0.01 -0.01,0.01 -0.01,0.01 -0.01,0 -0.01,0.01 -0.01,0.01 -0.01,0.01 -0.02,0 -0.01,0.01 -0.02,0 -0.01,0 -0.02,0.01 -0.01,0 -0.02,0 -0.02,0 c -0.19,0 -0.39,-0.18 -0.39,-0.38 0,-0.12 0.09,-0.27 0.28,-0.27 0.2,0 0.39,0.2 0.39,0.39 z"
+         id="path9662" /><path
+         style="fill:#000000;stroke-width:0"
+         inkscape:connector-curvature="0"
+         d="m 228.94,706.55 -0.01,-0.01 0,-0.02 -0.01,-0.03 -0.01,-0.02 0,-0.02 -0.01,-0.01 0,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.01 0,-0.01 0,-0.01 0,-0.01 0,-0.01 0,-0.02 0,-0.01 0,-0.01 0,-0.01 c 0,-0.32 0.27,-0.59 0.66,-0.59 0.69,0 1,0.96 1,1.06 0,0.1 -0.09,0.1 -0.11,0.1 -0.1,0 -0.11,-0.05 -0.13,-0.12 -0.16,-0.56 -0.47,-0.84 -0.74,-0.84 -0.14,0 -0.18,0.09 -0.18,0.24 0,0.16 0.05,0.29 0.11,0.44 0.08,0.19 0.15,0.38 0.23,0.56 0.06,0.17 0.31,0.8 0.34,0.88 0.02,0.07 0.04,0.16 0.04,0.23 0,0.32 -0.28,0.59 -0.66,0.59 -0.69,0 -1.01,-0.95 -1.01,-1.07 0,-0.09 0.1,-0.09 0.12,-0.09 0.1,0 0.1,0.04 0.12,0.11 0.18,0.6 0.49,0.85 0.75,0.85 0.11,0 0.17,-0.05 0.17,-0.24 0,-0.16 -0.04,-0.27 -0.21,-0.7 z"
+         id="path9664" /></g>    <g
+       ns0:preamble=""
+       ns0:text="$s_j$"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(2.8546768,0,0,-2.8546768,-463.46477,2337.3717)"
+       id="g10178"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><path
+         id="path10180"
+         d="m 227.33,710.96 -0.03,0 -0.02,-0.01 -0.03,0 -0.02,-0.01 -0.02,0 -0.03,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.02 -0.01,-0.02 -0.01,-0.01 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 0,-0.02 c 0,-0.14 0.09,-0.29 0.31,-0.29 0.22,0 0.46,0.17 0.46,0.56 0,0.45 -0.43,0.85 -1.19,0.85 -1.31,0 -1.68,-1.01 -1.68,-1.45 0,-0.77 0.74,-0.92 1.02,-0.98 0.52,-0.1 1.04,-0.21 1.04,-0.76 0,-0.26 -0.23,-1.1 -1.42,-1.1 -0.14,0 -0.91,0 -1.14,0.53 0.38,-0.05 0.63,0.25 0.63,0.53 0,0.23 -0.16,0.35 -0.37,0.35 -0.26,0 -0.56,-0.21 -0.56,-0.66 0,-0.57 0.57,-0.96 1.43,-0.96 1.61,0 2,1.2 2,1.65 0,0.36 -0.19,0.61 -0.31,0.72 -0.27,0.28 -0.56,0.33 -1,0.42 -0.36,0.08 -0.75,0.15 -0.75,0.6 0,0.29 0.23,0.89 1.11,0.89 0.25,0 0.75,-0.07 0.9,-0.45 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path10182"
+         d="m 231.16,710.09 0,0.01 0,0.01 0,0.01 -0.01,0.01 0,0.01 0,0.02 0,0.01 -0.01,0.01 0,0.01 -0.01,0.01 0,0.01 -0.01,0.01 -0.01,0.01 0,0.01 -0.01,0.01 -0.01,0.01 -0.01,0.01 -0.01,0.01 -0.01,0.01 -0.01,0.01 -0.01,0.01 -0.01,0 -0.01,0.01 -0.02,0.01 -0.01,0 -0.01,0.01 -0.02,0 -0.01,0 -0.02,0.01 -0.01,0 -0.02,0 -0.02,0 c -0.2,0 -0.39,-0.19 -0.39,-0.38 0,-0.11 0.08,-0.27 0.28,-0.27 0.19,0 0.39,0.19 0.39,0.39 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path10184"
+         d="m 229.68,705.4 -0.01,-0.04 -0.01,-0.05 -0.02,-0.04 -0.01,-0.05 -0.02,-0.04 -0.02,-0.04 -0.02,-0.04 -0.02,-0.04 -0.02,-0.04 -0.02,-0.04 -0.03,-0.03 -0.02,-0.04 -0.03,-0.04 -0.03,-0.03 -0.03,-0.03 -0.03,-0.03 -0.03,-0.03 -0.03,-0.03 -0.03,-0.03 -0.03,-0.02 -0.03,-0.02 -0.04,-0.02 -0.03,-0.02 -0.04,-0.02 -0.03,-0.02 -0.04,-0.01 -0.04,-0.01 -0.03,-0.01 -0.04,-0.01 -0.04,-0.01 -0.04,0 -0.03,0 c -0.1,0 -0.18,0.01 -0.26,0.04 0.18,0.08 0.24,0.25 0.24,0.35 0,0.17 -0.13,0.26 -0.27,0.26 -0.22,0 -0.4,-0.19 -0.4,-0.41 0,-0.26 0.27,-0.44 0.69,-0.44 0.42,0 1.23,0.25 1.45,1.1 l 0.63,2.49 c 0.02,0.08 0.03,0.14 0.03,0.24 0,0.39 -0.33,0.66 -0.74,0.66 -0.78,0 -1.22,-0.97 -1.22,-1.07 0,-0.09 0.1,-0.09 0.12,-0.09 0.08,0 0.09,0.02 0.14,0.13 0.17,0.4 0.53,0.83 0.94,0.83 0.17,0 0.23,-0.12 0.23,-0.34 0,-0.07 -0.01,-0.17 -0.02,-0.21 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /></g>    <circle
+       r="15.152288"
+       cy="619.00671"
+       cx="454.56863"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985-1-1-34-3"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <circle
+       r="15.152288"
+       cy="623.04736"
+       cx="579.82758"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985-1-1-34-6"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <circle
+       r="15.152288"
+       cy="734.16412"
+       cx="454.56863"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985-1-1-34-7"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <circle
+       r="15.152288"
+       cy="732.1438"
+       cx="571.74634"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985-1-1-34-5"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       ns0:preamble=""
+       ns0:text="$s_0$"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(2.5704909,0,0,-2.5704909,-133.11436,2441.5459)"
+       id="g4165-3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><path
+         id="path4167-5"
+         d="m 227.33,710.96 -0.03,0 -0.02,-0.01 -0.03,0 -0.02,-0.01 -0.02,0 -0.03,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.02 -0.01,-0.02 -0.01,-0.01 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 0,-0.02 c 0,-0.14 0.09,-0.29 0.31,-0.29 0.22,0 0.46,0.17 0.46,0.56 0,0.45 -0.43,0.85 -1.19,0.85 -1.31,0 -1.68,-1.01 -1.68,-1.45 0,-0.77 0.74,-0.92 1.02,-0.98 0.52,-0.1 1.04,-0.21 1.04,-0.76 0,-0.26 -0.23,-1.1 -1.42,-1.1 -0.14,0 -0.91,0 -1.14,0.53 0.38,-0.05 0.63,0.25 0.63,0.53 0,0.23 -0.16,0.35 -0.37,0.35 -0.26,0 -0.56,-0.21 -0.56,-0.66 0,-0.57 0.57,-0.96 1.43,-0.96 1.61,0 2,1.2 2,1.65 0,0.36 -0.19,0.61 -0.31,0.72 -0.27,0.28 -0.56,0.33 -1,0.42 -0.36,0.08 -0.75,0.15 -0.75,0.6 0,0.29 0.23,0.89 1.11,0.89 0.25,0 0.75,-0.07 0.9,-0.45 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path4169-6"
+         d="m 231.7,707.96 -0.01,0.14 0,0.14 0,0.13 -0.01,0.12 -0.01,0.13 -0.02,0.12 -0.02,0.11 -0.02,0.11 -0.02,0.11 -0.03,0.11 -0.04,0.1 -0.04,0.1 -0.04,0.1 -0.05,0.09 -0.05,0.1 -0.03,0.04 -0.02,0.05 c -0.22,0.32 -0.65,0.6 -1.21,0.6 l 0,-0.2 c 0.38,0 0.74,-0.23 0.86,-0.63 0.11,-0.37 0.12,-0.88 0.12,-1.48 0,-0.52 0,-1.03 -0.09,-1.47 -0.14,-0.63 -0.61,-0.78 -0.89,-0.78 l 0,0 c -0.32,0 -0.74,0.18 -0.88,0.75 -0.1,0.42 -0.1,0.98 -0.1,1.5 0,0.51 0,1.04 0.1,1.42 0.15,0.55 0.59,0.69 0.88,0.69 l 0,0.2 c -1.62,0 -1.62,-1.9 -1.62,-2.4 0,-0.5 0,-2.36 1.62,-2.36 1.62,0 1.62,1.86 1.62,2.36 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /></g>    <g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="g3767-2"
+       transform="matrix(2.4929993,0,0,-2.4929993,-114.32966,2500.9559)"
+       xml:space="preserve"
+       stroke-miterlimit="10.433"
+       font-style="normal"
+       font-variant="normal"
+       font-weight="normal"
+       font-stretch="normal"
+       font-size-adjust="none"
+       letter-spacing="normal"
+       word-spacing="normal"
+       ns0:text="$s_2$"
+       ns0:preamble=""
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><path
+         style="fill:#000000;stroke-width:0"
+         inkscape:connector-curvature="0"
+         d="m 227.33,710.96 -0.03,0 -0.02,-0.01 -0.03,0 -0.02,-0.01 -0.02,0 -0.03,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.02 -0.01,-0.02 -0.01,-0.01 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 0,-0.02 c 0,-0.14 0.09,-0.29 0.31,-0.29 0.22,0 0.46,0.17 0.46,0.56 0,0.45 -0.43,0.85 -1.19,0.85 -1.31,0 -1.68,-1.01 -1.68,-1.45 0,-0.77 0.74,-0.92 1.02,-0.98 0.52,-0.1 1.04,-0.21 1.04,-0.76 0,-0.26 -0.23,-1.1 -1.42,-1.1 -0.14,0 -0.91,0 -1.14,0.53 0.38,-0.05 0.63,0.25 0.63,0.53 0,0.23 -0.16,0.35 -0.37,0.35 -0.26,0 -0.56,-0.21 -0.56,-0.66 0,-0.57 0.57,-0.96 1.43,-0.96 1.61,0 2,1.2 2,1.65 0,0.36 -0.19,0.61 -0.31,0.72 -0.27,0.28 -0.56,0.33 -1,0.42 -0.36,0.08 -0.75,0.15 -0.75,0.6 0,0.29 0.23,0.89 1.11,0.89 0.25,0 0.75,-0.07 0.9,-0.45 z"
+         id="path3769-7" /><path
+         style="fill:#000000;stroke-width:0"
+         inkscape:connector-curvature="0"
+         d="m 231.62,707.01 -0.24,0 c -0.02,-0.16 -0.09,-0.57 -0.18,-0.64 -0.05,-0.04 -0.59,-0.04 -0.69,-0.04 l -1.28,0 c 0.73,0.65 0.98,0.84 1.39,1.17 0.52,0.41 1,0.84 1,1.5 0,0.84 -0.74,1.36 -1.63,1.36 -0.86,0 -1.45,-0.61 -1.45,-1.25 0,-0.35 0.3,-0.39 0.37,-0.39 0.17,0 0.37,0.12 0.37,0.37 0,0.13 -0.05,0.37 -0.41,0.37 0.21,0.5 0.69,0.65 1.01,0.65 0.7,0 1.06,-0.54 1.06,-1.11 0,-0.6 -0.43,-1.08 -0.65,-1.33 l -1.68,-1.66 c -0.07,-0.06 -0.07,-0.07 -0.07,-0.27 l 2.87,0 z"
+         id="path3771-0" /></g>    <circle
+       r="18.182745"
+       cy="362.40442"
+       cx="641.52197"
+       transform="matrix(0.90395117,0.42763569,-0.42763569,0.90395117,0,0)"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:6.5999999;stroke-opacity:1;marker-start:url(#Arrow1Lend-5-6);marker-end:none"
+       id="path6560-4-8-1-6"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.010396px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend-3-1)"
+       d="m 468.33863,627.48741 c 51.75822,14.08279 90.93015,61.30006 99.93373,88.46378"
+       id="path3087-1-7-0-0-7"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.010396px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend-3-9)"
+       d="m 445.22761,632.52783 c -20.26116,24.2652 -17.32953,64.3753 -1.71189,89.4349"
+       id="path3087-1-7-0-0-0"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <circle
+       r="18.182745"
+       cy="-859.48694"
+       cx="-56.975502"
+       transform="matrix(-0.75187341,0.6593075,-0.6593075,-0.75187341,0,0)"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:6.5999999;stroke-opacity:1;marker-start:url(#Arrow1Lend-5-6-2);marker-end:none"
+       id="path6560-4-8-1-6-7"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:transform-center-x="-1.4285714"
+       inkscape:transform-center-y="-0.64343937" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.010396px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend-3-5)"
+       d="m 588.74172,635.11472 c 11.63931,41.60458 3.76277,59.06101 -5.47374,86.14643"
+       id="path3087-1-7-0-0-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.010396px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend-3-2)"
+       d="m 469.36296,727.53887 c 21.04962,-49.33713 65.71791,-91.46153 93.85992,-96.65379"
+       id="path3087-1-7-0-0-73"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.010396px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend-3-6)"
+       d="m 470.3216,731.82727 c 23.97719,-16.37273 58.41176,-12.19961 84.46076,2.07646"
+       id="path3087-1-7-0-0-29"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.010396px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend-3-3)"
+       d="m 562.6127,744.575 c -25.79381,19.38316 -78.5429,21.43439 -101.18753,3.93717"
+       id="path3087-1-7-0-0-4"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <circle
+       r="18.182745"
+       cy="-649.84143"
+       cx="-703.03326"
+       transform="matrix(-0.98988047,-0.14190368,0.14190368,-0.98988047,0,0)"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:6.5999999;stroke-opacity:1;marker-start:url(#Arrow1Lend-5-6-2-7);marker-end:none"
+       id="path6560-4-8-1-6-7-4"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_2.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:transform-center-x="-1.4182136"
+       inkscape:transform-center-y="0.6660949" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.010396px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:none;marker-end:url(#Arrow1Lend-3-1-5)"
+       d="m 559.74013,721.20055 c -50.5337,-17.98842 -90.53689,-62.62186 -97.44299,-90.39303"
+       id="path3087-1-7-0-0-7-3"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_1.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="410.12192"
+       y="569.50928"
+       id="text5788"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5790"
+         x="410.12192"
+         y="569.50928" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="410.74884"
+       y="579.46863"
+       id="text5792"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5794"
+         x="410.74884"
+         y="579.46863">a,0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="487.41891"
+       y="633.59302"
+       id="text5796"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5798"
+         x="487.41891"
+         y="633.59302">b,1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="408.04071"
+       y="677.09052"
+       id="text5800"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5802"
+         x="408.04071"
+         y="677.09052">c,1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="623.80981"
+       y="575.00421"
+       id="text5804"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5806"
+         x="623.80981"
+         y="575.00421">a,0</tspan><tspan
+         sodipodi:role="line"
+         x="623.80981"
+         y="593.75421"
+         id="tspan5808">b,0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="597.02045"
+       y="679.65649"
+       id="text5810"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5812"
+         x="597.02045"
+         y="679.65649">c,1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="454.14478"
+       y="690.78851"
+       id="text5814"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5816"
+         x="454.14478"
+         y="690.78851">a,1</tspan><tspan
+         sodipodi:role="line"
+         x="454.14478"
+         y="709.53851"
+         id="tspan5818">b,1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="497.50012"
+       y="736.18445"
+       id="text5820"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5822"
+         x="497.50012"
+         y="736.18445">c,0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="500.02551"
+       y="771.53979"
+       id="text5824"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5826"
+         x="500.02551"
+         y="771.53979">a,1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="622.81995"
+       y="757.80121"
+       id="text5828"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5830"
+         x="622.81995"
+         y="757.80121">b,0</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="511.6626"
+       y="694.7276"
+       id="text5832"
+       sodipodi:linespacing="125%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan5834"
+         x="511.6626"
+         y="694.7276">c,1</tspan></text>
+    <g
+       transform="matrix(2.4043508,0,0,2.4043508,24.033718,411.98064)"
+       id="g4179"
+       ns0:preamble=""
+       ns0:text="$s_3$"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <defs
+         id="defs4181">
+        <g
+           id="g4183">
+          <symbol
+             style="overflow:visible"
+             id="textext-5071b67e-0"
+             overflow="visible">
+            <path
+               inkscape:connector-curvature="0"
+               id="path4186"
+               d=""
+               style="stroke:none" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             id="textext-5071b67e-1"
+             overflow="visible">
+            <path
+               inkscape:connector-curvature="0"
+               id="path4189"
+               d="M 3.890625,-3.734375 C 3.625,-3.71875 3.421875,-3.5 3.421875,-3.28125 c 0,0.140625 0.09375,0.296875 0.3125,0.296875 0.21875,0 0.453125,-0.171875 0.453125,-0.5625 C 4.1875,-4 3.765625,-4.40625 3,-4.40625 c -1.3125,0 -1.6875,1.015625 -1.6875,1.453125 0,0.78125 0.734375,0.921875 1.03125,0.984375 0.515625,0.109375 1.03125,0.21875 1.03125,0.765625 0,0.25 -0.21875,1.09375 -1.421875,1.09375 -0.140625,0 -0.90625,0 -1.140625,-0.53125 0.390625,0.046875 0.640625,-0.25 0.640625,-0.53125 0,-0.21875 -0.171875,-0.34375 -0.375,-0.34375 -0.265625,0 -0.5625,0.203125 -0.5625,0.65625 0,0.5625 0.578125,0.96875 1.421875,0.96875 1.625,0 2.015625,-1.203125 2.015625,-1.65625 0,-0.359375 -0.1875,-0.609375 -0.3125,-0.71875 -0.265625,-0.28125 -0.5625,-0.34375 -1,-0.421875 -0.359375,-0.078125 -0.75,-0.15625 -0.75,-0.609375 C 1.890625,-3.578125 2.125,-4.1875 3,-4.1875 c 0.25,0 0.75,0.078125 0.890625,0.453125 z m 0,0"
+               style="stroke:none" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             id="textext-5071b67e-2"
+             overflow="visible">
+            <path
+               inkscape:connector-curvature="0"
+               id="path4192"
+               d=""
+               style="stroke:none" />
+          </symbol>
+          <symbol
+             style="overflow:visible"
+             id="textext-5071b67e-3"
+             overflow="visible">
+            <path
+               inkscape:connector-curvature="0"
+               id="path4195"
+               d="m 1.90625,-2.328125 c 0.546875,0 0.9375,0.375 0.9375,1.125 0,0.859375 -0.515625,1.125 -0.90625,1.125 -0.28125,0 -0.90625,-0.078125 -1.1875,-0.5 0.328125,0 0.40625,-0.234375 0.40625,-0.390625 0,-0.21875 -0.171875,-0.375 -0.390625,-0.375 -0.1875,0 -0.390625,0.125 -0.390625,0.40625 0,0.65625 0.71875,1.078125 1.5625,1.078125 0.96875,0 1.640625,-0.65625 1.640625,-1.34375 0,-0.546875 -0.4375,-1.09375 -1.203125,-1.25 0.71875,-0.265625 0.984375,-0.78125 0.984375,-1.21875 0,-0.546875 -0.625,-0.953125 -1.40625,-0.953125 -0.765625,0 -1.359375,0.375 -1.359375,0.9375 0,0.234375 0.15625,0.359375 0.359375,0.359375 0.21875,0 0.359375,-0.15625 0.359375,-0.34375 0,-0.203125 -0.140625,-0.359375 -0.359375,-0.375 0.25,-0.296875 0.71875,-0.375 0.984375,-0.375 0.3125,0 0.75,0.15625 0.75,0.75 0,0.296875 -0.09375,0.625 -0.28125,0.828125 -0.21875,0.265625 -0.421875,0.28125 -0.765625,0.3125 -0.171875,0.015625 -0.1875,0.015625 -0.21875,0.015625 -0.015625,0 -0.078125,0.015625 -0.078125,0.09375 0,0.09375 0.0625,0.09375 0.1875,0.09375 z m 0,0"
+               style="stroke:none" />
+          </symbol>
+        </g>
+      </defs>
+      <g
+         id="textext-5071b67e-4">
+        <g
+           id="g4198"
+           style="fill:#000000;fill-opacity:1">
+          <use
+             height="100%"
+             width="100%"
+             id="use4200"
+             y="134.765"
+             x="223.43201"
+             xlink:href="#textext-5071b67e-1" />
+        </g>
+        <g
+           id="g4202"
+           style="fill:#000000;fill-opacity:1">
+          <use
+             height="100%"
+             width="100%"
+             id="use4204"
+             y="136.259"
+             x="228.10201"
+             xlink:href="#textext-5071b67e-3" />
+        </g>
+      </g>
+    </g>
+    <g
+       ns0:preamble=""
+       ns0:text="$s_1$"
+       word-spacing="normal"
+       letter-spacing="normal"
+       font-size-adjust="none"
+       font-stretch="normal"
+       font-weight="normal"
+       font-variant="normal"
+       font-style="normal"
+       stroke-miterlimit="10.433"
+       xml:space="preserve"
+       transform="matrix(2.2401276,0,0,-2.5277809,69.704984,2414.5087)"
+       id="g3369-4-3"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-filename="C:\Users\CJ\Documents\Cursos\2017-2\CC342 Teoria de la Computacion\Apuntes\Imagenes\img_7_4.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><path
+         id="path3371-2-6"
+         d="m 227.33,710.96 -0.03,0 -0.02,-0.01 -0.03,0 -0.02,-0.01 -0.02,0 -0.03,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.01 -0.02,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.01 -0.01,-0.02 -0.02,-0.02 -0.01,-0.02 -0.01,-0.01 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 -0.01,-0.02 0,-0.02 0,-0.02 c 0,-0.14 0.09,-0.29 0.31,-0.29 0.22,0 0.46,0.17 0.46,0.56 0,0.45 -0.43,0.85 -1.19,0.85 -1.31,0 -1.68,-1.01 -1.68,-1.45 0,-0.77 0.74,-0.92 1.02,-0.98 0.52,-0.1 1.04,-0.21 1.04,-0.76 0,-0.26 -0.23,-1.1 -1.42,-1.1 -0.14,0 -0.91,0 -1.14,0.53 0.38,-0.05 0.63,0.25 0.63,0.53 0,0.23 -0.16,0.35 -0.37,0.35 -0.26,0 -0.56,-0.21 -0.56,-0.66 0,-0.57 0.57,-0.96 1.43,-0.96 1.61,0 2,1.2 2,1.65 0,0.36 -0.19,0.61 -0.31,0.72 -0.27,0.28 -0.56,0.33 -1,0.42 -0.36,0.08 -0.75,0.15 -0.75,0.6 0,0.29 0.23,0.89 1.11,0.89 0.25,0 0.75,-0.07 0.9,-0.45 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /><path
+         id="path3373-7-7"
+         d="m 230.43,710.16 0,0.01 0,0.01 0,0.01 0,0.01 0,0 0,0.01 0,0.01 0,0.01 0,0 0,0.01 0,0 0,0.01 0,0.01 0,0 0,0.01 0,0 0,0.01 0,0 0,0.01 -0.01,0.01 0,0.01 0,0 -0.01,0.01 0,0.01 -0.01,0 0,0.01 -0.01,0 0,0 -0.01,0.01 -0.01,0 -0.01,0 -0.01,0 0,0 -0.01,0 0,0 -0.01,0.01 -0.01,0 0,0 -0.01,0 -0.01,0 0,0 -0.01,0 -0.01,0 0,0 -0.01,0 -0.01,0 -0.01,0 -0.01,0 0,0 -0.01,0 c -0.45,-0.44 -1.08,-0.45 -1.37,-0.45 l 0,-0.25 c 0.17,0 0.63,0 1.01,0.2 l 0,-3.55 c 0,-0.23 0,-0.32 -0.69,-0.32 l -0.27,0 0,-0.25 c 0.13,0.01 0.98,0.03 1.24,0.03 0.22,0 1.09,-0.02 1.25,-0.03 l 0,0.25 -0.27,0 c -0.7,0 -0.7,0.09 -0.7,0.32 z"
+         inkscape:connector-curvature="0"
+         style="fill:#000000;stroke-width:0" /></g>  </g>
+</svg>

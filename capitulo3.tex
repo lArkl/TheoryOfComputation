@@ -1,0 +1,258 @@
+\chapter{Operaciones Binarias}
+
+Sea A un conjunto, una operación binaria en A es una función $f:A\times A \rightarrow A$.
+\begin{itemize}
+\item $Dom(f)=A\times A$
+\item Solo un elemento de A se asigna a cada par (a,b)
+\end{itemize}
+
+\textbf{Convención: }Usaremos * en vez de f. $a*b \mbox{ en vez de f(a,b)}$.\\
+\textbf{Ejemplo: }
+\begin{enumerate}
+\item Si $A=\mathds{Z}$ Definiendo a*b = a+b.\\
+		* es na operación binaria.
+\item Sea $A=\mathds{R}$ y definimos $a*b=a/b$\\
+		* no es una operación binaria pues para (a,0) no está definida a*0.
+\item Sea $A=\mathds{Z}^+$ y definimos $a*b=a-b$\\
+		* no es una operación binaria (ejem: 3*7 = -4, -4 no pertenece a A)
+\item Sea $A=\mathds{Z}$ y sea $a*b=max(a,b)$\\
+		* es una operación binaria.
+\item Dado un conjunto S y su respectivo P(S). Si V y W son subconjuntos de S, definimos $V*W=V\cup W$\\
+		\textbf{Ejemplo: }$S=\lbrace 1,3,5\rbrace$\\
+		$P(S)=\lbrace \phi,\lbrace 1\rbrace,\lbrace 3\rbrace,\lbrace 5\rbrace,\lbrace 1,3\rbrace,\lbrace 1,5\rbrace,\lbrace 3,5\rbrace, S\rbrace$\\
+		$\lbrace 3\rbrace * \lbrace 1,5\rbrace =\lbrace 1,3,5\rbrace$\\
+		* es una operación binaria.
+\end{enumerate}
+
+Para un conjunto finito $A=\lbrace a_1,a_2,...,a_n\rbrace$ podemos definir una operación binaria mediante la tabla.
+
+\begin{center}
+\begin{tabular}{c|ccc}
+* & $a_1 \quad a_2$&$...\; a_j\; ...$&$a_n$\\ \hline
+$a_1$ & &   $\vdots$&\\
+$a_2$ &    &$\vdots$&\\
+$\vdots$ &   &$\vdots$&\\
+$a_i$ & $\cdots \cdots$& $a_i*a_j$&\\
+$a_n$ & & &
+\end{tabular}
+\end{center}
+
+\textbf{Ejemplo: }Sea $A=\lbrace 0,1\rbrace$ podemos representar las operaciones binarias $\lor,\land$ mediante.
+%foto2
+\begin{center}
+\begin{tabular}{cp{2cm}c}
+\begin{tabular}{c|cc}
+$\lor$ & 0 & 1\\ \hline
+0	&	0	&	1\\
+1	&	1	&	1\\
+\end{tabular}
+& &
+\begin{tabular}{c|cc}
+$\land$ & 0 & 1\\ \hline
+0	&	0	&	0\\
+1	&	0	&	1\\
+\end{tabular}
+\end{tabular}
+\end{center}
+
+\section{Propiedades de las Operaciones Binarias}
+
+\textbf{P1: }Una operación binaria * es conmutativa si $a*b=b*a \quad \forall a,b \in A$\\
+\textbf{Ejemplo: }De los ejemplos anteriores.
+\begin{enumerate}
+\item $A=\mathds{Z}\quad *=+$\\
+		* es conmutativa: a+b = b+a.
+\item $A=\mathds{Z}^+ \quad \quad *=-$\\
+		* no es conmutativa: $\begin{array}{rll}3*5&\not=&5*3 \\ -2&\not=&2\end{array}$
+\item Sea $A=\lbrace a,b,c,d\rbrace$ Cuál de las siguientes representaciones es conmutativa?
+\begin{center}
+\begin{enumerate*}
+\item
+\begin{tabular}{c|cccc}
+*	&a	&b	&c	&d \\ \hline
+a	&a	&c	&b	&d \\
+b	&b	&c	&b	&a \\
+c	&c	&d	&b	&c \\
+d	&a	&a	&b	&b \\
+\end{tabular}
+\item
+\begin{tabular}{c|cccc}
+*&a&b&c&d\\ \hline
+a&a&c&b&d\\
+b&c&d&b&a\\
+c&b&b&a&c\\
+d&d&a&c&b\\
+\end{tabular}
+\end{enumerate*}
+\end{center}
+
+Entonces:
+\begin{itemize}
+\item $\left.\begin{matrix} a*b & =c \\ b*a & =b \end{matrix}\right\}$ * no es conmutativa.
+
+\item $a*b=c=b*a\\ c*d=c=d*c \\ d*a=d=a*d$\\ Si la matriz de resultados M verifica que $M=M^T$, la operación es conmutativa. * es conmutativa.
+
+\end{itemize}
+\end{enumerate}
+
+\textbf{P2 :}Una operación binaria  * es asociativa si:
+$(a*b)*c=a*(b*c)\quad \forall a,b,c \in A$
+
+\textbf{Ejemplo: }
+\begin{enumerate}
+\item Sea $A=\mathds{Z}$ y * = +\\
+		* es asociativa
+\item Si $A=\mathds{Z}$ y * = -\\
+		* no es asociativa\\
+		$\begin{array}{rll}		
+		(3*5)*2&\not=& 3*(5*2)\\
+		-2*2 &\not=& 3*3\\
+		-4 &\not=& 0\end{array}$
+\end{enumerate}
+
+\section{Semigrupo}
+
+Un semigrupo es un conjunto no vacío S, junto a una operación binaria asociativa * definida sobre S.\\
+\textbf{Notación: }Denotamos al semigrupo por (S,*). Adicionalmente si * es conmutativa se dirá semigrupo conmutativo.\\
+\textbf{Ejemplo: }
+\begin{enumerate}
+\item $(\mathds{Z},+)$ es semigrupo conmutativo.
+\item $(\mathds{Z},-)$ no es semigrupo.
+\item Para un conjunto S, $(P(S), \cup)$ es semigrupo conmutativa.
+\item Sea S un conjunto no vacío, denotamos $S^S$ como el conjunto de todas las funciones $f:S\rightarrow S$\\
+		Sean $f,g\in S^S \, definimos: \; f*g=f\circ g$\\
+		$(S^S,*)$ es un semigrupo. Sin embargo no es conmutativa, porque $f\circ g\not= g\circ f$
+\end{enumerate}
+
+\textbf{Definición } A un elemento ''e'' en el semigrupo (S,*) se le llama identidad si: $$a*e=a=e*a\quad\quad \forall a\in S$$
+\textbf{Ejemplo: }
+\begin{enumerate}
+\item Si $(\mathds{Z},+)$ se tiene el elemento identidad, es e = 0.
+\item En el semigrupo $(\mathds{Z}^+,-)$ no hay elemento identidad.
+\end{enumerate}
+		
+\textbf{Teorema: }S un semigrupo $(S,*)$ tiene elemento identidad, éste debe ser único.\\
+\textbf{Prueba: } Supongamos que $e_1\; y\; e_2$ son elementos identidad. Como $e_1$ es identidad: $e_2 * e_1 = e_2 = e_1*e_2$\\
+$e_2$ es identidad: $e_1*e_2=e_1=e_2*e_1$\\
+$e_2=e_1*e_2=e_1$, luego sólo hay un elemento identidad.
+
+\textbf{Definición: } Un semigrupo es un monoide si tiene elemento identidad.\\
+\textbf{Ejemplo: }
+\begin{enumerate}
+\item El semigrupo $(P(S),\cup)$ donde S es un conjunto no vacío, tiene elemento identidad $e=\phi$, pues $\phi \cup V=V$. El semigrupo es un monoide.
+\item En el semigrupo $(S^S,\circ)$ se tiene elemento identidad $e=id_S$\\
+		$id_S \circ f = f=f\circ id_S \quad\quad \forall f\in S^S$\\
+		$(S^S,\circ)$ es un monoide.
+\end{enumerate}
+
+\textbf{Definición: }Sea (S,*) un semigrupo y sea $T\subset S$. Si T es cerrado bajo la operación * [ si $a,b\in T$ entonces $a*b\in T$] entonces $(T,*)$ es un subsemigrupo de $(S,*)$.
+
+\textbf{Definición: }Sea (S,*) un semigrupo y sea $\phi\not= T\subset S$. Si T es cerrado bajo * y $e\in T$, entonces a (T,*) se le llama submonoide de (S,*).
+
+\section{Isomorfismos}
+
+Sean (S,*),(T,*') dos semigrupos. A la función $f:S\rightarrow T$ , se le llama isomorfismo de (S,*) en (T,*') si f es inyectiva, sobreyectiva y además  $f(a*b)=f(a)*' f(b) \quad\quad \forall a,b\in S$.\\
+\textbf{Notación: }Si los semigrupos (S,*) y (T,*') son isomorfos se le denota por $S\simeq T$.\\
+
+\textbf{Método: }Para demostrar que $S\simeq T$, se seguirá el procedimiento:
+\begin{enumerate}
+\item Defínase una función $f:S\rightarrow T$
+\item Verifique que f sea inyectiva
+\item Verifique que f sea sobreyectiva
+\item Demuestre que $f(a*b)=f(a)*' f(b)$
+\end{enumerate}
+
+\textbf{Ejemplo: }Sea T el conjunto de los pares. Demuéstrese que los semigrupos $(\mathds{Z},+)$ y $(T,+)$ son isomorfos.\\
+\textbf{Solución: } 
+\begin{enumerate}
+\item Definimos la función $f:S\rightarrow T$.  $f(x)=2x\quad \quad x\in \mathds{Z}$
+
+\item Sean $x_1,x_2$:
+\begin{center}
+$f(x_1)=f(x_2)$ \\$2x_1=2x_2$ \\ $x_1=x_2$\\
+f es inyectiva.
+\end{center}
+\item Sea $b\in T$ cualquiera, luego $b=2a \quad a\in \mathds{Z}$\\
+$f(a)=f(\frac{b}{2})=\not2.\frac{b}{\not2}=b$\\
+Luego f es sobreyectiva.
+
+\item P.P que: $f(a*b)=f(a)*' f(b) \\
+				f(a*b)=2(a*b)=2a+2b=f(a)+f(b)\\
+				f(a*b)=f(a)*'f(b)$\\
+				Luego $\mathds{Z}\simeq T$.						
+\end{enumerate}
+
+Sean (S,*),(T,*') dos semigrupos finitos y sus operaciones las expresamos mediante tablas. Entonces $S\simeq T$ si es posible reordenar y etiquetar los elementos de S para que su tabla sea idéntica a la tabla de T.\\
+\textbf{Ejemplo: }Sean $S=\lbrace a,b,c\rbrace$ y $T=\lbrace x,y,z\rbrace$ con tablas respectivas.
+
+\begin{center}
+\begin{tabular}{cp{2cm} c}
+\begin{tabular}{c|c}
+* & a b c\\ \hline
+a & a b c\\
+b & b c a\\
+c & c a b
+\end{tabular}
+& &
+\begin{tabular}{c|c}
+*' & x y z\\ \hline
+x & z x y\\
+y & x y z\\
+z & y z x
+\end{tabular}
+\end{tabular}
+
+
+
+\end{center}
+
+Sea:
+\begin{center}
+$f(a)=y $\\ $f(b)=x$\\ $f(c)=z$
+\end{center}
+
+\begin{center}
+\begin{tabular}{c c c}
+\begin{tabular}{c|c} 
+  & y x z\\ \hline
+y & y x z\\
+x & x z y\\
+z & z y x
+\end{tabular}%
+& $\rightarrow$ &
+\begin{tabular}{c|c}
+  & x y z\\ \hline
+x & z x y\\
+y & x y z\\
+z & y z x
+\end{tabular}
+\end{tabular}
+
+\end{center}
+
+Luego $S\simeq T$.\\
+
+\textbf{Teorema: }Sean los semigrupos (S,*) y (T,*') monoides y con identidades $e$ y $e'$. Sea f un isomorfismo, entonces $e'=f(e)$.\\
+\textbf{Demostración: }Sea $b\in T$. Al ser f un isomorfismo, es sobreyectiva, existe $a\in S/ f(a)=b$.\\
+Como $e$ es identidad:
+\begin{itemize}
+\item 	
+$\begin{array}{lll}
+a	& =	& a*e\\
+f(a)& =	& f(a*e)\\
+b 	& =	& f(a)*'f(e)\\
+b	& = & b*'f(e)
+\end{array}$		
+		
+\item   
+$\begin{array}{lll}
+a	& =&e*a\\
+f(a)& =&f(e*a)\\
+b	& =&f(e)*'f(a)\\
+b	& =&f(e)*'b \end{array}$
+\end{itemize}
+
+Del 1er y 2do item, $b*'f(e)=b=f(e)*'b$, luego $f(e)$ es identidad en T, $\therefore e'=f(e)$.\\
+
+\textbf{Definición: }Sean (S,*) y (T,*') dos semigrupos. A una función $f:S\rightarrow T$. Se le llama un homomorfismo si:
+$$f(a*b)=f(a)*'f(b)\quad\quad \forall a,b\in S$$

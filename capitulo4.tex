@@ -1,0 +1,260 @@
+\chapter{Grupo}
+
+Un grupo $(G,*)$ es un monoide tal que satisface las siguientes propiedades.
+\begin{description}
+\item [P1 Propiedad asociativa: ]$(a*b)*c= a*(b*c)\quad \forall a,b,c \in G$.
+\item [P2 Existencia de una identidad: ]Existe un elemento único $\in$ G tal que :
+	$a*e=a=e*a$ $a\in G$.
+\item [P3 Existencia del elemento inverso: ]$\forall$ G, existe el elemento inverso denotado por  $a' \in G$ tal que:
+$a*a'=e=a'*a$.
+\end{description}
+
+En un grupo $(G,*)$, * operación binaria, G deberá ser cerrada bajo *, es decir.
+$a*b \in G \quad \forall a,b \in G$.
+
+\textbf{Definición: }Si $(G,*)$ es conmutativo, es decir: $a*b=b*a$, se le llamará \textbf{Abeliana}.\\
+
+\textbf{Ejemplo: }$(\mathds{Z},+)$
+\begin{itemize}
+\item P1 se cumple.
+\item P2 e=0.
+\item P3 $y\in \mathds{Z} \quad \exists y\in \mathds{Z} \quad \quad y*y'=e$
+\end{itemize}
+
+\textbf{Ejemplo: }$(\mathds{Z}^+,\cdot)$
+\begin{itemize}
+\item P1 si.
+\item P2 si.
+\item P3 no.
+\end{itemize}
+
+\textbf{Ejemplo: }$(\mathds{R}-\lbrace 0 \rbrace,\cdot)$
+\begin{itemize}
+\item P1 si.
+\item P2 e=1.
+\item P3 si.
+\end{itemize}
+
+\textbf{Ejemplo: }Sea G el conjunto de los reales sin el ''cero'' y sea $a*b=\frac{ab}{2}; a,b\in G$ Pruebe que $(G,*)$ es Grupo.\\
+* es una operación binaria.
+\begin{itemize}
+\item $Dom=G\times G \; ; \quad *G\times G \rightarrow G$.
+\item $a*b= \frac{ab}{2}$ es único $\forall a,b\in G$.
+\end{itemize}
+
+\begin{enumerate}
+\item Veamos que $(G,*)$ es asociativa.\\
+$(a*b)*c=(\frac{ab}{2})*c=\frac{abc}{4}$\\
+$a*(b*c)=a*({bc\over2})={abc\over4}$\\
+$(a*b)*c=a*(b*c)$
+
+\item Afirmamos que $e=2$ es la identidad.\\
+$a*e= \frac{a(2)}{2} = a$\\
+$e*a=\frac{2(a)}{2}=a$
+
+\item Afirmamos que $a'={4\over a} \in G$ es la inversa de a.\\
+$a*a'=\frac{a({4\over a})}{2} = 2 = e$\\
+$a'*a=\frac{({4\over a})(a)}{2}=2=e$\\
+$\therefore$ G es un grupo.
+\end{enumerate}
+
+\textbf{Teorema 1: }Sea G n grupo . Cada elemento $a\in G$ tiene un inverso único en G.\\
+
+\textbf{Teorema 2: }Sea G un grupo y sean a,b,c elementos en G. Entonces.
+\begin{itemize}
+\item $a*b=a*c \Rightarrow b=c$ Propiedad cancelativa izquierda.
+\item $b*a=c*a \Rightarrow b=c$ Propiedad cancelativa derecha.
+\end{itemize}
+
+\textbf{Teorema 3: }Sea $(G,*)$ un grupo y $a,b\in G$. Entonces.
+\begin{itemize}
+\item $(a')'=a$
+\item $(a*b)'=b'*a'$
+\end{itemize}
+
+Si G es un conjunto finito, su operación binaria * se puede obtener mediante una tabla.\\
+Sea $G=\lbrace a_1,a_2,...a_n\rbrace$. La tabla de multiplicación bajo * cumple:
+\begin{itemize}
+\item La fila etiquetada por $e$ deberá contener a:  $a_1, a_2, \cdots a_n$
+\item La columna etiquetada por $e$ debe contener a:  $\begin{matrix}a_1\\a_2\\a_3\\ \vdots \\ a_n\end{matrix}$
+
+\item Cada elemento ''b'' en el grupo deberá aparecer exactamente una vez en cada fila y en cada columna.
+\end{itemize}
+
+\textbf{Definición: }Sea $(G,*)$ un grupo que tiene un número finito de elementos.
+\begin{itemize}
+\item Se dice que G es finito.
+\item El orden de G es el número de elementos y se denota por $|G|$.
+\end{itemize}
+
+
+\textbf{Ejemplo: }
+\begin{itemize}
+\item Si G es unitario, $G=\lbrace e\rbrace$ , $e*e=e$.
+\item Si $|G|=2, G=\lbrace e,a\rbrace$.Su tabla es:
+
+\begin{tabular}{c|cc}
+ &e&a\\ \hline
+e&e&a\\
+a&a&e
+\end{tabular}
+$\begin{matrix}
+a'=a \\
+e'=e
+\end{matrix}$
+\item Si $|G|=3, G=\lbrace e,a,b\rbrace$. Su tabla es:\\
+\begin{tabular}{c|ccc}
+ &e&a&b\\ \hline
+e&e&a&b\\
+a&a&b&e\\
+b&b&e&a
+\end{tabular}
+
+$\begin{matrix} a*b=e \quad & a'=b\\
+b*a=e \quad & b'=a\\
+e*e=e \quad & e'=e\end{matrix}$
+\end{itemize}
+
+\textbf{Ejemplo: }Sea $B=\lbrace 0,1\rbrace$ y $*=+$
+\begin{center}
+\begin{tabular}{c|cc}
++&0&1\\ \hline
+0&0&1\\
+1&1&0
+\end{tabular}
+
+$\begin{matrix}
+0*0=0 \quad 0'=0\\
+1*1=0 \quad 1'=1
+\end{matrix}$
+\end{center}
+
+\section{Cadenas}
+
+Un tipo de problema a revisar es el de decisión. Un problema de decidibilidad es una función que produce como resultado uno de dos valores: ''si'' o ''no''.\\
+
+\textbf{Definición: }Un símbolo es un objeto indivisible. Utilizaremos como símbolos las letras iniciales del alfabeto y los dígitos.
+
+\textbf{Definición: }Un alfabeto es un conjunto finito o infinito de símbolos.\\
+\textbf{Notación: }$\sum , V,\Gamma$\\
+
+\textbf{Ejemplo: }
+\begin{enumerate}
+\item Alfabeto Binario $\Sigma = \lbrace 0,1\rbrace$
+\item Alfabeto de letras mayúsculas $\Sigma =\lbrace A,B,C,...,Z\rbrace$
+\end{enumerate}
+
+\textbf{Definición: }Una cadena ó palabra es una secuencia finita de símbolos, tomados a partir de un alfabeto.\\
+\textbf{Notación: } $W (x,y,...)$.\\
+Sea $W=a_1,a_2,...a_k$ con $a_i \in \Sigma$, $i=1,...k$\\
+Longitud:\\
+$|W|=k \Leftrightarrow W=a_1...a_k$\\
+Sea $\Sigma=\lbrace 0,1 \rbrace$ y $W=001101 \Rightarrow |W|=6$
+
+\section{Cadena Vacía}
+
+Es la cadena de longitud ''cero''.\\
+\textbf{Notación: }$\varepsilon, \lambda$.
+\textbf{Notación: }Denotamos por $W_k$ al conjunto de todas las cadenas de longitud $k$ sobre un alfabeto $\Sigma$.\\
+
+$W_k=\lbrace W/|W|=k$ y $W=a_1...a_k; a_i\in \Sigma \rbrace$\\
+
+$W_0=\lbrace \varepsilon \rbrace $ y lo denotamos por $\varepsilon$ \\ %negrita
+Al conjunto de todas las cadenas finitas posibles.
+
+Sobre $\Sigma$, lo denotamos por $W= \bigcup_{k=0}^\infty W_k$
+
+\section{Operación con Cadenas}
+\subsection{Concatenación}
+El producto de cadenas es una operación binaria en W.\\
+$m:W\times W \rightarrow W$\\
+Si $x=a_1,...a_i; y=b_1...b_j$ entonces $m(x,y)=a_1...a_i,b_1...b_j$. Denotamos $m(x,y)$ por $x.y$ ó simplemente $xy$.\\
+
+\textbf{Definición: }Sea $W=xz$. Entonces:\\
+''x'' es un prefijo de W, es un prefijo propio si $z\not= \varepsilon$\\
+''z'' es un sufijo de W, es un sufijo propio si $x\not=\varepsilon$
+
+\subsection{Propiedades de la Concatenación}
+Sea $W=xyz$
+\begin{enumerate}
+\item \textbf{Cerradura: }$\forall x, y\in W \quad xy\in W$
+\item \textbf{Asociatividad: }$(x.y).z=x.(y.z) \quad x,y,z\in W$
+\item \textbf{Identidad: }$w.\varepsilon = w = \varepsilon .w \quad \forall w\in W$
+\item \textbf{Longitud: }Para $wx \Rightarrow \quad |wx|=|w|+|x| \quad w,x \in W$
+\end{enumerate}
+La concatenación no necesariamente es conmutativa. $wx\not=xw$ En general.\\
+\textbf{Notación: }$w^k=\underbrace{ww...w}_{k\; veces}$
+
+Si $w=a_1...a_k$ entonces $w^R=a_k...a_1$
+
+\section{Lenguajes}
+Un lenguaje L es un conjunto de cadenas definidas sobre $\Sigma$.\\
+$L\subset W$\\
+
+\textbf{Ejemplo: }
+\begin{enumerate}
+\item Sea $\Sigma = \lbrace a_0,a_1\rbrace$. Entonces:\\
+	$L=\lbrace a_0 a_1...a_{i_k} / a_{i_j} \in \Sigma \rbrace$ es un lenguaje.
+
+\item Sea $\Sigma = \lbrace a\rbrace$\\
+	$L=\lbrace a^k / k>0 \rbrace$ es el lenguaje de todas las cadenas de ''a'' de longitud finita.
+
+\item Sea $\Sigma=\lbrace 0,1\rbrace$\\
+	$L=\lbrace ww^R/w=a_1...a_k \quad a_i \in \Sigma\rbrace$ L es el lenguaje de los palíndromos formados con ceros y unos.
+\end{enumerate}
+
+\section{Operaciones con Lenguajes}
+Sean $L_1, L_2$ dos lenguajes. Definimos las siguientes operaciones:\\
+
+$\begin{array}{rl}L_1\cup L_2 &=\lbrace w/w \in L_1 \lor w \in L_2\rbrace\\
+L_1\cap L_2 &= \lbrace w/w\in L_1 \land w\in L_2\rbrace\\
+I &=\lbrace w/w \not \in L \land w=a_1...a_k; \quad a_i\in \Sigma\rbrace\\
+L_1.L_2 &=\lbrace vw/v\in L_1 \land w\in L_2\rbrace
+\end{array}$\\
+
+\textbf{Propiedad: }La cardinalidad de la concatenación de dos lenguajes es menor o igual que el producto de las cardinalidades de cada uno de ellos.\\
+
+\textbf{Ejemplo: }Sean $L_1=\lbrace a,ab\rbrace \quad L_2=\lbrace c,bc\rbrace$ sobre $\Sigma =\lbrace a,b,c\rbrace$\\
+$\begin{array}{rl}L_1 L_2 &=\lbrace ac,abc,...,abbc\rbrace\\
+|L_1 L_2| &\leq |L_1||L_2|\\
+3 &\leq 2\times 2
+\end{array}$
+
+\textbf{Propiedad (Identidad): }El conjunto $L_\varepsilon =\lbrace \varepsilon \rbrace$ es la identidad en la concatenación de lenguajes.\\
+$L.L_\varepsilon =\lbrace w.x/w\in L,x\in L_\varepsilon \rbrace = \lbrace w/w\in L\rbrace$ como $w.\varepsilon = w= \varepsilon . w$\\
+$L_\varepsilon .L= L.L_\varepsilon = L$\\ %lenguaje identidad
+
+\textbf{Elemento Nulo: }Es el conjunto vacío $\phi$.\\
+
+\textbf{Propiedad Asociativa } $(L_1 L_2)L_3=L_1(L_2 L_3)$\\
+
+\textbf{Propiedad Distributiva }$L_1(L_2\cup L_3)=L_1 L_2 \cup L_1 L_3$\\
+
+¿Es la concatenación de lenguajes distributiva respecto a la intersección?\\
+
+\textbf{Definición: }Sea $\Sigma$ un alfabeto y $L\subseteq W$ un lenguaje sobre $\Sigma$. Definimos las siguientes potencias de L:\\
+
+$\begin{array}{rl}
+L^0 &= \lbrace \varepsilon \rbrace\\
+L^1 &=L \\
+L^k &=L^{k-1}.L
+\end{array}$\\
+
+\textbf{Definición: }La cerradura del lenguaje L es $L^* =\bigcup_{k=0}^\infty L^k$. Al operador * se le llama ''Estrella de Kleene'' o ''Cerradura de Kleene''.\\
+
+\textbf{Ejemplo: }Sea $\Sigma=\lbrace a,b,c\rbrace$ y $L=\lbrace a,ab,ac\rbrace$. Halle: $L^2, L^3$.\\
+
+$L^2=L.L=\lbrace aa,aab,aac,aba,abab,abac,aca,acab,acac \rbrace$\\
+$L^3=L^2 .L=\lbrace aaa,aaab,aaac,aaba,aabab,aabac,\\ aaca,aacab,aacac,...acaca,acacab,acacac \rbrace$
+
+\textbf{Ejemplo: }Sea $L=\lbrace a\rbrace \quad \Sigma =\lbrace a \rbrace$\\
+$L^* =\lbrace \varepsilon, a,aa,aaa,... \rbrace$\\
+
+\textbf{Ejemplo: }Sea $L=\lbrace 0,1,00,01 \rbrace \quad \Sigma = \lbrace 0,1\rbrace$\\
+$L^* = \lbrace \varepsilon , 0,1,00,01,00,01,000,001,... \rbrace$\\
+
+\textbf{Ejemplo: }Sea L un lenguaje. $L^R=\lbrace w^R/ w\in L\rbrace$\\
+Sea ahora $L=\lbrace ww^R/w=a_1...a_k ; a_i \in \Sigma \rbrace$\\
+a este lenguaje se le conoce como ''Lenguaje espejeado''. %diferencia entre espejeado y palindromo es que este ultimo es mas general obs
+
+% ver una forma simplificada de algunos lenguajes, pendiente.

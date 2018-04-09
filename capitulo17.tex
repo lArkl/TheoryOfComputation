@@ -1,0 +1,158 @@
+\chapter{Forma Normal de Chomsky}
+
+\textbf{Definición: }Una $G=(\Sigma_N,\Sigma_T,s,P)$ está en la FNCh si:
+
+\begin{itemize}
+\item G no contine variables inútiles.
+\item G no tiene producciones $\varepsilon$
+\item G no tiene producciones unitarias.
+\end{itemize}
+
+Todas las producciones son de la forma:
+
+\begin{align*}
+A &\rightarrow \sigma \qquad\qquad A\in \Sigma_N	, \sigma \in \Sigma_T\\
+B &\rightarrow BC	\qquad\qquad A,B,C \in \Sigma_N	\\
+S &\rightarrow \varepsilon \qquad\qquad si\; \varepsilon\in L(G)
+\end{align*}
+
+\textbf{Teorema: }Sea $G$ una GLC. Existe una GLC en la FNCh que es equivalente a $G$.
+
+\section{Método de Conversión}
+Debemos hacer la siguientes simplificaciones:
+\begin{itemize}
+\item Identificas las variables anulables
+\item Eliminamos las producciones $\varepsilon$ (salvo $s\rightarrow\varepsilon$)
+\item Eliminamos las producciones unitarias.
+\end{itemize}
+
+Toda producción de tal gramática tendrá la forma:
+$$A\rightarrow a \qquad\qquad a\in \Sigma_T$$
+ó
+$$A\rightarrow w \qquad\qquad |w|\geq 2$$
+Luego, la tarea será:
+\begin{enumerate}
+\item Disponer que todas las cadenas de longitud mayor o igual a 2 consistan sólo de variables.
+\item Descomponer todas las cadenas $w$ de longitud mayor o igual que 3 en una cascada de producciones tal que cada regla tenga el cuerpo formada por 2 variables.
+\end{enumerate}
+
+Debemos descomponer todas las producciones de la forma:
+
+$A\rightarrow B_1B_2...B_k$(con $k\geq 3$) en un grupo de reglas con 2 variables en el cuerpo.
+
+Agregaremos $(k-2)$ nuevas variables: $Z_1,...,Z_{k-2}$
+
+Con esto, la producción original se reemplaza por las $(k-1)$ reglas.
+
+\begin{align*}
+A\rightarrow B_1Z_1	\\
+Z_1 \rightarrow B_2Z_2	\\
+Z_2\rightarrow B_3Z_3	\\
+\vdots	\\
+Z_{k-1}\rightarrow B_{k-1}B_k
+\end{align*}
+
+\textbf{Ejemplo: }Reemplace las producción $A\rightarrow abBaC$ con producciones simples y binarias.
+
+\textbf{Solución: }Incorporamos las variables $B_1,B_2$
+\begin{align*}
+B_1	&\rightarrow a	\qquad B_2\rightarrow b	\\
+A	&\rightarrow B_1B_2BB_1C
+\intertext{Añadimos $Z_1,Z_2$}
+P &= \left \{\begin{array}{l}
+A\rightarrow B_1Z_1	\\
+Z_1 \rightarrow B_2Z_2\\
+Z_2\rightarrow BZ_3\\
+Z_3\rightarrow B_1C\\
+B_1\rightarrow a	\\
+B_2\rightarrow b\end{array} \right.
+\end{align*}
+
+\textbf{Ejemplo: }Dada la GLC $G$
+\begin{align*}
+S &\rightarrow AB|aBC|SBS	\\
+A &\rightarrow aA|C	\\
+B &\rightarrow bbB|b	\\
+C &\rightarrow cC|\varepsilon
+\end{align*}
+Obtener la GLC equivalente a G que esté en su FNCh.\\
+\textbf{Solución: }
+\begin{itemize}
+\item Eliminaremos las producciones $\varepsilon$. Hallamos los anulables $\Gamma =\{C,A\}$
+
+Agregamos las producciones:
+\begin{align*}
+S &\rightarrow B|aB	\\
+A &\rightarrow a	\\
+C &\rightarrow c
+\end{align*}
+Nos queda: 
+\begin{align*}
+G^1= \left \{ \begin{array}{l}
+S\rightarrow AB|aBC|SBS	|B|aB\\
+A\rightarrow aA|C|a	\\
+B\rightarrow bbB|b	\\
+C\rightarrow cC|c\end{array} \right.
+\end{align*}
+\item Eliminamos las producciones unitarias.
+Hallaremos
+\begin{align*}
+Unit(A)&=\{A,C\}	\\
+Unit(B)&=\{B\}	\\
+Unit(C)&=\{C\}	\\
+Unit(S)&=\{S,B\}
+\end{align*}
+Incluimos los pares unitarios.
+
+\begin{tabular}{cl}
+Pares Unitarios & Prod. No Unitarias	\\ \hline
+(A,A)	&$A\rightarrow aA|a$	\\
+(A,C)	&$A\rightarrow cC|c$	\\
+(B,B)	&$B\rightarrow bbB|b$	\\
+(C,C)	&$C\rightarrow cC|c$	\\
+(S,S)	&$S\rightarrow AB|aBC|SBS|aB$	\\
+(S,B)	&$S\rightarrow bbB|b$
+\end{tabular}
+\begin{align*}
+G^2= \left \{ \begin{array}{l}
+S\rightarrow AB|aBC|SBS|aB|bbB|b	\\
+A\rightarrow aA|a|cC|c	\\
+B\rightarrow bbB|b	\\
+C\rightarrow cC|c\end{array} \right.
+\end{align*}
+\item Reemplazamos los símbolos terminales por variables en cada regla que no es simple.
+
+Incorporamos las variables: $T_a,T_b,T_c$ tales que: $T_a\rightarrow a,T_b\rightarrow b, T_c\rightarrow c$
+\begin{align*}
+G^3= \left \{ \begin{array}{l}
+S\rightarrow AB|T_aBC|SBS|T_aB|T_bT_bB|b	\\
+A\rightarrow T_aA|a|T_cC|c	\\
+B\rightarrow T_bT_bB|b	\\
+C\rightarrow T_cC|c\end{array} \right.
+\end{align*}
+Llevamos a producciones binarias incorporando $Z_1,Z_2,Z_3$
+\begin{align*}
+S&\rightarrow T_aBC \mbox{ se reemplaza por: } S\rightarrow T_aZ_1	\\
+Z_1&\rightarrow BC\\
+S&\rightarrow SBS \mbox{ se reemplaza por: } S\rightarrow SZ_2\\
+Z_2&\rightarrow BS	\\
+S&\rightarrow T_bT_bB \mbox{  se reemplaza por: } S_\rightarrow T_bZ_3	\\
+Z_3&\rightarrow T_bB\\
+B&\rightarrow T_bT_bB \mbox{ se reemplaza por: } B\rightarrow T_bZ_3	\\
+Z_3&\rightarrow T_bB
+\end{align*}
+\begin{align*}
+G^4=\left \{ \begin{array}{l}
+S\rightarrow AB|T_aZ_1|SZ_2|T_aB|T_bZ_3|b	\\
+A\rightarrow T_aA|a|T_cC|c	\\
+B\rightarrow T_bZ_3|b	\\
+C\rightarrow T_cC|c	\\
+Z_1\rightarrow BC	\\
+Z_2\rightarrow BS	\\
+Z_3\rightarrow T_bB \\
+T_a\rightarrow a	\\
+T_b\rightarrow b	\\
+T_c\rightarrow c \end{array} \right.
+\end{align*}
+$G^4$ está en FNCh
+\end{itemize}

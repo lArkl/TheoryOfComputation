@@ -1,0 +1,176 @@
+\chapter{Eliminación de Producciones $\varepsilon$}
+\textbf{Definición: }Denominamos producción $\varepsilon$ a una regla de la forma:
+$$A\rightarrow \varepsilon$$
+\textbf{Definición: }Una variable $A\in\Sigma_N$ en una GLC se dirá anulable si $A\xrightarrow{*}\varepsilon$.
+
+\textbf{Notación: }El conjunto de todos los símbolos no terminales anulables se denotará por $N$.
+
+\textbf{Algoritmo: }
+\begin{enumerate}
+\item Inicializar $N$ con todas las $A\in\Sigma_N|A\rightarrow\varepsilon$.
+\item $\;$\\
+\begin{tabular}{p{4cm}p{8cm}}
+Repetir:	&	\\
+		&Si $B\rightarrow w$; con $w\in\Sigma^*$ y todos los símbolos $w$ están en $N$, añadir $B$ a $N$.\\
+Hasta que no se pueda añadir más variables a $N$		&
+\end{tabular}
+\end{enumerate}
+
+\section{Algoritmo para eliminación de Reglas $\varepsilon$}
+Sea $G^1=(\Sigma_N,\Sigma_T,S,P^1)$ una GLC, se obtendrá una gramática $G^2=(\Sigma_N,\Sigma_N,\Sigma_T,S,P^2)$ sin reglas $\varepsilon$, excepto $S\rightarrow \varepsilon$ tal que $L(G^1)=L(G^2)$.
+\begin{enumerate}
+\item Obtener $N$.
+\item Inicializamos $P^2 \leftarrow \phi$.
+\item Para cada regla $X\rightarrow w\in P^1$, hacer:
+	\begin{itemize}
+	\item Para cada representación de $w$ como $X_1Y_1X_2,...,X_nY_nX_{n+1}$ con $Y_1,...,Y_n\in N$    $P^2 \leftarrow P^2\cup \{ X\rightarrow X_1X_2...X_{n+1}\}$
+	\end{itemize}
+\item Devolver $G^2=(\Sigma_N,\Sigma_T,S,P^2-\{X\rightarrow\varepsilon /X\} )$
+\end{enumerate}
+\textbf{Ejemplo: }Sea la gramática $G^1$ con producciones $\varepsilon$:
+\begin{align*}
+S	&\rightarrow aA	\\
+A	&\rightarrow aA|\varepsilon
+\end{align*}
+\textbf{Solución: }
+\begin{enumerate}
+\item $N=\{A\}$, todos los $A\rightarrow\varepsilon$
+\item $P^2\leftarrow \phi$
+\item $\,$\\
+	\begin{align*}
+	S	&\rightarrow aA|a	\\
+	A	&\rightarrow aA|a
+	\end{align*}
+Luego $G^2=(\Sigma_N,\Sigma_T,S,P^2)$ donde:
+	\begin{align*}
+	&\Sigma_N=\{ A,S\}	\\
+	&\Sigma_T=\{a\}	\\
+	&P^2=\left \{ \begin{array}{l}
+	S\rightarrow aA|a	\\
+	A\rightarrow aA|a	
+	\end{array}\right.
+	\end{align*}
+\end{enumerate}
+
+\textbf{Regla: }A partir de una producción de $P^1$.
+$$B\rightarrow X_1X_2...X_n\qquad X_i \mbox{ son anulables}$$
+Se pueden conseguir nuevas producciones en $P^2$.
+
+\textbf{Ejemplo: }Sea la regla $B\rightarrow X_1X_2 \mbox{ con }X_1,X_2 \mbox{ anulables}$. Se pueden obtener las producciones $B\rightarrow X_2|X_1|X_1X_2$.
+
+\textbf{Ejemplo: }Dada la gramática:
+\begin{align*}
+P^1 \left \{ \begin{array}{l}
+S	\rightarrow ASB|C	\\
+A	\rightarrow AaaA|\varepsilon	\\
+B	\rightarrow BBb|C	\\
+C	\rightarrow cC|\varepsilon
+\end{array}\right.
+\intertext{Elimine las producciones $\varepsilon$.}
+\end{align*}
+\textbf{Solución: }Las variables anulables $N=\{A,C,S,B\}$, el conjunto $P^2$ está determinado por:
+\begin{align*}
+\left \{\begin{array}{l}
+S \rightarrow SB|AB|AS|B|A|S|ASB|C	\\
+A \rightarrow aaA|Aaa|aa|AaaA	\\
+B \rightarrow Bb|Bb|b|C \quad\mbox{(nos quedamos con 1)}	\\
+C \rightarrow c|cC
+\end{array}\right.
+\intertext{El conjunto $P^2$ está dado por: }
+\left \{\begin{array}{l}
+S \rightarrow SB|AB|AS|B|A|ASB|C|\varepsilon	\\
+A \rightarrow aaA|Aaa|AaaA	\\
+B \rightarrow Bb|b|C	\\
+C \rightarrow c|cC
+\end{array}\right.
+\end{align*}
+\section{Eliminación de Producciones Unitarias}
+\textbf{Definición: }Una regla se llama producción unitaria o no generativa si es de la forma:
+$$A\rightarrow B\qquad \mbox{con }A,B \in \Sigma_N$$
+Las p.u. hacen que la GLC se vuelva compleja.
+
+\textbf{Ejemplo: }En la GLC $G$ dada por:
+\begin{align*}
+A &\rightarrow B	\\
+B	&\rightarrow w|C	\qquad w\in\Sigma^*	\\
+\intertext{Podemos eliminar la producción }
+A	&\rightarrow w|C	
+\intertext{Aquí se añadió la p.u $A\rightarrow C$}
+\end{align*}
+
+\textbf{Definición: }Sea $G$ una GLC. Para cada símbolo $A\in\Sigma_N$, se define el siguiente conjunto:
+$$Unit(A)=\{B\in\Sigma_N/ A\xrightarrow{*}B\}\qquad \mbox{(usando solo p.u)}$$
+\textbf{OBS: } $A\in Unit(A),\mbox{ ya que } A\xrightarrow{*}A \mbox{ en $\phi$ p.u}$
+
+\textbf{Definición: }Sean $A,B\in\Sigma_N$. Nos referiremos $(A,B)$ como el par unitario, si verifica que $A\xrightarrow{*}B$ empleando solo producciones unitarias.
+
+\textbf{Ejemplo: }Dada la gramática $G$:
+\begin{align*}
+A	&\rightarrow B	\\
+B	&\rightarrow C|w_1	\\
+C	&\rightarrow D	\\
+D	&\rightarrow w_2
+\intertext{Obtener Unit(A), Unit(B), Unit(C), Unit(D)}
+Unit(A)	&= \{A,B,C,D\}	\\
+Unit(B)	&= \{B,C,D\}	\\
+Unit(C)	&= \{C,D\}	\\
+Unit(D)	&= \{D\}
+\end{align*}
+\subsection{Método de eliminación de p.u}
+Sea $G^1=(\Sigma_N,\Sigma_T,S,P^1)$ una GLC con p.u construiremos una GLC equivalente $G^2=(\Sigma_N,\Sigma_T,S,P^2)$ sin p.u mediante:
+\begin{enumerate}
+\item Hállese $\Sigma_N$.
+\item Para cada $A\in\Sigma_N$ determine Unit(A).
+\item Para cada p.u $(A,B)$ añadir a $P^2$ todas las producciones $A\rightarrow w$ donde $B\rightarrow w$ es una producción unitaria de $P^1$.
+\item Añadir a $P^2$ las producciones no unitarias restantes de $P^1$.
+\end{enumerate}
+\textbf{Ejemplo: }Sea $G$ la GLC con producciones unitarias:
+\begin{align*}
+P^1\left \{ \begin{array}{l}
+S\rightarrow A|Aa	\\
+A\rightarrow B	\\
+B\rightarrow C|b	\\
+C\rightarrow D|ab	\\
+D\rightarrow b
+\end{array}\right.
+\intertext{Obtener la gramática equivalente $G^2$ sin p.u tal que $L(G^1)=L(G^2)$}
+\end{align*}
+\textbf{Solución: }
+\begin{enumerate}
+\item $\Sigma_N =\{ S,A,B,C,D\}$
+\item $\,$\\
+\begin{align*}
+Unit(S)	&=\{S,A,B,C,D\}	&Unit(A)	&=\{ A,B,C,D\}	\\
+Unit(B)	&=\{B,C,D\}		&Unit(C)	&=\{C,D\}	\\
+Unit(D)	&=\{D\}			&
+\end{align*}
+\item $\,$\\
+\begin{tabular}{|c|l|}\hline
+Pares Unitarios	&	Producciones no unitarias	\\ \hline
+(S,S)			&	$S\rightarrow Aa$	\\
+(S,A)			&	-----	\\
+(S,B)			&	$S\rightarrow b$	\\
+(S,C)			&	$S\rightarrow ab$	\\
+(S,D)			&	$S\rightarrow b$	\\
+(A,A)			&	-----	\\
+(A,B)			&	$A\rightarrow b$	\\
+(A,C)			&	$A\rightarrow ab$	\\
+(A,D)			&	$A\rightarrow b$	\\
+(B,B)			&	$B\rightarrow b$	\\
+(B,D)			&	$B\rightarrow ab$	\\
+(B,D)			&	$B\rightarrow b$	\\
+(C,C)			&	$C\rightarrow ab$	\\
+(C,D)			&	$C\rightarrow b$	\\
+(D,D)			&	$D\rightarrow b$	\\ \hline
+\end{tabular}
+\begin{align*}
+\intertext{Las reglas de $P^2$ son:}
+\left \{ \begin{array}{l}
+S\rightarrow Aa|b|ab	\\
+A\rightarrow b|ab	\\
+B\rightarrow b|ab	\\
+C\rightarrow ab|b	\\
+D\rightarrow b
+\end{array}\right.
+\end{align*}
+\end{enumerate}

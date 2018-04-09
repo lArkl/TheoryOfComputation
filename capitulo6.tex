@@ -1,0 +1,139 @@
+\chapter{Derivada de una ER}
+
+Sea $\alpha$ una ER sobre cierto alfabeto $\Sigma$ y sea $a\in \Sigma$. La derivada de la ER $\alpha$ respecto de \textbf{a} se denota por $D_a(\alpha)$; es una ER que describe al Lenguaje:
+$$L(D_a(\alpha))=\{ w\in\Sigma^* / aw \in L(\alpha)\}$$
+
+\section{Reglas de Derivación}
+
+Se aplica de forma recursiva las siguiente reglas de derivación.
+\begin{enumerate}
+ \item $D_a(\phi)=\phi$
+ \item $D_a(\varepsilon)=\phi$
+ \item $D_a(a)=\varepsilon \quad D_a(b)=\phi \quad \forall b\not=a, b\in \Sigma$
+ \item $D_a(\alpha+\beta)= D_a(\alpha)+D_a(\beta)$
+ \item $D_a(\alpha \cdot \beta)=D_a(\alpha). \beta + \delta(\alpha). D_a(\beta)$ % d= def
+ 
+$\delta(\alpha)=\left \{ \begin{array}{c}
+			 \varepsilon \mbox{ si }\varepsilon \in L(\alpha) \\
+			 \phi \mbox{ si } \varepsilon \not\in L(\alpha)\end{array}\right.$
+			 
+ \item $D_a(\alpha^*)=D_a(\alpha). \alpha^*$
+\end{enumerate}
+
+\textbf{Ejemplo: }Sea $\Sigma=\{ a,b\}$ y $\alpha=a^* ab$. Derive $\alpha$ respecto a los símbolos $a$ y $b$.
+\begin{align*}
+D_a(\alpha)	&=D_a(\downlegend{a^*}{$\alpha$} ab) = D_a(a^*). ab+ \delta(a^*)D_a(ab)\\
+			&=D_a(a).a^* .ab + \delta(a^*)(D_a(a).b+\delta(a).D_a(b))\\
+			&\downlegend{L(a)=\{a\}}{$\varepsilon \not\in L(a)$} \qquad \downlegend{L(a^*)=\{\varepsilon,a,aa,aaa,...\}}{$\varepsilon\in L(a^*)$}\\
+			&=\varepsilon.a^*.ab+\varepsilon(\varepsilon b + \phi.\phi)\\
+			&=a^* ab+b
+\end{align*}
+
+\textbf{Nota: }Podemos derivar una ER $\alpha$ respecto de una cadena de símbolos $x$.
+$$L(D_x(\alpha))=\{ w\in \Sigma^* / x.w\in L(\alpha)\}$$
+
+\section{Ecuaciones de ER}
+
+Definimos una ecuación de ER con variables $x_1,x_2,x_3,...x_n$ a una ecuación del tipo:
+$$x_i=\alpha_{i0} +\alpha_{i1}x_1+...\alpha_{in}x_n$$
+
+Donde cada $\alpha_{ij}$ es una ER; $\alpha_{i0}$ es el término independiente. Una solución para $x_i$ es una ER.
+
+\textbf{Definición: }A una ecuación de la forma $x=\alpha x+\beta$ donde $\alpha,\beta$ son ER, se le conoce como ecuación fundamental de ER.
+
+\textbf{Lema de Arden: }Se prueba que $x=\alpha^* .\beta$ es una solución para la ecuación fundamental. Se cumple que:
+\begin{itemize}
+ \item Es única si $\varepsilon\in L(\alpha)$.
+ \item Tiene infinitas soluciones, de la forma $\alpha^*(\beta+\gamma)$ ($\gamma$ es una ER) en otro caso.
+\end{itemize}
+
+\section{Algoritmo de Solución de Sistemas de ecuaciones de ER}
+
+\textbf{Entrada: }$n$ ecuaciones de ER con variables $x_1,...,x_n$.
+
+\textbf{Salida: }Una solución para cada $x_i$.
+
+\begin{algorithm}[!h]
+\caption{Funcion1()\label{alg1}}
+$i \leftarrow n $\\
+\While{$i\geq 2$}{
+	Expresar ecuación para $x_i$ como: $x_i=\alpha x_i+R$\\
+	Obtener $x_i \leftarrow \alpha^* .R$\\
+	\For{ $j=i-1$ \KwTo 1}{
+		Sustituir en la ecuación para $x_j$ la variable $x_i$ por $\alpha^* R$\\		
+	}
+	$i\leftarrow i-1$\\
+}
+\end{algorithm}
+
+\begin{algorithm}[!h]
+\caption{Funcion2()\label{alg2}}
+$i\leftarrow 1$\\
+\While{$i\leq n$}{
+	Obtener la solución $x_i\leftarrow\alpha^*\beta$\\
+	\For{ $j=i+1$ \KwTo $n$}{
+		Sustituir en la ecuación para $x_j$ la variable $x_i$ por $\alpha^* .\beta$\\		
+	}
+	$i\leftarrow i+1$\\
+}
+\end{algorithm}
+
+\textbf{Ejemplo: }Sea $\Sigma=\{ 0,1\}$. Resolver el sistema de ecuaciones de ER sobre $\Sigma$.
+\begin{center}
+$\begin{array}{lllll}
+x_1	&=\varepsilon	&+1.x_1	&+0.x_2	&  \\
+x_2	&=				&		&1.x_2 	&+0.x_3 \\
+x_3	&=				&0.x_1	&		&+1.x_3
+\end{array}$
+\end{center}
+Diagonalizando, usando el algoritmo:
+\begin{align*}
+x_3	&=1.x_3+ \overbrace{0.x_1}^R\\
+x_3	&=1^*0x_1
+\end{align*}
+\begin{align*}
+x_2	&=1.x_2+0x_3 = 1x_2+01^*0x_1\\
+x_2	&=1^*01^* 0x_1
+\end{align*}
+Luego:
+\begin{align*}
+x_1	&=1x_1+\varepsilon+0x_2=1x_1+\varepsilon+01^* 01^*0x_1\\
+x_1	&=(1+01^* 01^* 0)x_1 +\varepsilon\\
+x_1	&=(1+01^*01^*0)^*\\
+x_2	&=1^*01^*0(1+01^*01^*0)^*\\
+x_3	&=1^*0(1+01^*01^*0)^*
+\end{align*}
+
+%maquina de estado finito
+\section{Máquina de Estados Finitos}
+$$\begin{array}{l|c|c|c|c|c}
+	  		&t_0	&t_1	&t_2		&t_3		&t_4			\\ \hline
+Estados   	&s_0	&s_1(5c)&t_2(10c)	&s_3(20c)	&\not{s_4}s_0 	\\ \hline
+Entradas  	&5c		&5c		&10c		&D			&		 		\\ \hline
+Salidas   	&-		&-		&-			&Cerveza	& 
+\end{array}$$
+
+
+$$\begin{array}{l|c|c}
+		&t_0		&t_1		\\ \hline
+Estados	&s_0		&s_1(20c)	\\ \hline
+Entrada	&25c		&N			\\ \hline
+Salida	&5c			&Gaseosa
+\end{array}$$
+
+Se reconocen:
+\begin{itemize}
+ \item Un conjunto de estados: \textit{S}
+ \item Un alfabeto de entrada: \textit{I}
+ \item Un alfabeto de salida: \textit{O}
+ \item Un estado inicial: $s^*$
+\end{itemize}
+
+Se definen 2 funciones:
+\begin{itemize}
+ \item Función de estado siguiente: $f:S\times I \rightarrow S$
+ \item Función de salida $g:S\times I \rightarrow O$
+\end{itemize}
+
+Una máquina de estados finitos \textbf{MEF} se representa M, es una séxtupla formada por:
+$$M=(S,I,O,f,g,s^*)$$

@@ -1,0 +1,228 @@
+\chapter{Lenguajes Formales}
+
+En oposición al lenguaje natural, un lenguaje formal es tal que:
+\begin{enumerate}
+\item Tiene una sintaxis bien definida. De tal modo que dada una sentencia, es posible saber si pertenece o no al lenguaje.
+\item Tiene una semántica precisa. No es posible encontrar sentencias ambiguas o sin significado.
+\end{enumerate}
+\textbf{Ejemplo: }C, Java, HTML.
+
+\section{Lenguajes Regulares}
+
+Son un tipo de Lenguaje Formal. Reciben este nombre porque sus palabras contienen regularidades o repeticiones de los mismos componentes.
+
+\textbf{Ejemplo: }
+\begin{itemize}
+\item $L_1=\{cd,cdcd,cdcdcd,...\}$
+
+Las cadenas contienen las subcadenas un número dado de veces.
+\item $L_2=\{ abc,cc,abab,abccc,ababc,...\}$
+
+La regularidad consiste encadenas que empiezan con repeticiones de ''ab'' seguidas de repeticiones de c.
+\end{itemize}
+
+Se considerará a los lenguajes finitos también regulares.
+
+$L_3=\{ hoy, es, sabado \}$ $L_3$ es regular.
+
+\section{Aplicación}
+
+Se pueden utilizar para especificar la generación de analizadores léxicos.
+\subsection{Analizadores Léxicos}
+
+Es un programa que recibe como entrada el código fuente de otro programa y produce como salida Lexemas.
+
+Las palabras están compuestas por lexemas y morfemas.
+
+\subsubsection{Lexema}
+Es la raíz o parte de la palabra que no varía.
+
+\textbf{Ejemplo: }\textbf{deport}-e, \textbf{deport}-ivo, \textbf{deport}-ista.
+\subsubsection{Morfema}
+Es la parte que se le añade al lexema para completar su significado y así generar nuevas palabras.
+
+\textbf{Ejemplo: }moder-\textbf{o}, modern-\textbf{as}, modern-\textbf{ísimo}.
+
+\subsection{Definición Recursiva}
+
+Sea un alfabeto $\Sigma$, Un lenguaje $L\subseteq \Sigma^*$ regular se define recursivamente como sigue.
+\begin{itemize}
+\item $\phi$, el lenguaje vacío, es un lenguaje regular.
+\item $\{ \varepsilon \}$ es un lenguaje regular.
+\item $\{ a \}$ es un lenguaje regular $\forall a\in \Sigma$.
+\item Si $L_1$ y $L_2$ son lenguaje regulares, entonces $L_1 \cup L_2, L_1 \cdot L_2 ,L_1^*$ son lenguajes regulares.
+\item Ningún otro lenguaje sobre $\Sigma$ (definida en las 4 anteriores) es un lenguaje regular.
+\end{itemize}
+
+\textbf{Ejemplo: }Sea $\Sigma =\{ a,b \}$. Encuentre 6 lenguajes regulares.
+
+$\begin{array}{rl}
+L_1 &=\phi \\
+L_2 &=\{a\} \quad L_4\{b\}\\
+L_5 &=\{a,b\} \quad L_6=\{ ab\} \quad L_7=\{ a,ab,b\}
+\end{array}$
+
+\textbf{Ejemplo: }Dado $\Sigma = \{ a,b\}$. Describa 3 L.R. infinitas y representarlos de forma abreviada.
+
+$L_1=\{ w\in \Sigma^* / w$ empieza con $b\}$ $=\{b\}\Sigma^*$
+
+$L_2=\{ w\in \Sigma^* / w$ contiene exactamente una $a\}$ $=\{b\}^* \cdot\{a\} \cdot\{ b\}^*$
+
+$L_3=\{ w\in \Sigma^* / w \mbox{ contiene a la subcadena } ba\}$ \\
+$\begin{array}{p{0.65cm}l}
+   &=\{ ba,aaba,bbabba,abbaaab,...\} \\
+   &=\Sigma^* \{ ba\}\Sigma^*
+\end{array}$
+
+$L_4=\{ w\in\Sigma^* / w$ contiene exactamente dos símbolos $b\}$ $=\{a\}^* \{b\}\{a\}^* \{b\}\{a\}^*$
+
+$L_5=\{a^k /k \geq 0, a\in\Sigma \}$
+
+
+\section{Características}
+Un L.R tiene estas características.
+\begin{enumerate}
+\item Puede ser escrito mediante una ''Expresión Regular''.
+\item Puede ser reconocido mediante un ''Autómata Finito''.
+\item Puede ser generado mediante una ''Gramática Regular''.
+\end{enumerate}
+
+\section{Expresiones Regulares (ER)}
+Una ER es una secuencia de caracteres que forma un patrón de búsqueda. Se usa para especificar un conjunto de cadenas requeridas para un propósito particular.
+
+\textbf{Aplicaciones: }
+\begin{itemize}
+\item Búsqueda de patrones de cadenas de caracteres.
+\item Operaciones de sustitución.
+\end{itemize}
+
+\textbf{Ejemplo: }Dadas las cadenas Handel, H\"andel, Haendel. Describa el patrón que los especifique.
+
+H$\{a|\ddot{a}|ae\}$ndel
+
+\subsection{Definición Recursiva}
+Dado un alfabeto $\Sigma$, una ER se define recursivamente como sigue:
+\begin{itemize}
+\item El símbolo $\phi$ es una ER.
+\item $\varepsilon$ es una ER.
+\item $a\in\Sigma$, es una ER.
+\item Si p y q son ER, entonces p.q, p$\cup$q, p* son ER.
+\end{itemize}
+
+Se cumple que toda ER sobre $\Sigma$ describe a un LR sobre $\Sigma$.
+
+\textbf{Abreviatura: }
+
+Para los lenguajes siguientes, a continuación se dan las abreviaturas correspondientes.
+
+$\begin{array}{cc}
+ & \mbox{Exp. Regulares} \\
+\{v\}\cup \{w\} & v+w\\
+\{v.w\} & vw\\
+\{w\}^* & w^*\\
+\{w\}^+ & w^+\\
+\end{array}$
+
+\subsection{Nivel de Prioridad}
+
+$\begin{array}{cc}
+
+\mbox{Operador} & \mbox{Prioridad} \\
+* & 1 \\
+\cdot & 2 \\
++ & 3
+\end{array}$
+
+\textbf{Ejemplo: }Reducir la expresión. $E=( \{ a\}^*\{b\} )\cup \{c\}$.
+
+Queda: $a^*b+c$, mediante las ER.
+
+\textbf{Definición: }Dada una expresión regular $\alpha$, denotado por $L(\alpha)$ como:
+
+\begin{itemize}
+\item $L(\phi)=\phi$
+\item $L(\varepsilon)=\{\varepsilon\}=L_\varepsilon$
+\item $L(a)=\{a\}$, donde $a\in\Sigma$
+\item $L(\alpha \cdot \beta)= L(\alpha)\cdot L(\beta)$, donde $\alpha, \beta$ son ER.
+\item $L(\alpha +\beta)=L(\alpha)\cup L(\beta)$, donde $\alpha, \beta$ son ER.
+\item $L(\alpha^*)=(L(\alpha))^*$
+\end{itemize}
+
+\section{Equivalencia de ER}
+
+\textbf{Definición: }Dadas las ER $\alpha,\beta$ definidas sobre $\Sigma$, diremos que son equivalentes si ambas generan el mismo lenguaje.
+
+$L(\alpha)=L(\beta)$
+
+\textbf{Notación: }Si $\alpha$ y $\beta$ son equivalentes se denotará $\alpha =\beta$.
+\section{Propiedades de las ER}
+
+Sea $\Sigma$ un alfabeto $\alpha,\beta$ y $\gamma$ ER. Se cumple:
+\begin{enumerate}
+\item $\alpha+\beta=\beta+\alpha$
+\item $\alpha+\phi=\alpha=\phi+\alpha$
+\item $\alpha+\alpha=\alpha$
+\item $(\alpha+\beta)+\gamma=\alpha+(\beta+\gamma)$
+\item $\varepsilon \alpha =\alpha=\alpha \varepsilon$
+\item $\phi \alpha=\alpha=\alpha\phi$
+\item $(\alpha \beta)\gamma= \alpha (\beta \gamma)$ %obs!!
+\item $\alpha(\beta+\gamma)=\alpha \beta+\alpha \gamma\\
+(\alpha+\beta) \gamma =\alpha\gamma+\beta\gamma$
+\item $\phi^* =\varepsilon$
+\end{enumerate}
+
+\textbf{Pruebas}
+
+P1:Debemos probar que $\alpha+\beta\subseteq\beta+\alpha; \quad \beta+\alpha\subseteq\alpha+\beta$. 
+
+PPQ $\alpha+\beta\subseteq\beta+\alpha$
+
+Sea $ w\in\alpha+\beta \Rightarrow w\in \alpha \lor w\in\beta$\\
+$\begin{array}{p{3cm}l}
+					& \Rightarrow w\in\beta \lor w\in\alpha \\ 
+					& \Rightarrow w\in \beta +\alpha
+					\end{array}$
+					
+PPQ $\beta+\alpha\subseteq\alpha+\beta$
+
+Sea $z\in \beta+\alpha  \Rightarrow z\in\beta \lor z\in\alpha$\\
+$\begin{array}{p{3cm}l}
+			& \Rightarrow z\in \alpha \lor z\in \beta \\
+			& \Rightarrow z\in\alpha+\beta
+\end{array}$
+
+$$\therefore \alpha+\beta=\beta+\alpha$$
+
+
+P9: Tenemos que $\alpha=\beta$ si $L(\alpha)=L(\beta)$. Bastará probar que $L(\phi^*)=L(\varepsilon)$.
+
+$L(\phi^*)=(L(\phi))^*=\phi^*$
+
+$\begin{array}{rl}
+\phi^* = \bigcup_{k=0}^\infty \phi^k &= \phi^0 \cup\phi^1 \cup\phi^2...\\
+				&=\phi^0\\
+				&=\{\varepsilon\}\\
+				&=L(\varepsilon)
+				\end{array}$
+				
+$$\therefore L(\phi^*)=L(\varepsilon)$$
+\textbf{OBS: }\\
+$\begin{array}{ll}
+L(\phi)&=\phi\\
+L^* &=\bigcup_{k=0}^\infty L^k \\
+L^0 &=\{\varepsilon\}\\
+L^1 &=L\\
+L^{k+1} &=L^{k}L\\
+L(\varepsilon) &=\{\varepsilon\}
+\end{array}$
+
+\textbf{Ejemplo: }Sea $\Sigma=\{0,1\}$ y la ER $\alpha=0^*10^*$. Describa a las cadenas de $L(\alpha)$, usando las propiedades.
+
+\textbf{Solución:}
+
+$\begin{array}{rl}
+L(\alpha)=L(0^*10^*) &=L(0^*)L(1)L(0^*)\\
+		&=(L(0))^* L(1)(L(0))^* \\
+		&=\{0\}^*\{1\}\{0\}^*\\
+		&=\{0^j.1.0^k / j\geq 0 \quad k\geq 0 \}
+\end{array}$

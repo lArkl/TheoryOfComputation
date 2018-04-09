@@ -1,0 +1,188 @@
+\chapter{Fundamentos Matemáticos de la Teoría de la Computación}
+
+Muchos problemas en fundamentos de computación pueden verse como problemas concernientes a conjuntos.
+
+\section{Conjuntos}
+
+Un conjunto es una colección de objetos distinguibles.
+\textbf{Notación: }$b\in L$ $x\not\in L$.
+
+En un conjunto no se repiten los elementos, el orden es irrelevante.
+
+\subsection{Conjunto Unitario}
+Es aquel formado por un único elemento.
+$$U=\lbrace 1 \rbrace$$
+\subsection{Conjunto Vacío}
+Es el conjunto sin elementos.
+\textbf{Notación: }$\phi$ o $\lbrace \rbrace$.
+\subsection{Conjuntos Importantes}
+\begin{itemize}
+\item Enteros no Negativos $\mathds{N}$
+\item Enteros Positivos $\mathds{N}^{+}$
+\item Enteros $\mathds{Z}$
+\item Racionales $\mathds{Q}$
+\item Reales $\mathds{R}$
+\item Complejos $\mathds{C}$
+\end{itemize}
+
+Podemos expresar algunos conjuntos mediante referencia a otros conjuntos y a las propiedades que los elementos pueden o no tener.
+
+Si $F=\lbrace 1,3,9 \rbrace \quad G=\lbrace 3,9\rbrace \\ G=\lbrace x/ x \in F \land x>2\rbrace \\ B=\lbrace x/x \in A \land x \mbox{ tiene la propiedad P}\rbrace$
+
+Podemos expresar el conjunto de los números naturales impares.
+$$I=\lbrace x/x \in \mathds{N} \land \mbox{x no es divisible por 2}\rbrace$$
+
+\subsection{Subconjuntos}
+A es un subconjunto de B si cada elemento de A también está en B. \textbf{Notación: }$A\subseteq B$.
+Ejemplo: $I\subseteq \mathds{N} \quad A\subseteq A$
+
+\subsection{Subconjunto Propio}
+Si A es subconjunto de B pero es diferente a B se le llamará subconjunto propio de B. \textbf{Notación: }$A \subset B$.
+
+\subsection{Conjunto Universal}
+También conocido como Universo del Discurso. \textbf{Notación: }$\mathfrak{U}$.
+\subsection{Complemento de un Conjunto}
+Dado un conjunto $A\subseteq \mathfrak{U}$ el conjunto de A se denota por $\bar{A}$ y está definido por.
+$$\bar{A}=\lbrace x/x \in \mathfrak{U} \land x\in A\rbrace$$
+
+\subsection{Igualdad de Conjuntos}
+Dos conjuntos A y B son iguales si $A\subseteq B \land B\subseteq A$. \textbf{Notacion: }$A=B$.
+\subsection{Conjuntos Disjuntos}
+A y B son disjuntos si $A \cap B=\phi$
+
+\section{Operaciones Binarias}
+\begin{description}
+\item [Unión: ]$A \cup B=\lbrace x/x \in A \lor x\in B\rbrace$
+\item [Intersección: ]$A\cap B=\lbrace x/x \in A \land x\in B\rbrace$
+\item [Diferencia: ]$A-B=\lbrace x/x \in A \land x\not\in B\rbrace$
+\item [Diferencia Simétrica: ]$A\Delta B=(A-B)\cup(B-A)$
+\item [Producto Cartesiano: ]$A\times B=\lbrace(a,b)/a\in A \land b\in B\rbrace$
+\end{description}
+
+
+\section{Leyes de la Teoría de la Computación}
+Sea A,B y C conjuntos, se cumplen las siguientes leyes:
+\begin{enumerate}
+\item \textbf{Idempotencia: }$A\cup A=A \quad A\cap A=A$
+\item \textbf{Conmutatividad: }$A\cup B=B\cup A \quad A\cap B=B\cap A$
+\item \textbf{Asociatividad: }\\
+	$(A\cup B)\cup C=A\cup(B\cup C) \\ (A\cap B)\cap C=A\cap(B\cap C)$
+\item \textbf{Distributividad: }\\
+	$(A\cup B)\cap C=(A\cap C)\cup(B\cap C) \\ (A\cap B)\cup C=(A\cup C)\cap(B\cup C)$
+\item \textbf{Absorción: }\\
+	$(A\cup B)\cap A=A \\ (A\cap B)\cup A=A$
+\item \textbf{Leyes de Morgan: }\\
+	$A-(B\cup C)=(A-B)\cap(A-C) \\ A-(B\cap C)=(A-B)\cup(A-C)$
+\end{enumerate}
+\textbf{Prueba del item 6: }\\
+Sea: $I=A-(B\cup C) \quad , D=(A-B)\cap(A-C)$\\
+Se debe cumplir que.$I\subseteq D \land D\subseteq I$
+\begin{itemize}
+\item PP $I\subseteq D$\\
+	Sea $x \in I \rightarrow x\in A \quad pero\; x\not\in(B\cup C)$\\
+	$\rightarrow x\in A\; pero\; x\not\in B\land x\not\in C$\\
+	$\rightarrow (x\in A\; pero\; x\not\in B)\land(x\in A\; pero\; x\not\in C)$\\
+	$x\in(A-B)\land x\in(A-C)$\\
+	$x\in(A-B)\cap(A-C)\quad \rightarrow x\in D$
+\item PP $D\subseteq I$\\
+	Sea $z\in (A-B)\cap(A-C)\\
+	z\in(A-B)\land z\in(A-C)\\
+	\rightarrow (z\in A\; pero\; z\not\in B)\land(z\in A\; pero\; z\not\in C)\\
+	\rightarrow z\in A\; pero\; z\not\in(B\cup C)\\
+	\rightarrow z\in(A-(B\cup C))\\
+	\rightarrow z\in I\\
+	\therefore I=D$
+\end{itemize}
+
+\section{Operaciones Generalizadas}
+\begin{enumerate}
+\item Unión Generalizada:\\
+	$\displaystyle\bigcup_{i\in I}A_i=\lbrace x/\exists_i \in I\quad x\in A_i \rbrace$
+\item Intersección Generalizada:\\
+	$\displaystyle\bigcap_{i\in I}A_i =\lbrace x/x \in A_i \quad \forall_i \in I\rbrace$
+\item Producto Cartesiano Generalizado:\\
+	$\otimes_{i=1}^n A_i=\lbrace x/x=(x_1,x_2,...,x_n),x_i\in A_i\rbrace$\\
+	$A^i=\otimes_{i=1}^n A$
+\end{enumerate}
+
+\section{Conjunto Potencia}
+Dado un conjunto A, la colección de todos los subconjuntos de A y ella misma se llama conjunto potencia. \textbf{Notación: }$2^A$. \\
+
+\textbf{Ejemplo: }\\
+	$A=\lbrace c,d\rbrace\\
+	2^A=\lbrace \phi,\lbrace c\rbrace,\lbrace d\rbrace, A\rbrace$
+\section{Cardinalidad}
+$|A|$ denota la cantidad de elementos del conjunto A.\\
+\textbf{Ejemplo: }\\
+	$|A|=2\\
+	|2^A|=4\quad \quad |2^A|=2^{|A|}$
+\section{Partición de un Conjunto}
+Sea $A\not=\phi$, una partición de A es un subconjunto $\pi$ de A tal que:
+\begin{enumerate}
+\item Cada elemento de $\pi$ es no vacío.\\
+	$B_i\not=\phi \quad \forall_i \in I$
+\item Miembros distintos de $\pi$ deben ser disjuntos.\\
+	$B_i \cap B_j =\phi \quad i\not=j$
+\item $\bigcup \pi=A \quad\quad \bigcup B_i=A$
+\end{enumerate}
+
+\textbf{Ejemplo: }Sea $A=\lbrace a,b,c,d \rbrace$
+\begin{itemize}
+\item $\lbrace\lbrace a,b\rbrace,\lbrace c\rbrace,\lbrace d\rbrace \rbrace$ (1)si (2)si (3)si, por tanto es una partición.
+\item $\lbrace\lbrace b,c\rbrace,\lbrace c,d\rbrace\rbrace$ (1)si (2)no (3)no, por tanto no es una partición.
+\end{itemize}
+
+Sea m un entero positivo fijo, se define $\mathds{Z}_i$ como:
+$\mathds{Z}_i=\lbrace x/x \in \mathds{Z} \land x-i=k.m, \mbox{para algún entero k} \rbrace$
+
+\textbf{Ejemplo: }Sea m=3 entonces:
+\begin{enumerate}
+\item Obtener $\mathds{Z}_0,\mathds{Z}_1,\mathds{Z}_2$
+\item Verifique si $\mathds{Z}_0,\mathds{Z}_1,\mathds{Z}_2$ es una partición de $\mathds{Z}$.
+\end{enumerate}
+
+\textbf{Solución: }
+\begin{itemize}
+\item $\mathds{Z}_0=\lbrace ...,-6,-3,0,3,6,...\rbrace \\
+		\mathds{Z}_1=\lbrace ...,-5,-2,1,4,7,...\rbrace \\
+		\mathds{Z}_2=\lbrace ...,-4,-1,2,5,8,...\rbrace$
+\item (1)$\mathds{Z}_i\not=\phi$: si cumple.\\
+		(2)$\mathds{Z}_0\cap \mathds{Z}_1=\phi, \mathds{Z}_0\cap \mathds{Z}_2=\phi, \mathds{Z}_1\cap\mathds{Z}_2=\phi$: si cumple.\\
+		(3)$\bigcup \mathds{Z}_i=\mathds{Z}$: si cumple. Por lo tanto si es una partición.
+\end{itemize}
+
+\section{Representación en Computador de Conjuntos}
+
+Supongamos que $\mathfrak{U}$ es finito. Establecemos un orden arbitrario de los elementos de $\mathfrak{U}$. Ejemplo: $a_1,a_2,...,a_n$. Representamos un conjunto A de $\mathfrak{U}$ con la cadena de bits de longitud n, en la cual el i-ésimo bit es ''1'' si $a_i$ pertenece a A, y ''0'' si $a_i\not\in A$.\\
+\textbf{Ejemplo: }$\mathfrak{U}=\lbrace 1,2,3,4,5,6,7,8,9,10\rbrace$, supongamos que los elementos están en orden creciente,$a_i=i$. Escriba representaciones en cadena de bits para:
+\begin{enumerate}
+\item Enteros impares en $\mathfrak{U}$ : \textbf{I}
+\item Enteros pares en $\mathfrak{U}$: \textbf{P}
+\item Subconjuntos de enteros no mayores que 5.
+\end{enumerate}
+ 
+\textbf{Solución: }
+\begin{enumerate}
+\item La cadena de bits que representa a \textbf{I}:\\
+	$1010101010$
+\item La cadena de bits que representa a \textbf{P}:\\
+	$0101010101$
+\item No mayores a 5:\\
+	$1111100000$
+\end{enumerate}
+\textbf{Obs:} 
+\begin{itemize}
+\item Cadena de bits para el complemento a \textbf{I}: $0101010101$
+\item Cadena para la unión de \textbf{I} y \textbf{P}:
+\begin{center}
+\begin{tabular}{c}
+1010101010\\
+0101010101\\ \hline
+1111111111
+\end{tabular}
+\end{center}
+\end{itemize} 
+
+					
+
+
