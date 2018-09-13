@@ -79,8 +79,8 @@ C \rightarrow c|cC
 \intertext{El conjunto $P^2$ está dado por: }
 \left \{\begin{array}{l}
 S \rightarrow SB|AB|AS|B|A|ASB|C|\varepsilon	\\
-A \rightarrow aaA|Aaa|AaaA	\\
-B \rightarrow Bb|b|C	\\
+A \rightarrow aaA|Aaa|AaaA|aa	\\
+B \rightarrow Bb|b|b	\\
 C \rightarrow c|cC
 \end{array}\right.
 \end{align*}
@@ -122,7 +122,8 @@ Sea $G^1=(\Sigma_N,\Sigma_T,S,P^1)$ una GLC con p.u construiremos una GLC equiva
 \item Hállese $\Sigma_N$.
 \item Para cada $A\in\Sigma_N$ determine Unit(A).
 \item Para cada p.u $(A,B)$ añadir a $P^2$ todas las producciones $A\rightarrow w$ donde $B\rightarrow w$ es una producción unitaria de $P^1$.
-\item Añadir a $P^2$ las producciones no unitarias restantes de $P^1$.
+%\item Añadir a $P^2$ las producciones no unitarias restantes de $P^1$.
+\item Retire todas las producciones unitarias de $P^1$.
 \end{enumerate}
 \textbf{Ejemplo: }Sea $G$ la GLC con producciones unitarias:
 \begin{align*}
@@ -173,4 +174,12 @@ C\rightarrow ab|b	\\
 D\rightarrow b
 \end{array}\right.
 \end{align*}
+\end{enumerate}
+
+\subsection{Estandarizacion de gramaticas}
+
+Existen formas estandares de gramáticas,a saber:
+\begin{enumerate}[(a)]
+\item Forma Normal de Chomsk
+\item Forma normal de Greibach
 \end{enumerate}

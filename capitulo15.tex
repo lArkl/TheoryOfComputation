@@ -40,6 +40,41 @@ E	&\rightarrow T			&\qquad (R_2)\\
 \end{figure}
 Se ha requerido 11 pasos para derivar $w$ (Fig \ref{img_15_1}).
 
+
+\textbf{Reglas}
+
+\begin{enumerate}
+    \item La raiz se etiqueta con el simbolo inicial
+    \item Los hijos de la raiz son aquellos simbolos que aparecen al lado derecho de la composicion usado para reemplazar el simbolo inicial.
+    \item Todo nodo etiquetado con un no terminal tiene unos nodos hijos etiquetados en los simbolos del lado derecho de la produccion usada para sustituir ese no terminal.
+    \item Los nodos que no tienene hijos deben ser etiquetados con sumbolos terminales.
+\end{enumerate}
+
+
+\textbf{Ejemplo: }Dada la la GLC dada por:
+  \[
+    P=\left\{
+                \begin{array}{lll}
+                    S	&\rightarrow AB		& \\
+                    A	&\rightarrow aA|a	& \\
+                    B	&\rightarrow bB|b	& \\
+                \end{array}
+              \right.
+  \]
+\begin{align*}
+\intertext{1. Verifique si w=aabbb se deriva a partir de S}
+\intertext{2. En caso afirmativo, presente el arbol de derivacion}
+\intertext{\textbf{Solución: }}
+S	&\rightarrow AB		&(R_1)	\\
+	&\rightarrow aAB	&(R_2)	\\
+	&\rightarrow aaB	&(R_3)	\\
+	&\rightarrow aabB	&(R_4)	\\
+	&\rightarrow aabbB	&(R_4)	\\
+	&\rightarrow aabbb	&(R_5)	\\
+\end{align*}
+La cantidad de pesos para derviar $w$ es 6.
+%graficon
+
 Cada nodo interno del árbol será un símbolo no terminal, mientras que las hojas serán los símbolos terminales. Una regla $A:= x_1...x_n$ se representará como un símbolo cuyo nodo padre es A, siendo sus nodos hijos $x_1,x_2,...,x_n$.
 
 \textbf{Ejemplo: }Sea $G$ la GLC dada por:
@@ -56,6 +91,7 @@ S	&\rightarrow AB		&(R_1)	\\
 	&\rightarrow aabb	&(R_5)	\\
 \end{align*}
 %GRAFICO 2
+
 \begin{figure}[h!]
 \centering
 \includegraphics[width=0.22\textwidth]{img_15_2.png}
@@ -127,6 +163,10 @@ $$\downlegend{t}{segundo}+(\underbrace{t+t}_{primero})$$
 El (2) se puede interpretar como
 $$(\underbrace{t+t}_{primero})+\downlegend{t}{segundo}$$
 \end{enumerate}
+
+\textbf{Definición: }Un lenguaje libre de contexto $L$ se dice inherentemente ambiguo si todas las GLC para $L$ son ambiguas.
+
+
 \textbf{Definición: }Una derivación se denomina derivación a la izquierda si en cada paso, se expande la variable más a la izquierda.
 
 Una derivación se dirá derivación a la derecha si en cada paso se expande la variable más a la derecha.
@@ -170,10 +210,14 @@ S	&\rightarrow Sc\underline{S}	&(R_2)\\
 \end{figure}
 \end{enumerate}
 \section{Equivalencia en Gramáticas}
-Un mismo lenguaje puede ser generado por diversas gramáticas. Es recomendable simplificar estas gramáticas eliminando símbolos o reglas no deseadas.
+Un mismo lenguaje puede ser generado por mas de una gramática.
 
-\textbf{Definición: }Dos gramáticas $G^1$ y $G^2$ se llaman equivalentes, si ambas general el mismo lenguaje sobre $\Sigma_T$. Es decir:
+\textbf{Definición: }Dos gramáticas $G^1$ y $G^2$ se llaman equivalentes, si ambas generan el mismo lenguaje sobre $\Sigma_T$. Es decir:
 $$L(G^1)=L(G^2)$$
+Esto es, si generan el mismo lenguaje.
+
+En muchas ocasiones es recomendable simplificar ciertas gramaticas eliminando simbolos o reglas no deseadas.
+
 \subsubsection{Elementos Indeseables en Gramáticas}
 \textbf{Definición: }Una regla innecesaria es una producción de la forma $A:=A$.
 

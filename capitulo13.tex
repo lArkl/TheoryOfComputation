@@ -15,6 +15,10 @@ Dado un alfabeto $\Sigma$, una regla(o producción) definida sobre $\Sigma$, es 
 \subsection{Regla Compresora}
 Una regla es compresora cuando la longitud de la parte izquierda es mayor o igual a la longitud de la parte derecha.
 
+$$
+|x|\geq |y|
+$$
+
 \section{Tipos de Derivación}
 \subsection{Derivación Directa}
 Dado un alfabeto $\Sigma$, un conjunto de producciones $P$ sobre $\Sigma$, donde:
@@ -96,7 +100,8 @@ R_9	&	<numero>&::='3\;'		\\
 R_{10}&	<numero>&::='6\; '		\\
 \end{array}
 \end{align*}
-Obtenemos instrucciones como:
+Si asumimos que A,B,C son $<variables>$; 3, 6 son $<numeros>$ podremos generar:
+%Obtenemos instrucciones como:
 \begin{align*}
 A&=B+C	\\
 B&=B*3	\\
@@ -209,6 +214,35 @@ $
 
 \item $s\xrightarrow{n}a^3b^3c^3 \qquad n=?$
 \end{itemize}
+
+\textbf{Ejemplo: }La siguiente gramática se usa para generar cualquier numero natural precedido de un signo. Los elementos para G seran:
+\begin{align*}
+\Sigma_T	&=\{0,1,2,...,9,+,-,(,)\}	\\
+\Sigma_N	&=\{<signo>,<digito,<numero>,<caracter>\}	\\
+\end{align*}
+Donde S está formado por:
+\begin{align*}
+S\left \{\begin{array}{rl}
+<numero>&::=<signo><digito>\\	
+<signo>&::=+	\\
+<signo>&::=-	\\
+<digito>&::=<caracter><digito>	\\
+<digito>&::=<caracter>	\\
+<caracter>&::=0	\\
+<caracter>&::=1	\\
+ \vdots & \\
+<caracter>&::=9	\\
+\end{array}\right.
+\end{align*}
+
+
+\textbf{Definición:} Dada una gramática $G=(\Sigma_N,\Sigma_T,P,S)$, llamaremos lenguage generado a partir de una gramatica $G$ al conjunto:
+
+$$
+L(G)=\{w \in \Sigma_{T}^{*}/S\xrightarrow{*} w\}
+$$
+
+Son las palabras formadas por simbolos terminales derivables a partir del simbolo inicial S.
 
 \textbf{Definición(Recursividad): }Una gramática es recursiva si tiene alguna derivación recursiva, es decir si $A\xrightarrow{*}xAy$ donde $A\in \Sigma_N, x,y\in \Sigma^*$
 \begin{itemize}

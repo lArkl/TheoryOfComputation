@@ -170,3 +170,127 @@ Usando $A::=b|bZ$, se obtiene finalmente:
 \end{align*}
 Finalmente ya está en la FNG.
 \end{enumerate}
+
+
+
+\section{Automatas Push Down}
+
+Arquitectura
+%grafico por cambiar
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.3\textwidth]{img_19_1.png}
+\caption{Máquina de Turing}\label{img_19_1}
+\end{figure}
+
+Un automata nde pila determinista (PDA-D) es una séptupla $$M=(S,\Sigma,s_0,\Gamma,\gamma_0,\delta,F)$$
+
+\begin{tabular}{rl}
+$S$			&	: Conjunto de estados	\\
+$\Sigma$	&	: Alfabeto de la cinta	\\
+$\Gamma$	&	: Alfabeto de pila	\\
+$s_0$			&	: Estado inicial $s_0\in S$	\\
+$\gamma_0$	&	: Simbolo en la cima de la pila\\
+$\Delta$    & : Es la funcion de transicion. \\
+$\Delta     & :S x (\Sigma U \{ \varepsilon \}) x\Gamma \rightarrow S x \Gamma^{*}$ \\
+F			&	: Conjunto de estados de aceptación $(F\subseteq S)$	\\
+\end{tabular}
+
+\subsection{Paso computacional}
+
+La transicion $\Delta(s_1,a,z) = (s_2,v)$ se le denominará un paso computacional.
+
+Graficamente:
+
+% dibujo
+
+
+
+
+Casos especiales:
+
+\begin{enumerate}
+    \item $\Delta(s_1,a,z) = (s_2,z)$. El contenido de la pila no se altera.
+    \item $\Delta(s_1,a,z)=(s_2,\varepsilon)$. Se borra el simbolo Z ubicado en la cima de la pila, y el control pasa a leer la nueva cima de la pila.
+    \item $\Delta(s_1,\varepsilon,z)=(s_2,w)$
+\end{enumerate}
+Esta es una transicion $\varepsilon$. No se procesa el simbolo de la cinta de entrada, la unidad de control no se mueve a la derecha. En la cima reemplazamos Z por la cadena w.
+
+Para garantizar el determinismo solo debe estar definido:
+$$
+\Delta (s,a,z) \mbox{ o } \Delta (s,\varepsilon,z);a\in\Sigma
+$$
+
+Configuracion instantanea
+
+Es una terna de forma:
+$$
+(s,au,zv)
+$$
+
+Representa:
+El automata esta en el estado s.
+au es la parte no procesada de la cadena.
+El cabezal apunta al simbolo a.
+La cadena zv es el contenido total de la pila.
+
+Para representar el paso computacional, escribiremos:
+$$
+(s_1,au,zw)\rightarrow (s_2,u,tw)
+$$
+
+El automata utilizo la transicion $\Delta (s_1,au,zw) = (s_2,t)$
+
+La notación: $(s_1,u,\beta) \rightarrow^{*}(s_2,v,\gamma) $ significa el automata pasa de la CI $(s_1,u,\beta)$ a la CI $(s_2,v,\gamma)$ en cero, uno o mas pasos computacionales.
+
+Configuracion inicial
+
+Para una cadena $w \in \Sigma^{*}$, la configuración inicial es: $(s_0,w,\gamma)$.
+El contenido inicial es $\gamma_0$ al iniciar el procesamiento de la cadena.
+
+Configuracion de aceptación
+
+La configuración $(s_a,\varepsilon,\beta)$ se llama de aceptacion si $s_a \in F$ y ademas se debe haber procesado toda la cadena. La cadena $\beta$ que queda en la pila puede ser cualquier cadena de simbolos en $\Gamma^{*}$
+
+
+Lenguaje aceptado por una APD
+
+Representa el lenguaje aceptado por un PDA-D mediante:
+$$
+L(P) = \{w\in \Sigma^{*}/(s_0,w,\gamma_0)\rightarrow^{*}(s_a,\varepsilon,\beta) \}
+$$
+Donde $s_0 \in S$, $s_a \in F$, $\beta \in \Gamma^{*}$
+
+Teorema: Todo lenguaje regular L es aceptado por algun PDA-D
+
+Prueba:
+
+Sea $M_1=(S,\Sigma,\delta,s_0,F)$ un AFD que acepta a L.\\
+El PDA-D $M_2 = (S,\Sigma,\Gamma,\Delta,s_0,\gamma_0,F)$ definido haciendo $\Gamma = \{\gamma_0\}$ y $\Delta (s,a,\gamma_0)=(\delta(s,a),\gamma_0)$  $\forall a\in \Sigma, \gamma_0 \in \gamma$ \\
+
+Satisfacer $L(M_1) = L(M_2)$
+
+Ejm: Diseñar un PDA-D M que acepte el lenguaje
+$$
+L = \{ a^i b^i / i \geq 1\} \mbox{ sobre } \Sigma=\{a,b\}
+$$
+
+Sol: Consideramos el PDA-D
+$$
+M = (S,\Sigma)
+$$
+...
+
+La función de transicion $\Delta$ esta dada por:\\
+\begin{tabular}{rl}
+$\Delta(s_0,a,\gamma_0)$			&	$d$	\\
+$\Sigma$	&	: Alfabeto de la cinta	\\
+$\Gamma$	&	: Alfabeto de pila	\\
+$s_0$			&	: Estado inicial $s_0\in S$	\\
+$\gamma_0$	&	: Simbolo en la cima de la pila\\
+$\Delta$    & : Es la funcion de transicion. \\
+F			&	: Conjunto de estados de aceptación $(F\subseteq S)$	\\
+\end{tabular}
+
+
+

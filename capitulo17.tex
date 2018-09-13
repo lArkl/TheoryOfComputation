@@ -4,15 +4,15 @@
 
 \begin{itemize}
 \item G no contine variables inútiles.
-\item G no tiene producciones $\varepsilon$
-\item G no tiene producciones unitarias.
+\item G no contiene producciones $\varepsilon$
+\item G no contiene producciones unitarias.
 \end{itemize}
 
 Todas las producciones son de la forma:
 
 \begin{align*}
 A &\rightarrow \sigma \qquad\qquad A\in \Sigma_N	, \sigma \in \Sigma_T\\
-B &\rightarrow BC	\qquad\qquad A,B,C \in \Sigma_N	\\
+A &\rightarrow BC	\qquad\qquad A,B,C \in \Sigma_N	\\
 S &\rightarrow \varepsilon \qquad\qquad si\; \varepsilon\in L(G)
 \end{align*}
 
@@ -35,7 +35,7 @@ Luego, la tarea será:
 \item Disponer que todas las cadenas de longitud mayor o igual a 2 consistan sólo de variables.
 \item Descomponer todas las cadenas $w$ de longitud mayor o igual que 3 en una cascada de producciones tal que cada regla tenga el cuerpo formada por 2 variables.
 \end{enumerate}
-
+Para tal efecto, la construcción es como sigue:
 Debemos descomponer todas las producciones de la forma:
 
 $A\rightarrow B_1B_2...B_k$(con $k\geq 3$) en un grupo de reglas con 2 variables en el cuerpo.
@@ -49,25 +49,29 @@ A\rightarrow B_1Z_1	\\
 Z_1 \rightarrow B_2Z_2	\\
 Z_2\rightarrow B_3Z_3	\\
 \vdots	\\
-Z_{k-1}\rightarrow B_{k-1}B_k
+Z_{k-2}\rightarrow B_{k-1}B_k
 \end{align*}
 
 \textbf{Ejemplo: }Reemplace las producción $A\rightarrow abBaC$ con producciones simples y binarias.
 
-\textbf{Solución: }Incorporamos las variables $B_1,B_2$
+\textbf{Solución: }Incorporamos las variables $T_a,T_b$: 
 \begin{align*}
-B_1	&\rightarrow a	\qquad B_2\rightarrow b	\\
-A	&\rightarrow B_1B_2BB_1C
-\intertext{Añadimos $Z_1,Z_2$}
+T_a	&\rightarrow a	\qquad T_b\rightarrow b	\\
+A	&\rightarrow T_aT_bBT_aC
+\intertext{Añadimos 3 nuevas variables: $Z_1,Z_2,Z_3$}
 P &= \left \{\begin{array}{l}
-A\rightarrow B_1Z_1	\\
-Z_1 \rightarrow B_2Z_2\\
+A\rightarrow T_aZ_1	\\
+Z_1 \rightarrow T_bZ_2\\
 Z_2\rightarrow BZ_3\\
-Z_3\rightarrow B_1C\\
-B_1\rightarrow a	\\
-B_2\rightarrow b\end{array} \right.
+Z_3\rightarrow T_aC\\
+T_a\rightarrow a	\\
+T_b\rightarrow b\end{array} \right.
 \end{align*}
 
+\textbf{Ejercicio: }Llevar a producciones simples y binarias la regla:
+$$
+A\rightarrow BAaCbb
+$$
 \textbf{Ejemplo: }Dada la GLC $G$
 \begin{align*}
 S &\rightarrow AB|aBC|SBS	\\
@@ -79,7 +83,6 @@ Obtener la GLC equivalente a G que esté en su FNCh.\\
 \textbf{Solución: }
 \begin{itemize}
 \item Eliminaremos las producciones $\varepsilon$. Hallamos los anulables $\Gamma =\{C,A\}$
-
 Agregamos las producciones:
 \begin{align*}
 S &\rightarrow B|aB	\\
@@ -95,7 +98,7 @@ B\rightarrow bbB|b	\\
 C\rightarrow cC|c\end{array} \right.
 \end{align*}
 \item Eliminamos las producciones unitarias.
-Hallaremos
+Para cada variables hallamos su unitario.
 \begin{align*}
 Unit(A)&=\{A,C\}	\\
 Unit(B)&=\{B\}	\\
@@ -105,7 +108,7 @@ Unit(S)&=\{S,B\}
 Incluimos los pares unitarios.
 
 \begin{tabular}{cl}
-Pares Unitarios & Prod. No Unitarias	\\ \hline
+Par no unitario - Prod. No Unitarias	\\ \hline
 (A,A)	&$A\rightarrow aA|a$	\\
 (A,C)	&$A\rightarrow cC|c$	\\
 (B,B)	&$B\rightarrow bbB|b$	\\
