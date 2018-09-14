@@ -1,4 +1,5 @@
-ezthesis
+# Theory of computation	ezthesis
 ========
-
-Formato de tesis para LaTeX
+ Notes from Theory of Computation class, taken by [cj](https://github.com/cjdoob).
+ 
+ Last update: 9/13/2018
